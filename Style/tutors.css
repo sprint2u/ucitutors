@@ -51,6 +51,16 @@ body {
 	height: 50px;
 	color: white;
 }
+.logo{
+font-family: 'ralewaylight';
+font-size:33px;
+text-transform:uppercase;
+white-space:nowrap;
+}
+.logo span{
+font-family: 'ralewayextrabold';
+}
+
 
 /**  fonts  **/
 @font-face {
