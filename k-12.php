@@ -55,12 +55,11 @@
 
                 <!-- BODY Starts -->
                 <h2 style="color: #85c04b;">K-12 과외</h2>
-                <br><br><br>            
-                <table width="100%">
+                       
+                <table width="100%" style="background-color:white; opacity:0.8;">
                 <tr>
                     <td width="100%">
-                        <!--h2 style="color: #85c04b;">K-12 과외</h2-->
-                        <h3>Engish(Writing, Reading, Language Art)<br>
+                        <h3 style="color:black;">Engish(Writing, Reading, Language Art)<br>
                             Math, Science, Social Study 등<br>
                             학교 교육과정을 도와주는 정통 학과 과외 입니다.</h3>
                         <p></p>
