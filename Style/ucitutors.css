@@ -1478,6 +1478,8 @@ margin: 12px 0;
 padding:20px;
 border-width:1px;
 border-style:solid;
+background-color: white;
+opacity: 80%;
 }
 /**  article_welcome  **/
 .article_welcome .box{
@@ -2039,6 +2041,7 @@ width:35%
 }
 .article_container{
 padding:15px;
+background-color: white;
 }
 .article_blog_slider .box_inner, .somepost .box{
 float:none;
@@ -2114,6 +2117,7 @@ padding:0
 }
 .article_container{
 padding:15px;
+background-color: white;
 }
 .article_blog_slider .box_inner, .somepost .box, .article_welcome .box{
 float:none;
