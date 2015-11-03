@@ -27,11 +27,11 @@
 
     window.onload = onLoadHandler;
   </script>
-<link rel="stylesheet" type="text/css" media="all" href="./Style/ucitutors.css" />
+<link rel="stylesheet" type="text/css" media="all" href="./Style/tutors.css" />
 <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css' />
 
 </head>
-<body style="background-image:url(./Image/mainbg.jpg); no-repeat;">
+<body>
     <div id="wrapper">
         <div class="header_container" >
             <div class="header_block">
