@@ -33,7 +33,7 @@
 </head>
 <body>
     <div id="wrapper">
-        <div class="header" >
+        <header>
             <div class="header_block" style="background-color:black; opacity:0.7;">
                
                 <a class="logo" href="http://ucitutors.com/">UCI <span>Tutors</span></a>
@@ -49,10 +49,10 @@
                     </ul>
                 </nav>
             </div>
-        </div>
+        </header>
             <!-- BODY Starts -->
 
-        <div class="main">
+        <main>
             <div class="container">
 
             <h2 style="color: #85c04b;">K-12 과외</h2>
@@ -68,13 +68,13 @@
             </tr>
             </table>
             </div>
-        </div>
+        </main>
             <!-- BODY Ends -->
 
-        <div class="footer">
+        <footer>
             <p class="copyright">Copyright © 2015 UCI Tutors</p>
             <p class="credit_footer"></p>
-        </div>
+        </footer>
         
     </div>  
        

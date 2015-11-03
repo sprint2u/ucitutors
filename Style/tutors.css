@@ -19,6 +19,20 @@ body {
 	background-repeat: no-repeat;
 }
 
+#wrapper{
+*zoom:1
+}
+.#main, #header .#footer{
+margin:0 auto;
+width:1280px;
+margin-left:25px;
+margin-right:25px;
+}
+.fullwidth{
+display:block;
+width:100%;
+}
+
 /**  fonts  **/
 @font-face {
     font-family: 'ralewayregular';
