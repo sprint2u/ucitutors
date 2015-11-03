@@ -40,7 +40,7 @@
                     <nav class="menu_top_container">
                         <ul class="menu_top">
                             <li></li>
-                            <li><a href="">K-12 과외</a></li>
+                            <li><a href="k-12.php">K-12 과외</a></li>
                             <li><a href="">생활영어</a></li>
                             <li><a href="">입학준비</a></li>
                             <li><a href="">Tutor Profile</a></li>
