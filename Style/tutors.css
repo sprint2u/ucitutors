@@ -23,7 +23,7 @@ body {
 	background-repeat: no-repeat;
 	*zoom:1
 }
-.#main, #header .#footer{
+.#main, #header {
 	margin:0 auto;
 	width:1280px;
 	margin-left:25px;
@@ -32,6 +32,14 @@ body {
 .fullwidth{
 	display:block;
 	width:100%;
+}
+#footer {
+	margin:0 auto;
+	width:1280px;
+	margin: 10px;
+	background-color: black;
+	height: 50px;
+	color: white;
 }
 
 /**  fonts  **/
