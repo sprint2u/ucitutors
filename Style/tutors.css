@@ -23,7 +23,15 @@ body {
 	background-repeat: no-repeat;
 	*zoom:1
 }
-.#main, #header {
+#header {
+	margin:0 auto;
+	width:1280px;
+	margin-left:25px;
+	margin-right:25px;
+	background-color: black;
+	opacity: 0.7;
+}
+#main {
 	margin:0 auto;
 	width:1280px;
 	margin-left:25px;
@@ -36,8 +44,7 @@ body {
 .footer {
 	margin:0 auto;
 	width:1280px;
-	margin: 10px;
-	background-color: black;
+	background-color: #333333;
 	height: 50px;
 	color: white;
 }

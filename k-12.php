@@ -34,7 +34,6 @@
 <body>
     <div id="wrapper">
         <header>
-            <div class="header_block" style="background-color:black; opacity:0.7;">
                
                 <a class="logo" href="http://ucitutors.com/">UCI <span>Tutors</span></a>
                 <nav class="menu_top_container">
