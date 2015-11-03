@@ -31,7 +31,7 @@
 <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css' />
 
 </head>
-<body class="home page page-id-2 page-parent page-template page-template-template-no-sidebar page-template-template-no-sidebar-php">
+<body style="background-image:url(./Image/mainbg.jpg); no-repeat;">
     <div id="wrapper">
         <div class="header_container" >
             <div class="header_block">
