@@ -3,6 +3,7 @@ body {
 	word-wrap: break-word;
 	background-image: url(../Image/mainbg.jpg);
 	background-size:cover;
+	no-repeat;
 }
 
 
