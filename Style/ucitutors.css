@@ -28,7 +28,7 @@ font-size: 100%;
 body {
     font:normal 400 13px/1 'ralewayregular', Arial, sans-serif;
 	word-wrap: break-word;
-	background-image: url(/Image/mainbg.jpg);
+	background-image: url(../Image/mainbg.jpg);
 	background-size:cover;
 	position:relative;
 }
@@ -202,11 +202,11 @@ width:device-width;
 /**  fonts  **/
 @font-face {
     font-family: 'ralewayregular';
-    src: url('./fonts/raleway-regular-webfont.eot'));
-    src: url('./fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/raleway-regular-webfont.woff') format('woff'),
-         url('./fonts/raleway-regular-webfont.ttf') format('truetype'),
-         url('./fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
+    src: url('../fonts/raleway-regular-webfont.eot'));
+    src: url('../fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-regular-webfont.woff') format('woff'),
+         url('../fonts/raleway-regular-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
