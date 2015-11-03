@@ -14,23 +14,24 @@ body {
     font:normal 400 13px/1 'ralewayregular', Arial, sans-serif;
     line-height: 160%;
 	word-wrap: break-word;
-	background-image: url(../Image/mainbg.jpg);
-	background-size:cover;
-	background-repeat: no-repeat;
+
 }
 
 #wrapper{
-*zoom:1
+	background-image: url(../Image/mainbg.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	*zoom:1
 }
 .#main, #header .#footer{
-margin:0 auto;
-width:1280px;
-margin-left:25px;
-margin-right:25px;
+	margin:0 auto;
+	width:1280px;
+	margin-left:25px;
+	margin-right:25px;
 }
 .fullwidth{
-display:block;
-width:100%;
+	display:block;
+	width:100%;
 }
 
 /**  fonts  **/
