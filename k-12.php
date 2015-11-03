@@ -71,12 +71,12 @@
         </main>
             <!-- BODY Ends -->
 
-        <footer>
-            <p class="copyright">Copyright © 2015 UCI Tutors</p>
-            <p class="credit_footer"></p>
-        </footer>
+
         
     </div>  
+    <footer>
+        <p>Copyright © 2015 UCI Tutors</p>
+    </footer>
        
 </center>
             
