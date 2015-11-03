@@ -55,7 +55,7 @@
 
                 <!-- BODY Starts -->
                 <div class="article">
-                    <h2>K-12 과외</span>
+                    K-12 과외
                 </div>
                 <br><br><br>            
                 <table width="100%">
