@@ -14,7 +14,7 @@ body {
     font:normal 400 13px/1 'ralewayregular', Arial, sans-serif;
     line-height: 160%;
 	word-wrap: break-word;
-
+	text-align: center;
 }
 
 #wrapper{
@@ -28,6 +28,8 @@ body {
 	width:900px;
 	margin-left:25px;
 	margin-right:25px;
+	position: relative;
+	left: 50%;
 	background-color: black;
 	opacity: 0.7;
 }
