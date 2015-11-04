@@ -52,38 +52,38 @@ body {
 	color: white;
 }
 .logo{
-font-family: 'ralewayextrabold';
-font-size:33px;
-white-space:nowrap;
-color: #85c04b;
-text-decoration:none;
+	font-family: 'ralewayextrabold';
+	font-size:33px;
+	white-space:nowrap;
+	color: #85c04b;
+	text-decoration:none;
 }
 .logo span{
-font-family: 'ralewayregular';
-color: #ffffff;
+	font-family: 'ralewayregular';
+	color: #ffffff;
 }
-
 
 #header .menu_top_container{
-float:right;
+	float:right;
 }
 .menu_top_container{
-*zoom:1;
+	float:right;
+	*zoom:1;
 }
 .menu_top{
-font-size:16px;
-line-height:23px;
-text-transform:uppercase;
+	font-size:16px;
+	line-height:23px;
+	text-transform:uppercase;
 }
 .menu_top li{
-float:left;
-position:relative;
+	float:left;
+	position:relative;
 _zoom:1;
 }
 .menu_top a{
-white-space:nowrap;
-display:block;
-padding:35px 25px;
+	white-space:nowrap;
+	display:block;
+	padding:35px 25px;
 }
 
 /**  fonts  **/
