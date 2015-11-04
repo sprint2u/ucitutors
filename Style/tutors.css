@@ -71,6 +71,40 @@ float:right
 .menu_top_container .icon_menu, .menu_top_container .menu_top_mobile{
 display:none;
 }
+.menu_top .sub-menu, .menu_top .children{
+font-size:15px;
+line-height:1;
+text-transform:none;
+position:absolute;
+top:100%;
+left:0;
+width:235px;
+display:none
+}
+.menu_top .sub-menu .sub-menu, .menu_top .children .children{
+top:0;
+left:auto;
+right:100%;
+}
+.menu_top .sub-menu li, .menu_top .children li{
+float:none;
+border-top-width:1px;
+border-top-style:solid;
+}
+.menu_top .sub-menu li:first-child, .menu_top .children li:first-child{
+border-top:0 none
+}
+.menu_top .sub-menu li.first-child, .menu_top .children li.first-child{
+border-top:0 none
+}
+.menu_top .sub-menu a, .menu_top .children a{
+background-image: url("images/arrow_white.png");
+background-position: 25px 50%;
+background-repeat: no-repeat;
+line-height: 20px;
+padding: 14px 25px 13px 40px;
+white-space: normal;
+}
 
 /**  fonts  **/
 @font-face {
