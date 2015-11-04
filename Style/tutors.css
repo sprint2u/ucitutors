@@ -52,17 +52,25 @@ body {
 	color: white;
 }
 .logo{
-font-family: 'ralewayregular';
+font-family: 'ralewayextrabold';
 font-size:33px;
 white-space:nowrap;
 color: #85c04b;
 text-decoration:none;
 }
 .logo span{
-font-family: 'ralewayextrabold';
+font-family: 'ralewayregular';
 color: #ffffff;
 }
-
+#header .menu_top_container{
+float:right
+}
+.menu_top_container{
+*zoom:1;
+}
+.menu_top_container .icon_menu, .menu_top_container .menu_top_mobile{
+display:none;
+}
 
 /**  fonts  **/
 @font-face {
