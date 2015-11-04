@@ -33,9 +33,20 @@
 </head>
 <body>
     <div id="wrapper">
+        <table class="header">
+        <tr>
+            <td><a class="logo" href="http://ucitutors.com/">UCI <span>Tutors</span></a></td>
+            <td></td>
+            <td><a href="">K-12 과외</a></td>
+            <td><a href="">생활영어</a></td>
+            <td><a href="">입학준비</a></td>
+            <td><a href="">Tutor Profile</a></td>
+            <td><a href="">Contact</a></td>
+        </tr>
+        </table>
         <header id="header" class="container clearfix">
+            <a class="logo" href="http://ucitutors.com/">UCI <span>Tutors</span></a>
             <nav class="menu_top_container">
-                <a class="logo" href="http://ucitutors.com/">UCI <span>Tutors</span></a>
                 <ul class="menu_top">
                     <li><a href="">K-12 과외</a></li>
                     <li><a href="">생활영어</a></li>
