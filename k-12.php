@@ -32,16 +32,17 @@
 
 </head>
 <body>
+    <center>
     <div id="wrapper">
         <table class="header">
         <tr>
-            <td><a class="logo" href="http://ucitutors.com/">UCI <span>Tutors</span></a></td>
-            <td></td>
-            <td><a href="">K-12 과외</a></td>
-            <td><a href="">생활영어</a></td>
-            <td><a href="">입학준비</a></td>
-            <td><a href="">Tutor Profile</a></td>
-            <td><a href="">Contact</a></td>
+            <td width="300"><a class="logo" href="http://ucitutors.com/">UCI <span>Tutors</span></a></td>
+            <td width="100"></td>
+            <td width="100"><a href="">K-12 과외</a></td>
+            <td width="100"><a href="">생활영어</a></td>
+            <td width="100"><a href="">입학준비</a></td>
+            <td width="100"><a href="">Tutor Profile</a></td>
+            <td width="100"><a href="">Contact</a></td>
         </tr>
         </table>
         <header id="header" class="container clearfix">
@@ -87,7 +88,7 @@
         <p class="footer">Copyright © 2015 UCI Tutors</p>
     </footer>
        
-</center>
+    </center>
             
 </body>
 </html>
