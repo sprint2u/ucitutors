@@ -54,8 +54,7 @@ ul {
 	position: relative;
 	margin:0 auto;
 	width:900px;
-	left: 5%;
-	right: 5%;
+	height: 60px;
 	background-color: black;
 	opacity: 0.7;
     vertical-align:baseline;
@@ -83,7 +82,6 @@ ul {
 	white-space:nowrap;
 	color: #85c04b;
 	text-decoration:none;
-	margin-top: 30px;
 }
 .logo span{
 	font-family: 'ralewayregular';
