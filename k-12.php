@@ -33,8 +33,7 @@
 </head>
 <body>
     <div id="wrapper">
-        <header>
-            <div class="header">
+        <header id="header" class="container clearfix">
                
                 <a class="logo" href="http://ucitutors.com/">UCI <span>Tutors</span></a>
                 <nav class="menu_top_container">
@@ -48,7 +47,7 @@
                         <li></li>
                     </ul>
                 </nav>
-            </div>
+
         </header>
             <!-- BODY Starts -->
 
