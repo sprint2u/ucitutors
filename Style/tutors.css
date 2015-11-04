@@ -54,11 +54,12 @@ body {
 .logo{
 font-family: 'ralewaylight';
 font-size:33px;
-text-transform:uppercase;
 white-space:nowrap;
+color: #85c04b;
 }
 .logo span{
 font-family: 'ralewayextrabold';
+color: #ffffff;
 }
 
 
