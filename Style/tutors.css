@@ -51,11 +51,9 @@ ul {
 	*zoom:1
 }
 #header {
+	position: relative;
 	margin:0 auto;
 	width:900px;
-	margin-left:25px;
-	margin-right:25px;
-	position: relative;
 	left: 5%;
 	right: 5%;
 	background-color: black;
@@ -85,6 +83,7 @@ ul {
 	white-space:nowrap;
 	color: #85c04b;
 	text-decoration:none;
+	margin: 30px;
 }
 .logo span{
 	font-family: 'ralewayregular';
