@@ -62,6 +62,14 @@ text-decoration:none;
 font-family: 'ralewayregular';
 color: #ffffff;
 }
+
+
+#header .menu_top_container{
+float:right;
+}
+.menu_top_container{
+*zoom:1;
+}
 .menu_top{
 font-size:16px;
 line-height:23px;
@@ -77,26 +85,6 @@ white-space:nowrap;
 display:block;
 padding:35px 25px;
 }
-#header .menu_top_container{
-float:right;
-}
-.menu_top_container{
-*zoom:1;
-}
-.menu_top_container .icon_menu, .menu_top_container .menu_top_mobile{
-display:none;
-}
-.menu_top .sub-menu, .menu_top .children{
-font-size:15px;
-line-height:1;
-text-transform:none;
-position:absolute;
-top:100%;
-left:0;
-width:235px;
-display:none
-}
-
 
 /**  fonts  **/
 @font-face {
