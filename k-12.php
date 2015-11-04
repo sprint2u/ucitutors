@@ -54,19 +54,21 @@
 
         <main>
             <div class="container">
-
-            <h2 style="color: #85c04b;">K-12 과외</h2>
-                   
-            <table width="100%" style="background-color:white; opacity:0.8;">
-            <tr>
-                <td width="100%">
-                    <h3 style="color:black;">Engish(Writing, Reading, Language Art)<br>
-                        Math, Science, Social Study 등<br>
-                        학교 교육과정을 도와주는 정통 학과 과외 입니다.</h3>
-                    <p></p>
-                </td>
-            </tr>
-            </table>
+                <table width="100%" style="background-color:white; opacity:0.8;">
+                <tr>
+                    <td>
+                        <h2 style="color: #85c04b;">K-12 과외</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="100%">
+                        <h3 style="color:black;">Engish(Writing, Reading, Language Art)<br>
+                            Math, Science, Social Study 등<br>
+                            학교 교육과정을 도와주는 정통 학과 과외 입니다.</h3>
+                        <p></p>
+                    </td>
+                </tr>
+                </table>
             </div>
         </main>
             <!-- BODY Ends -->
