@@ -34,7 +34,6 @@
 <body class="home page page-id-2 page-parent page-template page-template-template-no-sidebar page-template-template-no-sidebar-php">
     <div id="wrapper">
         <div class="header_container" >
-            <div class="header_block">
                 <header id="header" class="container clearfix" style="background-color:black; opacity:0.7;">
                     <a class="logo" href="http://ucitutors.com/">UCI <span>Tutors</span></a>
                     <nav class="menu_top_container">
@@ -49,7 +48,7 @@
                         </ul>
                     </nav>
                 </header>
-            </div>
+            
             <div class="page_title">
                 <div class="container">
 
