@@ -35,7 +35,7 @@
     <center>
     <div id="wrapper">
         <table class="header">
-        <tr>
+        <tr height="70" valign="middle">
             <td width="300" align="center"><a class="logo" href="http://ucitutors.com/">UCI <span>Tutors</span></a></td>
             <td width="100"></td>
             <td width="100"><a href="">K-12 과외</a></td>
