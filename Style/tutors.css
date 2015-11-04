@@ -52,10 +52,11 @@ body {
 	color: white;
 }
 .logo{
-font-family: 'ralewaylight';
+font-family: 'ralewayregular';
 font-size:33px;
 white-space:nowrap;
 color: #85c04b;
+text-decoration:none;
 }
 .logo span{
 font-family: 'ralewayextrabold';
