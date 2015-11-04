@@ -16,6 +16,9 @@ body {
 	word-wrap: break-word;
 	text-align: center;
 }
+ul {
+    list-style-position: inside;
+}
 
 #wrapper{
 	background-image: url(../Image/mainbg.jpg);
