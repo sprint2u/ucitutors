@@ -91,9 +91,6 @@ ul {
 #header .menu_top_container{
 	float:right;
 }
-.menu_top_container{
-	*zoom:1;
-}
 .menu_top{
 	font-size:16px;
 	line-height:23px;
@@ -106,7 +103,7 @@ ul {
 }
 .menu_top a{
 	white-space:nowrap;
-	display:block;
+	display:inline;
 	padding:20px 20px;
 }
 
