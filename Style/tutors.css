@@ -42,6 +42,13 @@ body {
 	background-color: white;
 	opacity: 0.8;
 }
+.title {
+	font-family: 'ralewayextrabold';
+	font-size: 25px;
+	white-space:nowrap;
+	color: #85c04b;
+	text-decoration:none;
+}
 .fullwidth{
 	display:block;
 	width:100%;
@@ -78,13 +85,7 @@ body {
 	color: #85c04b;
 	text-decoration:none;
 }
-.title {
-	font-family: 'ralewayextrabold';
-	font-size: 25px;
-	white-space:nowrap;
-	color: #85c04b;
-	text-decoration:none;
-}
+
 
 /**  fonts  **/
 @font-face {
