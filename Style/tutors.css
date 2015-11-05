@@ -33,7 +33,7 @@ body {
 	opacity: 0.7;
     vertical-align:middle;
 }
-.main {
+#main {
 	margin:20 auto;
 	width:900px;
 	height: 500px;

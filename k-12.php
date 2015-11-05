@@ -50,7 +50,7 @@
 
         <!-- Main Starts -->
 
-        <main class="main">
+        <main>
             <table width="100%">
             <tr>
                 <td width="100%" style="title">
