@@ -50,11 +50,11 @@
 
         <!-- Main Starts -->
         <main class="main">
-        <table width="100%">
+        <table width="90%">
         <tr>
             <td>
-                 <!--br><div style="color: #85c04b; font-size: 25px;">K-12 과외<div-->
-                 <br><div style="content_title">K-12 과외<div>
+                 <br><div style="color: #85c04b; font-size: 25px;">K-12 과외<div>
+                 <!--br><div style="content_title">K-12 과외<div-->
             </td>
         </tr>
         <tr>
