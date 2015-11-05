@@ -86,7 +86,8 @@ body {
 ul {
     list-style-position: inside;
 }
-
+ul.a {list-style-type: circle;}
+ul.b {list-style-type: square;}
 /**  fonts  **/
 @font-face {
     font-family: 'ralewayregular';
