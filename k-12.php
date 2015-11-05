@@ -53,7 +53,8 @@
         <table width="90%">
         <tr height="40">
             <td>
-                 <br><p>K-12 과외</p><br>
+                 <br><div style="color: #85c04b; font-size: 25px;">K-12 과외<div>
+                 <br>
             </td>
         </tr>
         <tr>
@@ -61,7 +62,7 @@
                 <img src="/Image/k-12.jpg" style="float:right">
                 <h3 style="color:black;">Engish(Writing, Reading, Language Art)<br>
                 Math, Science, Social Study 등 K-12(초,중,고) 교육과정을 도와주는
-                <br><b>정통 학과 과외</b> 입니다.</h3>
+                <br><b>정통 학과 과외</b> 입니다.</h3><br>
                 <ul>
                     <li>대상: K-12 학생 (유치원, 초/중/고교생)</li>
                     <li>수업형태: 회당 1시간 (주 1~2회)</li>
