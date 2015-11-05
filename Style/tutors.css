@@ -45,9 +45,9 @@ body {
 .title {
 	font-family: 'ralewayextrabold';
 	font-size: 25px;
-	white-space:nowrap;
+	white-space: nowrap;
 	color: #85c04b;
-	text-decoration:none;
+	text-decoration: none;
 }
 .fullwidth{
 	display:block;
@@ -60,14 +60,14 @@ body {
 	height: 50px;
 	color: #85c04b;
 }
-.logo{
+.logo {
 	font-family: 'ralewayextrabold';
 	font-size:33px;
 	white-space:nowrap;
 	color: #85c04b;
 	text-decoration:none;
 }
-.logo span{
+.logo span {
 	font-family: 'ralewayregular';
 	color: #ffffff;
 }
