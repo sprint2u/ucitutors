@@ -54,7 +54,7 @@
         <tr>
             <td>
                  <!--br><div style="color: #85c04b; font-size: 25px;">K-12 과외<div-->
-                 <br><div style="title">K-12 과외<div>
+                 <br><div style="content_title">K-12 과외<div>
             </td>
         </tr>
         <tr>

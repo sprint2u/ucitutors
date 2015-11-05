@@ -42,7 +42,7 @@ body {
 	opacity: 0.8;
     vertical-align:middle;
 }
-.main title {
+.main content_title {
 	font-family: 'ralewayextrabold';
 	font-size: 25px;
 	white-space: nowrap;
