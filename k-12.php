@@ -39,7 +39,7 @@
         <tr height="70">
             <td width="200" align="center"><a class="logo" href="http://ucitutors.com/">UCI <span>Tutors</span></a></td>
             <td width="100"></td>
-            <td width="100"><a href="" class="menu">K-12 과외</a></td>
+            <td width="100" class="menu"><a href="">K-12 과외</a></td>
             <td width="100"><a href="" class="menu">생활영어</a></td>
             <td width="100"><a href="" class="menu">입학준비</a></td>
             <td width="100"><a href="" class="menu">Tutor Profile</a></td>
