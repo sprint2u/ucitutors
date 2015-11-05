@@ -36,7 +36,7 @@
     <div id="wrapper">
         <table class="header">
         <tr height="70" valign="middle">
-            <td width="300" align="center"><a class="logo" href="http://ucitutors.com/">UCI <span>Tutors</span></a></td>
+            <td width="200" align="center"><a class="logo" href="http://ucitutors.com/">UCI <span>Tutors</span></a></td>
             <td width="100"></td>
             <td width="100"><a href="">K-12 과외</a></td>
             <td width="100"><a href="">생활영어</a></td>
@@ -72,7 +72,7 @@
 
         
     </div>  
-    <footer>
+    <footer id="footer">
         <p class="footer">Copyright © 2015 UCI Tutors</p>
     </footer>
        
