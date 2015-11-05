@@ -59,6 +59,7 @@
         </tr>
         <tr>
             <td width="100%">
+                <img src="/Image/k-12.jpg" style="float:right">
                 <p>
                     <h3 style="color:black;">Engish(Writing, Reading, Language Art)<br>
                     Math, Science, Social Study 등 K-12(초,중,고) 교육과정을 도와주는 정통 학과 과외 입니다.</h3>
@@ -68,7 +69,7 @@
                     <li>수업형태: 회당 1시간 (주 1~2회)</li>
                     <li>수업료: 자택방문-$30/시간, UCI-$25/시간</li>
                 </ul>
-                <img src="/Image/k-12.jpg" style="float:left">
+
             </td>
         </tr>
         </table>
