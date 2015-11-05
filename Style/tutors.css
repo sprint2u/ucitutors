@@ -60,10 +60,11 @@ body {
 	border-bottom-left-radius: 2em;
 	border-bottom-right-radius: 2em;
 	vertical-align: top;
-	margin: 10px;
+	margin: 10px 10px 10px 10px;
 }
 .intro_table h3 {
 	color: white;
+	font-weight: normal;;
 }
 .fullwidth{
 	display:block;
