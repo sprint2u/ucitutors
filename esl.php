@@ -10,7 +10,7 @@
 </tr>
 <tr>
     <td width="100%">
-        <img src="/Image/k-12.jpg" style="float:right">
+        <img src="/Image/esl.jpg" style="float:right">
         <h3 style="color:black;">레스토랑, 은행, 주유소, 마트, 은행 그리고 DMV 까지<br>
         미국에서 살면서 겪게 될 상황들에 미리 대비할 수 있도록 도와드립니다.<br>
         </h3><br>
