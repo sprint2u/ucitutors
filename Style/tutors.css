@@ -85,7 +85,9 @@ body {
 	color: #85c04b;
 	text-decoration:none;
 }
-
+ul {
+    list-style-position: inside;
+}
 
 /**  fonts  **/
 @font-face {
