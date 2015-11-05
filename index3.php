@@ -4,28 +4,50 @@
     <meta charset="utf-8" />
     <title>UCI Tutors :: 고품격 과외 네트워크</title>
 
-    <link rel="stylesheet" type="text/css" media="all" href="./Style/tutors.css" />
-    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css' />
+    <script type="text/javascript">
+
+    function getDisplayInfo() {
+        var size = {
+          width: window.innerWidth || document.body.clientWidth,
+          height: window.innerHeight || document.body.clientHeight
+        }
+        return size;
+    }
+
+    function setElementById(obj, value) {
+        var target = document.getElementById(obj);
+        target.innerHTML = value;
+    }
+
+    function onLoadHandler() {
+        var size = getDisplayInfo();
+        setElementById("dispWidth", size.width);
+        setElementById("dispHeight", size.height);
+    }
+
+    window.onload = onLoadHandler;
+  </script>
+<link rel="stylesheet" type="text/css" media="all" href="./Style/ucitutors.css" />
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css' />
 
 </head>
-<body>
-    <center>
+<body class="home page page-id-2 page-parent page-template page-template-template-no-sidebar page-template-template-no-sidebar-php">
     <div id="wrapper">
-        <header class="header">
-        <table width="100%">
-        <tr height="70">
-            <td width="200" align="center"><a class="logo" href="http://ucitutors.com/">UCI <span>Tutors</span></a></td>
-            <td width="100"></td>
-            <td width="100" class="menu"><a href="">K-12 과외</a></td>
-            <td width="100" class="menu"><a href="">생활영어</a></td>
-            <td width="100" class="menu"><a href="">입학준비</a></td>
-            <td width="100" class="menu"><a href="">Tutor Profile</a></td>
-            <td width="100" class="menu"><a href="">Contact</a></td>
-        </tr>
-        </table>
-        </header>
-
-        <!-- Main Starts -->
+        <div class="header_container" >
+                <header id="header" class="container clearfix" style="background-color:black; opacity:0.7;">
+                    <a class="logo" href="http://ucitutors.com/">UCI <span>Tutors</span></a>
+                    <nav class="menu_top_container">
+                        <ul class="menu_top">
+                            <li></li>
+                            <li><a href="k-12.php">K-12 과외</a></li>
+                            <li><a href="">생활영어</a></li>
+                            <li><a href="">입학준비</a></li>
+                            <li><a href="">Tutor Profile</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li></li>
+                        </ul>
+                    </nav>
+                </header>
             
             <div class="page_title">
                 <div class="container">
@@ -58,17 +80,18 @@
                     </td>
                 </tr>
                 </table>
-        <!-- Main Ends -->
+                <!-- BODY Ends -->
 
-        <footer id="footer">
-            <p>Copyright © 2015 UCI Tutors</p>
+                </div>
+            </div>
+        </div>
+        <footer style="background-color: black;">
+            <p class="copyright">Copyright © 2015 UCI Tutors</p>
+            <p class="credit_footer"></p>
         </footer>
-
-        
     </div>  
-    
        
-    </center>
+</center>
             
 </body>
 </html>

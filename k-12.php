@@ -4,31 +4,8 @@
     <meta charset="utf-8" />
     <title>UCI Tutors :: 고품격 과외 네트워크</title>
 
-    <script type="text/javascript">
-
-    function getDisplayInfo() {
-        var size = {
-          width: window.innerWidth || document.body.clientWidth,
-          height: window.innerHeight || document.body.clientHeight
-        }
-        return size;
-    }
-
-    function setElementById(obj, value) {
-        var target = document.getElementById(obj);
-        target.innerHTML = value;
-    }
-
-    function onLoadHandler() {
-        var size = getDisplayInfo();
-        setElementById("dispWidth", size.width);
-        setElementById("dispHeight", size.height);
-    }
-
-    window.onload = onLoadHandler;
-  </script>
-<link rel="stylesheet" type="text/css" media="all" href="./Style/tutors.css" />
-<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" media="all" href="./Style/tutors.css" />
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css' />
 
 </head>
 <body>
