@@ -34,8 +34,8 @@
 <body>
     <center>
     <div id="wrapper">
-        <header>
-        <table class="header">
+        <header class="header">
+        <table width="100%">
         <tr height="70">
             <td width="200" align="center"><a class="logo" href="http://ucitutors.com/">UCI <span>Tutors</span></a></td>
             <td width="100"></td>
@@ -50,8 +50,7 @@
 
         <!-- Main Starts -->
 
-        <main>
-        <div class="main">
+        <main class="main">
             <table width="100%" style="background-color:white; opacity:0.8;">
             <tr>
                 <td>
@@ -67,7 +66,6 @@
                 </td>
             </tr>
             </table>
-        </div>
         </main>
         <!-- Main Ends -->
 
