@@ -54,7 +54,9 @@ body {
     vertical-align:middle;
 }
 .intro_table {
-	border: 1px dotted;
+	border: 1px none;
+	border-top-width: 1px dotted;
+	border-top-color: #85c04b;
 	border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
 	border-bottom-left-radius: 2em;
