@@ -19,14 +19,14 @@ body {
 
 
 #wrapper {
+	margin:0 auto;
+	position: relative;
 	background-image: url(../Image/mainbg.jpg);
 	background-size:cover;
 	background-repeat: no-repeat;
 	*zoom:1
 }
 .header {
-	position: relative;
-	margin:0 auto;
 	width:900px;
 	height: 70px;
 	background-color: black;
@@ -34,7 +34,6 @@ body {
     vertical-align:middle;
 }
 .main {
-	margin:0 auto;
 	width:900px;
 	height: 500px;
 	margin-left:25px;
@@ -43,7 +42,7 @@ body {
 	opacity: 0.8;
     vertical-align:middle;
 }
-.title {
+.main title {
 	font-family: 'ralewayextrabold';
 	font-size: 25px;
 	white-space: nowrap;
@@ -55,11 +54,11 @@ body {
 	width:100%;
 }
 #footer p {
-	margin:0 auto;
 	width:900px;
 	background-color: #333333;
 	height: 50px;
 	color: #85c04b;
+    vertical-align:middle;
 }
 .logo {
 	font-family: 'ralewayextrabold';
