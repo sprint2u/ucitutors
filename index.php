@@ -26,15 +26,13 @@
         </header>
 
         <!-- Main Starts -->
-        <main class="intro">
-        <div class="logo">
+        <main>
+        <div class="logo" style="height:300px;">
             <h2><span>Irvine 명문 </span>UCI<span> 학생들의<br> 고품격 </span>과외<span> 네트워크</span>
         </div>
-        <br><br><br>
-        </main>
-        <main class="main" style="height:200;">           
+        <br><br><br>         
         <table width="100%">
-        <tr>
+        <tr valign="top">
             <td width="33%">
                 <h2 style="color: #85c04b;">K-12 과외</h2>
                 <h3>우리 아이, 한국에서 처럼 잘 할 수 있을까?<br>새로운 환경에서 적응해야 할 자녀에게 힘을 보태주세요.</h3>
