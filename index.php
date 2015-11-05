@@ -26,38 +26,35 @@
         </header>
 
         <!-- Main Starts -->
-            
-            <div class="page_title">
-                <div class="container">
-
-                <!-- BODY Starts -->
-                <div class="article_welcome">
-                    <h2><span>Irvine 명문 </span>UCI<span> 학생들의<br> 고품격 </span>과외<span> 네트워크</span>
-                </div>
-                <br><br><br>            
-                <table width="100%">
-                <tr>
-                    <td width="33%">
-                        <h2 style="color: #85c04b;">K-12 과외</h2>
-                        <h3>우리 아이, 한국에서 처럼 잘 할 수 있을까?<br>새로운 환경에서 적응해야 할 자녀에게 힘을 보태주세요.</h3>
-                        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865" style="color: #85c04b;">Learn more &raquo;</a></p>
-                    </td>
-                    <td width="33%">
-                        <h2 style="color: #85c04b;">생활 영어</h2>
-                        <h3>
-                            스타벅스에서 커피 한잔 주문하는 것도 한국과는 많이 다르죠?<br>생활 영어는 어학이 아닌 익숙함 입니다.<br>
-                        </h3>
-                        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866" style="color: #85c04b;">Learn more &raquo;</a></p>
-                    </td>
-                    <td width="33%">
-                        <h2 style="color: #85c04b;">ELD Test 대비</h2>
-                        <h3>
-                            시작이 반!
-                            <br>미국학교에서의 첫 걸음을 UCI Tutors와 함께 하세요.<br></h3>
-                        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867" style="color: #85c04b;">Learn more &raquo;</a></p>
-                    </td>
-                </tr>
-                </table>
+        <main class="main">
+        <div class="logo">
+            <h2><span>Irvine 명문 </span>UCI<span> 학생들의<br> 고품격 </span>과외<span> 네트워크</span>
+        </div>
+        <br><br><br>            
+        <table width="100%">
+        <tr>
+            <td width="33%">
+                <h2 style="color: #85c04b;">K-12 과외</h2>
+                <h3>우리 아이, 한국에서 처럼 잘 할 수 있을까?<br>새로운 환경에서 적응해야 할 자녀에게 힘을 보태주세요.</h3>
+                <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865" style="color: #85c04b;">Learn more &raquo;</a></p>
+            </td>
+            <td width="33%">
+                <h2 style="color: #85c04b;">생활 영어</h2>
+                <h3>
+                    스타벅스에서 커피 한잔 주문하는 것도 한국과는 많이 다르죠?<br>생활 영어는 어학이 아닌 익숙함 입니다.<br>
+                </h3>
+                <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866" style="color: #85c04b;">Learn more &raquo;</a></p>
+            </td>
+            <td width="33%">
+                <h2 style="color: #85c04b;">ELD Test 대비</h2>
+                <h3>
+                    시작이 반!
+                    <br>미국학교에서의 첫 걸음을 UCI Tutors와 함께 하세요.<br></h3>
+                <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867" style="color: #85c04b;">Learn more &raquo;</a></p>
+            </td>
+        </tr>
+        </table>
+        </main>
         <!-- Main Ends -->
 
         <footer id="footer">
