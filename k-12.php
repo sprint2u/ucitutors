@@ -51,7 +51,7 @@
         <!-- Main Starts -->
         <main class="main">
         <table width="90%">
-        <tr height="40px">
+        <tr height="40">
             <td>
                  <br><div style="color: #85c04b; font-size: 25px;">K-12 과외<div>
                  <!--br><div style="content_title">K-12 과외<div-->
@@ -68,6 +68,7 @@
                     <li>수업형태: 회당 1시간 (주 1~2회)</li>
                     <li>수업료: 자택방문-$30/시간, UCI-$25/시간</li>
                 </ul>
+                <img src="/Image/k-12.jpg" style="float:left">
             </td>
         </tr>
         </table>
