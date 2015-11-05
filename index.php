@@ -27,7 +27,7 @@
 
         <!-- Main Starts -->
         <main class="intro">
-        <div class="logo" style="height:250px; vertical-align:middle;">
+        <div class="logo">
             <h2><span>Irvine 명문 </span>UCI<span> 학생들의<br> 고품격 </span>과외<span> 네트워크</span>
         </div>
         <br><br><br>         
