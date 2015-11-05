@@ -54,7 +54,7 @@
             <table width="800px">
             <tr>
                 <td width="100%" style="title">
-                    <h2 style="color: #85c04b;">K-12 과외</h2>
+                    <p><div style="title">K-12 과외</div><p>
                 </td>
             </tr>
             <tr>
