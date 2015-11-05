@@ -70,6 +70,7 @@ body {
 	white-space:nowrap;
 	color: #85c04b;
 	text-decoration:none;
+	line-height: 160%;
 }
 .logo span {
 	font-family: 'ralewayregular';
