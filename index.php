@@ -27,7 +27,7 @@
 
         <!-- Main Starts -->
         <main class="intro">
-        <table width="100%">
+        <table width="100%" cellspacing="10">
             <tr height="300" valign="top">
                 <td colspan="3" align="center">
                     <div class="logo">
