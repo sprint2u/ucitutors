@@ -53,8 +53,7 @@
         <table width="90%">
         <tr height="40">
             <td>
-                 <br><div style="color: #85c04b; font-size: 25px;">K-12 과외<div>
-                 <br><p>K-12 과외</p>
+                 <br><p>K-12 과외</p><br>
             </td>
         </tr>
         <tr>
