@@ -41,6 +41,7 @@ body {
 	margin-right:25px;
 	background-color: white;
 	opacity: 0.8;
+    vertical-align:middle;
 }
 .title {
 	font-family: 'ralewayextrabold';
