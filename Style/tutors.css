@@ -69,8 +69,8 @@ body {
 	text-decoration:none;
 }
 .menu a:hover  {
-	font-family: 'ralewayextrabold';
-	font-size:33px;
+	font-family: 'ralewayregular';
+	font-size:15px;
 	white-space:nowrap;
 	color: #85c04b;
 	text-decoration:none;
