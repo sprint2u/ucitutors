@@ -89,6 +89,9 @@ ul {
 }
 ul.a {list-style-type: circle;}
 ul.b {list-style-type: square;}
+ul div {
+	font-weight: normal;
+}
 /**  fonts  **/
 @font-face {
     font-family: 'ralewayregular';
