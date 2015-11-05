@@ -31,7 +31,7 @@
             <tr height="300" valign="top">
                 <td colspan="3" align="center">
                     <div class="logo">
-                    <p><h2><span>Irvine 명문 </span>UCI<span> 학생들의</p> 
+                    <p><h1><span>Irvine 명문 </span>UCI<span> 학생들의</p> 
                     <p>고품격 </span>과외<span> 네트워크</span></p>
                     </div>
                 </td>
