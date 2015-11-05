@@ -29,14 +29,14 @@
         <main class="intro">
         <table width="100%">
             <tr height="300" valign="top">
-                <td>
+                <td align="center">
                     <div class="logo">
                     <p><h2><span>Irvine 명문 </span>UCI<span> 학생들의</p> 
                     <p>고품격 </span>과외<span> 네트워크</span></p>
                     </div>
                 </td>
             </tr>
-            <tr height="200" style="background-color:white; opacity:0.8;">
+            <tr height="200">
                 <td width="33%" valign="top">
                     <h2 style="color: #85c04b;">K-12 과외</h2>
                     <h3>우리 아이, 한국에서 처럼 잘 할 수 있을까?<br>새로운 환경에서 적응해야 할 자녀에게 힘을 보태주세요.</h3>
