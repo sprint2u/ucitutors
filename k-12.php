@@ -49,7 +49,6 @@
         </header>
 
         <!-- Main Starts -->
-
         <main class="main">
             <table width="800px">
             <tr>
@@ -60,14 +59,18 @@
             <tr>
                 <td width="100%">
                     <h3 style="color:black;">Engish(Writing, Reading, Language Art)<br>
-                        Math, Science, Social Study 등<br>
-                        학교 교육과정을 도와주는 정통 학과 과외 입니다.</h3>
-                    <p></p>
+                        Math, Science, Social Study 등 K-12(초,중,고) 교육과정을 도와주는 정통 학과 과외 입니다.</h3>
+                    <ul>
+                        <li>대상: K-12 학생 (유치원, 초/중/고교생)</li>
+                        <li>수업형태: 회당 1시간 (주 1~2회)</li>
+                        <li>수업료: 자택방문-$30/시간, UCI-$25/시간</li>
+                    </ul>
                 </td>
             </tr>
             </table>
         </main>
         <!-- Main Ends -->
+
         <footer id="footer">
             <p class="footer">Copyright © 2015 UCI Tutors</p>
         </footer>
