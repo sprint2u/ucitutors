@@ -27,14 +27,14 @@ body {
 	*zoom:1
 }
 .header {
-	width:900px;
+	width:1000px;
 	height: 70px;
 	background-color: black;
 	opacity: 0.7;
     vertical-align:middle;
 }
 .main {
-	width:900px;
+	width:1000px;
 	height: 500px;
 	background-color: white;
 	opacity: 0.8;
@@ -52,7 +52,7 @@ body {
 	width:100%;
 }
 #footer p {
-	width:900px;
+	width:1000px;
 	background-color: #333333;
 	height: 50px;
 	color: #85c04b;
