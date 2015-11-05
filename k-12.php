@@ -51,12 +51,11 @@
         <!-- Main Starts -->
 
         <main class="main">
+            <p>
+                <h2 style="color: #85c04b;">K-12 과외</h2>
+            </p>
             <table width="100%" style="background-color:white; opacity:0.8;">
-            <tr>
-                <td>
-                    <h2 style="color: #85c04b;">K-12 과외</h2>
-                </td>
-            </tr>
+        
             <tr>
                 <td width="100%">
                     <h3 style="color:black;">Engish(Writing, Reading, Language Art)<br>
