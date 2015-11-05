@@ -36,8 +36,8 @@
                     </div>
                 </td>
             </tr>
-            <tr height="200" style="background-color:white; opacity:0.5;">
-                <td width="33%" valign="top">
+            <tr height="200" style="background-color:black; opacity:0.5;">
+                <td width="33%" class="intro_table">
                     <h2 style="color: #85c04b;">K-12 과외</h2>
                     <h3>우리 아이, 한국에서 처럼 잘 할 수 있을까?<br>새로운 환경에서 적응해야 할 자녀에게 힘을 보태주세요.</h3>
                     <p><a class="btn btn-default" href="k-12.php" style="color: #85c04b;">Learn more &raquo;</a></p>
