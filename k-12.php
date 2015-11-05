@@ -74,7 +74,7 @@
         </main>
         <!-- Main Ends -->
 
-        <footer id="footer">
+        <footer>
             <p class="footer">Copyright © 2015 UCI Tutors</p>
         </footer>
 
