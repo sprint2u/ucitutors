@@ -55,11 +55,15 @@ body {
 }
 .intro_table {
 	border: 1px dotted;
-	border-top-left-radius: 1em;
-	border-top-right-radius: 1em;
-	border-bottom-left-radius: 1em;
-	border-bottom-right-radius: 1em;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
 	vertical-align: top;
+	margin: 10px;
+}
+.intro_table h3 {
+	color: white;
 }
 .fullwidth{
 	display:block;
