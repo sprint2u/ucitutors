@@ -6,6 +6,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre, img, l, ul, li, table, tr
     border:0;
     outline:0;
     font-size:100%;
+    line-height: 160%;
     vertical-align: middle;
     background: transparent;
 }
@@ -23,7 +24,7 @@ h2 {
 	font-size: 20px
 }
 h3 {
-	font-size: 18px
+	font-size: 15px
 }
 
 #wrapper {
