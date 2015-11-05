@@ -64,13 +64,13 @@
                 Math, Science, Social Study 등 K-12(초,중,고) 교육과정을 도와주는
                 <br><b>정통 학과 과외</b> 입니다.</h3><br>
                 <ul>
-                    <li>대상: K-12 학생 (유치원, 초/중/고교생)</li>
+                    <li>대상: K-12 학생 (유치원, 초/중/고교생)<br></li>
                     <li>수업형태: 회당 1시간/과목 (주 1~2회)
-                        <br>&nbsp;&nbsp;&nbsp;* 필요한 과목별로 수강하실 수 있습니다.
+                        <br>&nbsp;&nbsp;&nbsp;* 필요한 과목별로 수강하실 수 있습니다.<br>
                     </li>
                     <li>수업료: (자택) $30/시간, (UCI) $25/시간
                         <br>&nbsp;&nbsp;&nbsp;* 자택: 튜터가 자택에 방문하여 가르칩니다.
-                        <br>&nbsp;&nbsp;&nbsp;* UCI: 학생이 UCI로 오셔서 배웁니다.
+                        <br>&nbsp;&nbsp;&nbsp;* UCI: 학생이 UCI로 오셔서 배웁니다.<br>
                     </li>
                 </ul>
             </td>
