@@ -61,6 +61,13 @@ body {
 	font-family: 'ralewayregular';
 	color: #ffffff;
 }
+.menu {
+	font-family: 'ralewayextrabold';
+	font-size:33px;
+	white-space:nowrap;
+	color: #ffffff;
+	text-decoration:none;
+}
 .menu a {
 	font-family: 'ralewayextrabold';
 	font-size:33px;
