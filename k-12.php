@@ -53,7 +53,7 @@
         <main class="main">
             <table width="100%">
             <tr>
-                <td width="100%">
+                <td width="100%" style="title">
                     <h2 style="color: #85c04b;">K-12 과외</h2>
                 </td>
             </tr>
