@@ -51,7 +51,7 @@
         <!-- Main Starts -->
 
         <main class="main">
-            <table width="100%" style="background-color:white; opacity:0.8;">
+            <table width="100%">
             <tr>
                 <td width="100%">
                     <h2 style="color: #85c04b;">K-12 과외</h2>

@@ -36,9 +36,11 @@ body {
 .main {
 	margin:0 auto;
 	width:900px;
-	height: 700px;
+	height: 500px;
 	margin-left:25px;
 	margin-right:25px;
+	background-color: white;
+	opacity: 0.8;
 }
 .fullwidth{
 	display:block;
@@ -46,7 +48,7 @@ body {
 }
 #footer p {
 	margin:0 auto;
-	width:100%;
+	width:900px;
 	background-color: #333333;
 	height: 50px;
 	color: #85c04b;
