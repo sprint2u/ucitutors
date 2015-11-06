@@ -10,7 +10,7 @@
 </tr>
 <tr>
     <td width="100%">
-        <img src="/Image/esl.jpg" style="float:right">
+        <img src="/Image/eld.jpg" style="float:right">
         <h3 style="color:black;">레스토랑, 은행, 주유소, 마트, 은행 그리고 DMV 까지<br>
         미국에 살면서 겪게 될 상황들을 미리 준비하세요.<br>
         UCI Tutors와 함께라면 금새 Drive Thru에 들어갈 수 있습니다.<br>

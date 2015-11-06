@@ -10,13 +10,15 @@
 </tr>
 <tr>
     <td width="100%">
-        <img src="/Image/esl.jpg" style="float:right">
-        <h3 style="color:black;">레스토랑, 은행, 주유소, 마트, 은행 그리고 DMV 까지<br>
-        미국에 살면서 겪게 될 상황들을 미리 준비하세요.<br>
-        UCI Tutors와 함께라면 금새 Drive Thru에 들어갈 수 있습니다.<br>
+        <img src="/Image/eld.jpg" style="float:right">
+        <h3 style="color:black;">처음으로 들어가는 미국 학교, 걱정되시죠?<br>
+        부모님이 걱정하시는 것 이상으로 아이들도 두려워합니다.<br>
+        ELD Test 준비, 미국 아이들의 문화, 선생님과의 관계 맺기,<br>
+        오피스(교무실) 찾아가기, 보건실 찾아가기 등 <br>
+        미국 학교에서 필요한 보석같은 팁을 UCI Tutors에게 받으세요<br>
         </h3><br>
         <ul>
-            <li>대상: 성인 및 학생<br><br></li>
+            <li>대상: 학생<br><br></li>
             <li>수업형태: 회당 1시간 (주 1~2회)<br>
                 <br>
             </li>
