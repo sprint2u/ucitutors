@@ -14,7 +14,7 @@
         </h3><br>
         <ul>
             <li>UCI Tutors Facebook
-                <div>&nbsp;&nbsp;&nbsp;* <a href="https://www.facebook.com/ucitutors/">facebook.com/ucitutors</a></div><br>
+                <div>&nbsp;&nbsp;&nbsp;* <a href="https://www.facebook.com/ucitutors/" target="_new">facebook.com/ucitutors</a></div><br>
             </li>
             <li>Nomi Lee
                 <div>&nbsp;&nbsp;&nbsp;* <a href="mailto:nomil@uci.edu">nomil@uci.edu</a></div>
