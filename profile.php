@@ -9,9 +9,15 @@
     </td>
 </tr>
 <tr>
-    <td width="100%">
-        <img src="/Image/eld.jpg" style="float:right">
-        <h3 style="color:black;">Under Construction<br>
+    <td width="300">
+        <img src="/Image/songi.jpg" style="float:right">
+        <h3 style="color:black;">Song Choi<br>
+        </h3><br>
+        
+    </td>
+    <td width="300">
+<img src="/Image/mark.jpg" style="float:right">
+        <h3 style="color:black;">Mark Kim<br>
         </h3><br>
         
     </td>
