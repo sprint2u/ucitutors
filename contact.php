@@ -17,11 +17,11 @@
                 <div>&nbsp;&nbsp;&nbsp;* <a href="https://www.facebook.com/ucitutors/">facebook.com/ucitutors</a></div><br>
             </li>
             <li>Nomi Lee
-                <div>&nbsp;&nbsp;&nbsp;* nomil@uci.edu</div>
+                <div>&nbsp;&nbsp;&nbsp;* <a href="mailto:nomil@uci.edu">nomil@uci.edu</a></div>
                 <div>&nbsp;&nbsp;&nbsp;* (949)526-9788</div><br>
             </li>
             <li>Yong Kim
-                <div>&nbsp;&nbsp;&nbsp;* ucitutors@yahoo.com</div>
+                <div>&nbsp;&nbsp;&nbsp;* <a href="mailto:ucitutors@yahoo.com">ucitutors@yahoo.com</a></div>
                 <div>&nbsp;&nbsp;&nbsp;* (949)344-3490</div>
             </li>
         </ul>
