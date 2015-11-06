@@ -13,6 +13,9 @@
         <h3 style="color:black;">튜터링 문의 및 신청<br>
         </h3><br>
         <ul>
+            <li>UCI Tutors Facebook
+                <div>&nbsp;&nbsp;&nbsp;* <a href="https://www.facebook.com/ucitutors/">facebook.com/ucitutors</a></div><br>
+            </li>
             <li>Nomi Lee
                 <div>&nbsp;&nbsp;&nbsp;* nomil@uci.edu</div>
                 <div>&nbsp;&nbsp;&nbsp;* (949)526-9788</div><br>
