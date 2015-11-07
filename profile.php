@@ -9,13 +9,34 @@
     </td>
 </tr>
 <tr>
-    <td width="300">
+    <td width="200">
         <img src="/Image/songi.jpg" width="200">
         <h3 style="color:black;">Song Choi<br>
         </h3><br>
         
     </td>
-    <td width="300">
+    <td width="200">
+        <img src="/Image/mark.jpg" width="200">
+        <h3 style="color:black;">Mark Kim<br>
+        </h3><br>
+        
+    </td>
+	<td width="200">
+        <img src="/Image/erick.jpg" width="200">
+        <h3 style="color:black;">Mark Kim<br>
+        </h3><br>
+        
+    </td>
+  
+</tr>
+<tr>
+    <td width="200">
+        <img src="/Image/daniel.jpg" width="200">
+        <h3 style="color:black;">Song Choi<br>
+        </h3><br>
+        
+    </td>
+    <td width="200">
         <img src="/Image/mark.jpg" width="200">
         <h3 style="color:black;">Mark Kim<br>
         </h3><br>
