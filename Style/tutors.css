@@ -126,7 +126,7 @@ ul div {
 }
 .profile {
 	width: 200px;
-	
+	vertical-align: top;
 }
 
 /**  fonts  **/
