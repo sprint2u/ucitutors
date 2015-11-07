@@ -9,7 +9,7 @@
     </td>
 </tr>
 <tr>
-    <td width="200">
+    <td width="200" class="profile">
         <img src="/Image/songi.jpg" width="200">
         <h3 style="color:black;">Song Choi<br>
         </h3><br>

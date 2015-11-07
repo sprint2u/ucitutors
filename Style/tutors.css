@@ -124,6 +124,11 @@ ul.b {list-style-type: square;}
 ul div {
 	font-weight: normal;
 }
+.profile {
+	width: 200px;
+	
+}
+
 /**  fonts  **/
 @font-face {
     font-family: 'ralewayregular';
