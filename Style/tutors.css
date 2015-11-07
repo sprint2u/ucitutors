@@ -124,7 +124,7 @@ ul.b {list-style-type: square;}
 ul div {
 	font-weight: normal;
 }
-.profile {
+#main profile {
 	width: 200px;
 	vertical-align: top;
 }

@@ -8,7 +8,7 @@
          <br>
     </td>
 </tr>
-<tr>
+<tr valign="top">
     <td width="200" class="profile">
         <img src="/Image/songi.jpg" width="200">
         <h3 style="color:black;">Song Choi<br>
@@ -38,7 +38,7 @@
         </p>        
     </td>  
 </tr>
-<tr>
+<tr valign="top">
     <td width="200">
         <img src="/Image/daniel.jpg" width="200">
         <h3 style="color:black;">Daniel Chung<br>
@@ -54,6 +54,9 @@
     <td width="200">
         
     </td>
+</tr>
+<tr height="20">
+	<td></td>
 </tr>
 </table>
 </main>
