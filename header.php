@@ -6,7 +6,11 @@
 
     <link rel="stylesheet" type="text/css" media="all" href="./Style/tutors.css" />
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css' />
-
+	<meta name="robots" content="ALL">
+	<meta name="keywords" content="얼바인, 어바인, 과외, 튜터, tutor, irvine, ucitutors">
+	<meta name="Subject" content="UCI Tutors">
+	<meta http-equiv="Cache-Control" content="No-Cache">
+	<meta name="build" content="2015. 11. 07">
 </head>
 <body>
     <center>
