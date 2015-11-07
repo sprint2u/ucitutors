@@ -15,19 +15,18 @@
         </h3><br>
         
     </td>
-    <td width="200">
-        <img src="/Image/mark.jpg" width="200">
-        <h3 style="color:black;">Mark Kim<br>
-        </h3><br>
-        
-    </td>
 	<td width="200">
         <img src="/Image/erick.jpg" width="200">
         <h3 style="color:black;">Mark Kim<br>
         </h3><br>
         
     </td>
-  
+    <td width="200">
+        <img src="/Image/mark.jpg" width="200">
+        <h3 style="color:black;">Mark Kim<br>
+        </h3><br>
+        
+    </td>  
 </tr>
 <tr>
     <td width="200">
@@ -37,9 +36,9 @@
         
     </td>
     <td width="200">
-        <img src="/Image/mark.jpg" width="200">
-        <h3 style="color:black;">Mark Kim<br>
-        </h3><br>
+        
+    </td>
+    <td width="200">
         
     </td>
 </tr>
