@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 <!-- Main Starts -->
 <main class="main">
-<table width="1000">
+<table width="850">
 <tr height="40">
     <td colspan="5">
          <br><div style="color: #85c04b; font-size: 25px;">Tutors' Profile<div>
