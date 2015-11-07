@@ -10,13 +10,13 @@
 </tr>
 <tr>
     <td width="300">
-        <img src="/Image/songi.jpg" width="300">
+        <img src="/Image/songi.jpg" width="200">
         <h3 style="color:black;">Song Choi<br>
         </h3><br>
         
     </td>
     <td width="300">
-        <img src="/Image/mark.jpg" width="300">
+        <img src="/Image/mark.jpg" width="200">
         <h3 style="color:black;">Mark Kim<br>
         </h3><br>
         
