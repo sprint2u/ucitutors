@@ -49,9 +49,11 @@
         <p>I have experience in tutoring, baby sitting, and as a summer fun junior leader. My responsibilities as a junior leader included assisting the summer fun leader in watching over the group of children(aprox. 20-30). I have dealt with children in small groups, big groups as well as one on one and in any age group.
         </p>        
     </td>
+    <td width="50"></td>
     <td width="250">
         
     </td>
+    <td width="50"></td>
     <td width="250">
         
     </td>
