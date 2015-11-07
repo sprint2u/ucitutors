@@ -1,14 +1,14 @@
 <?php include('header.php'); ?>
 <!-- Main Starts -->
 <main class="main">
-<table width="90%">
+<table width="660">
 <tr height="40">
-    <td>
+    <td colspan="5">
          <br><div style="color: #85c04b; font-size: 25px;">Tutors' Profile<div>
          <br>
     </td>
 </tr>
-<tr class="profile">
+<tr>
     <td width="200" class="profile">
         <img src="/Image/songi.jpg" width="200">
         <h3 style="color:black;">Song Choi<br>
@@ -17,8 +17,8 @@
         <p>과외경력:</p>
 		<p>In summer of 2014, I worked at Manchester Academy and taught private lessons in English and Math to Kindergarten, Elementary, and Middle School students. I also volunteered at Good Samaritan Hospital for 4 years and was president of the Youth Drug Abuse Prevention Program.
         </p>
-        
     </td>
+    <td width="30"></td>
 	<td width="200">
         <img src="/Image/erick.jpg" width="200">
         <h3 style="color:black;">Erick Contreras<br>
@@ -26,9 +26,9 @@
         <p>전공: Mathematics</p>
         <p>과외경력:</p> 
         <p>Last two summers I tutored high schoolers in math through the non-profit company of NCRF. I have also tutored peers while in high school, and have helped my younger brother with his schoolwork as well.
-        </p>
-        
+        </p>   
     </td>
+    <td width="30"></td>
     <td width="200">
         <img src="/Image/mark.jpg" width="200">
         <h3 style="color:black;">Mark Kim<br>
@@ -57,7 +57,7 @@
     </td>
 </tr>
 <tr height="20">
-	<td></td>
+	<td colspan="5"></td>
 </tr>
 </table>
 </main>
