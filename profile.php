@@ -9,7 +9,7 @@
     </td>
 </tr>
 <tr>
-    <td width="250" class="profile">
+    <td width="250" class="profile" valign="top">
         <img src="/Image/songi.jpg" width="200">
         <h3 style="color:black;">Song Choi<br>
         </h3><br>
@@ -19,7 +19,7 @@
         </p>
     </td>
     <td width="50"></td>
-	<td width="250">
+	<td width="250" valign="top">
         <img src="/Image/erick.jpg" width="200">
         <h3 style="color:black;">Erick Contreras<br>
         </h3><br>
@@ -29,7 +29,7 @@
         </p>   
     </td>
     <td width="50"></td>
-    <td width="250">
+    <td width="250" valign="top">
         <img src="/Image/mark.jpg" width="200">
         <h3 style="color:black;">Mark Kim<br>
         </h3><br>
@@ -40,7 +40,7 @@
     </td>  
 </tr>
 <tr valign="top">
-    <td width="250">
+    <td width="250" valign="top">
         <img src="/Image/daniel.jpg" width="200">
         <h3 style="color:black;">Daniel Chung<br>
         </h3><br>
@@ -50,11 +50,11 @@
         </p>        
     </td>
     <td width="50"></td>
-    <td width="250">
+    <td width="250" valign="top">
         
     </td>
     <td width="50"></td>
-    <td width="250">
+    <td width="250" valign="top">
         
     </td>
 </tr>
