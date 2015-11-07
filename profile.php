@@ -39,6 +39,9 @@
         </p>        
     </td>  
 </tr>
+<tr height="30">
+	<td colspan="5"></td>
+</tr>
 <tr valign="top">
     <td width="250" valign="top">
         <img src="/Image/daniel.jpg" width="200">
@@ -58,7 +61,7 @@
         
     </td>
 </tr>
-<tr height="20">
+<tr height="30">
 	<td colspan="5"></td>
 </tr>
 </table>
