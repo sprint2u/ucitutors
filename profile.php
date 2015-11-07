@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 <!-- Main Starts -->
 <main class="main">
-<table width="660">
+<table width="1000">
 <tr height="40">
     <td colspan="5">
          <br><div style="color: #85c04b; font-size: 25px;">Tutors' Profile<div>
@@ -9,7 +9,7 @@
     </td>
 </tr>
 <tr>
-    <td width="200" class="profile">
+    <td width="250" class="profile">
         <img src="/Image/songi.jpg" width="200">
         <h3 style="color:black;">Song Choi<br>
         </h3><br>
@@ -18,8 +18,8 @@
 		<p>In summer of 2014, I worked at Manchester Academy and taught private lessons in English and Math to Kindergarten, Elementary, and Middle School students. I also volunteered at Good Samaritan Hospital for 4 years and was president of the Youth Drug Abuse Prevention Program.
         </p>
     </td>
-    <td width="30"></td>
-	<td width="200">
+    <td width="50"></td>
+	<td width="250">
         <img src="/Image/erick.jpg" width="200">
         <h3 style="color:black;">Erick Contreras<br>
         </h3><br>
@@ -28,8 +28,8 @@
         <p>Last two summers I tutored high schoolers in math through the non-profit company of NCRF. I have also tutored peers while in high school, and have helped my younger brother with his schoolwork as well.
         </p>   
     </td>
-    <td width="30"></td>
-    <td width="200">
+    <td width="50"></td>
+    <td width="250">
         <img src="/Image/mark.jpg" width="200">
         <h3 style="color:black;">Mark Kim<br>
         </h3><br>
@@ -40,7 +40,7 @@
     </td>  
 </tr>
 <tr valign="top">
-    <td width="200">
+    <td width="250">
         <img src="/Image/daniel.jpg" width="200">
         <h3 style="color:black;">Daniel Chung<br>
         </h3><br>
@@ -49,10 +49,10 @@
         <p>I have experience in tutoring, baby sitting, and as a summer fun junior leader. My responsibilities as a junior leader included assisting the summer fun leader in watching over the group of children(aprox. 20-30). I have dealt with children in small groups, big groups as well as one on one and in any age group.
         </p>        
     </td>
-    <td width="200">
+    <td width="250">
         
     </td>
-    <td width="200">
+    <td width="250">
         
     </td>
 </tr>
