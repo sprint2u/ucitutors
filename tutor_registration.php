@@ -17,17 +17,17 @@
 </tr>
 <tr>
     <td width="150" align="right">Name</td>
-    <td width="350"><input type="text" name="tutor_name" size="20" maxlength="10"></td>
+    <td width="350"><input type="text" name="tutor_name" size="40" maxlength="100"></td>
     <td></td>
 </tr>
 <tr>
     <td width="150" align="right">UCI Student ID</td>
-    <td><input type="text" name="uci_id" size="20" maxlength="10"></td>
+    <td><input type="text" name="uci_id" size="40" maxlength="10"></td>
     <td>(e.g. 98765432)</td>
 </tr>
 <tr>
     <td width="150" align="right">Major</td>
-    <td><input type="text" name="uci_major" size="20" maxlength="100"></td>
+    <td><input type="text" name="uci_major" size="40" maxlength="100"></td>
     <td>(e.g. Computer Engineering)</td>
 </tr>
 
@@ -65,12 +65,12 @@
 </tr>
 <tr>
     <td width="150" align="right">Korean School Name</td>
-    <td><input type="text" name="kor_univ_name" size="20" maxlength="100"></td>
+    <td><input type="text" name="kor_univ_name" size="30" maxlength="100"></td>
     <td>(e.g. 연세대학교)</td>
 </tr>
 <tr>
     <td width="150" align="right">Korean School Major</td>
-    <td><input type="text" name="kor_major" size="20" maxlength="100"></td>
+    <td><input type="text" name="kor_major" size="40" maxlength="100"></td>
     <td>(e.g. 경영학)</td>
 </tr>
 <tr>
