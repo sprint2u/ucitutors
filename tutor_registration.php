@@ -1,18 +1,12 @@
 <?php include('header.php'); ?>
 <!-- Main Starts -->
 <main class="main">
+<form name="tutor_application" action="tutor_application_go.php" method="post">
 <table width="90%">
 <tr height="40">
     <td>
          <br><div style="color: #85c04b; font-size: 25px;">Tutor Application<div>
          <br>
-    </td>
-</tr>
-<tr>
-    <td colspan="3" width="100%">
-        <h3 style="color:black;">Are you eligible to join UCI Tutors?<br>
-        Try to get tutoring jobs through ucitutors.com<br>
-        </h3>
     </td>
 </tr>
 <tr>
@@ -35,15 +29,19 @@
     <td width="150" align="right">Subject of Tutoring</td>
     <td>
     	<select name="tutoring_subject" size="5" multiple>
-    		<option value="math">Math</option>
-    		<option value="reading">Reading</option>
-    		<option value="writing">Writing</option>
-    		<option value="voca">Vocabulary</option>
-    		<option value="grammar">Grammar</option>
-    		<option value="esl">Everyday English</option>
-    		<option value="k_math">수학</option>
-    		<option value="k_writing">논술</option>
-    		<option value="k_lang">한글</option>
+    		<optgroup label="US Courses">
+    			<option value="math">Math</option>
+    			<option value="reading">Reading</option>
+    			<option value="writing">Writing</option>
+    			<option value="voca">Vocabulary</option>
+    			<option value="grammar">Grammar</option>
+    			<option value="esl">Everyday English</option>
+    		</optgroup>
+    		<optgroup label="Korean Courses">
+    			<option value="k_math">수학</option>
+    			<option value="k_writing">논술</option>
+    			<option value="k_lang">한글</option>
+			</optgroup>
     	</select>
     </td>
     <td>(Press shift and click for multiple choice)</td>
