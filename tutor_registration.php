@@ -17,7 +17,7 @@
 </tr>
 <tr>
     <td width="150" align="right">Name</td>
-    <td><input type="text" name="tutor_name" size="20" maxlength="10"></td>
+    <td width="350"><input type="text" name="tutor_name" size="20" maxlength="10"></td>
     <td></td>
 </tr>
 <tr>
@@ -60,7 +60,7 @@
     <td>(multiple choice)</td>
 </tr>
 <tr>
-    <td colspan="3" align="right">(Fill out for Korean school information hereunder, if applicable)
+    <td colspan="3" align="left">(Fill out for Korean school information hereunder, if applicable)
     </td>
 </tr>
 <tr>
