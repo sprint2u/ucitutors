@@ -10,7 +10,6 @@
 </tr>
 <tr>
     <td colspan="2" width="100%">
-        <img src="/Image/snu.jpg" style="float:right">
         <h3 style="color:black;">Are you eligible to join UCI Tutors?<br>
         Try to get tutoring jobs through ucitutors.com<br>
         </h3>
@@ -44,7 +43,7 @@
 <tr>
     <td width="150" align="right">Subject of Tutoring</td>
     <td>
-    	<select name="tutoring_subject1" size="20" multiple>
+    	<select name="tutoring_subject1" size="5" multiple>
     		<option value="math">Math</option>
     		<option value="reading">Reading</option>
     		<option value="writing">Writing</option>
@@ -60,7 +59,7 @@
 <tr>
     <td width="150" align="right"></td>
     <td>
-    	<select name="tutoring_subject2" size="20" multiple>
+    	<select name="tutoring_subject2" size="5" multiple>
     		<option value="math">Math</option>
     		<option value="reading">Reading</option>
     		<option value="writing">Writing</option>
@@ -77,7 +76,7 @@
 <tr>
     <td width="150" align="right">Tutoring Grade</td>
     <td>
-    	<select name="tutoring_grade" size="20" multiple>
+    	<select name="tutoring_grade" size="3" multiple>
     		<option value="elementary">Elementary School</option>
     		<option value="middle">Middle School</option>
     		<option value="high">High School</option>
