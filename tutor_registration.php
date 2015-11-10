@@ -17,7 +17,7 @@
 </tr>
 <tr>
     <td width="150" align="right">Name</td>
-    <td width="350"><input type="text" name="tutor_name" size="40" maxlength="100"></td>
+    <td width="250"><input type="text" name="tutor_name" size="40" maxlength="100"></td>
     <td></td>
 </tr>
 <tr>
@@ -46,7 +46,7 @@
     		<option value="k_lang">한글</option>
     	</select>
     </td>
-    <td>(multiple choice)</td>
+    <td>(Press shift and click for multiple choice)</td>
 </tr>
 <tr>
     <td width="150" align="right">Tutoring Grade</td>
@@ -57,7 +57,7 @@
     		<option value="high">High School</option>
     	</select>
     </td>
-    <td>(multiple choice)</td>
+    <td>(Press shift and click for multiple choice)</td>
 </tr>
 <tr>
     <td colspan="3" align="left">(Fill out for Korean school information hereunder, if applicable)
