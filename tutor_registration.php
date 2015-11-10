@@ -1,8 +1,8 @@
 <?php include('header.php'); ?>
 <!-- Main Starts -->
 <main class="main">
-<form name="tutor_application" action="tutor_application_go.php" method="post">
-<table width="90%">
+<form name="tutor_application" ENCTYPE="multipart/form-data" action="tutor_application_go.php" method="post">
+<table width="850">
 <tr height="40">
     <td>
          <br><div style="color: #85c04b; font-size: 25px;">Tutor Application<div>
@@ -58,6 +58,11 @@
     <td>(Press shift and click for multiple choice)</td>
 </tr>
 <tr>
+    <td align="right">Student Verification</td>
+    <td><input type="file" name="uci_id_card" size="40"></td>
+    <td>(Upload a photo of your student ID card)</td>
+</tr>
+<tr>
     <td colspan="3" align="left">(Fill out for Korean school information hereunder, if applicable)
     </td>
 </tr>
@@ -76,7 +81,16 @@
     <td><input type="text" name="kor_id" size="20" maxlength="10"></td>
     <td>(e.g. 21342024)</td>
 </tr>
-
+<tr>
+    <td align="right">Student Verification</td>
+    <td><input type="file" name="kor_id_card" size="40"></td>
+    <td>(학생증 사진을 첨부해주세요)</td>
+</tr>
+<tr>
+    <td colspan="3" align="center">
+        <input type="button" action="">
+    </td>
+</tr>
 </table>
 </main>
 <!-- Main Ends -->
