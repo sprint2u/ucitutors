@@ -4,7 +4,7 @@
 <table width="90%">
 <tr height="40">
     <td>
-         <br><div style="color: #85c04b; font-size: 25px;">한국과외<div>
+         <br><div style="color: #85c04b; font-size: 25px;">SKY 과외<div>
          <br>
     </td>
 </tr>
