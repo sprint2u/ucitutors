@@ -1,4 +1,5 @@
 <?php include('header.php'); ?>
+
 <!-- Main Starts -->
 <main class="main">
 <form name="tutor_application" ENCTYPE="multipart/form-data" action="tutor_application_go.php" method="post">
