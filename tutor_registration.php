@@ -63,7 +63,7 @@
     <td>(Upload a photo of your student ID card)</td>
 </tr>
 <tr>
-    <td colspan="3" align="left"><br>(Fill out for Korean school information hereunder, if applicable)
+    <td colspan="3" align="center"><br>(Fill out for Korean school information hereunder, if applicable)
     </td>
 </tr>
 <tr>
@@ -88,7 +88,7 @@
 </tr>
 <tr>
     <td colspan="3" align="center">
-        <input type="button" value="Register">
+        <br><input type="button" value="Register" form="tutor_application">
     </td>
 </tr>
 </table>
