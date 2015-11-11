@@ -1,5 +1,23 @@
 <?php include('header.php'); ?>
+<script language="javascript">
 
+function submit() {
+        
+    if (document.tutor_registration.tutor_name.value == "") {
+        alert('이름을 입력하세요');
+        document.tutor_registration.tutor_name.focus();
+        return;           
+    } else if (document.tutor_registration.uci_id.value == "") {
+        alert('ID을 입력하세요');
+        document.tutor_registration.uci_id.focus();
+        return;
+    } else {
+        document.tutor_registration.action = "tutor_registration_go.php";
+        document.tutor_registration.submit();
+    }       
+}
+
+</script>
 <!-- Main Starts -->
 <main class="main">
 <form name="tutor_registration" ENCTYPE="multipart/form-data" action="tutor_registration_go.php" method="post">
@@ -89,7 +107,7 @@
 </tr>
 <tr>
     <td colspan="3" align="center">
-        <br><input type="button" value="Register" form="tutor_registration"><br><br>
+        <br><input type="button" value="Register" onClick="javascript:submit();"><br><br>
     </td>
 </tr>
 </table>
