@@ -1,5 +1,7 @@
 <?
-$tutor_name = addslashes($tutor_name);
+$_POST["폼 텍스트 박스명"]
+$tutor_name = addslashes($_POST("tutor_name");
+  echo "$tutor_name";
 $uci_id = addslashes($uci_id);
 $uci_major = addslashes($uci_major);
 $tutoring_subject = addslashes($tutoring_subject);
