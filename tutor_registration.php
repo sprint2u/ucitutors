@@ -88,7 +88,7 @@
 </tr>
 <tr>
     <td colspan="3" align="center">
-        <input type="button" name="Register" action="">
+        <input type="button" value="Register">
     </td>
 </tr>
 </table>
