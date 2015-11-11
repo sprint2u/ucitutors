@@ -1,16 +1,16 @@
 <?php
 echo $_POST['tutor_name'];
-?>
-<?
-$tutor_name = addslashes($_POST("tutor_name");
 
-$uci_id = addslashes($uci_id);
-$uci_major = addslashes($uci_major);
-$tutoring_subject = addslashes($tutoring_subject);
-$tutoring_grade = addslashes($tutoring_grade);
-$kr_univ_name = addslashes($kr_univ_name);
-$kr_major = addslashes($kr_major);
-$kr_id = addslashes($kr_id);
+$tutor_name = addslashes($_POST('tutor_name');
+$uci_id = addslashes($_POST('uci_id');
+$uci_major = addslashes($_POST('uci_major');
+$tutoring_subject = addslashes($_POST('tutoring_subject');
+$tutoring_grade = addslashes($_POST('tutoring_grade');
+$uci_id_card = addslashes($_POST('uci_id_card');
+$kr_univ_name = addslashes($_POST('kr_univ_name');
+$kr_major = addslashes($_POST('kr_major');
+$kr_id = addslashes($_POST('kr_id');
+$kr_id_card = addslashes($_POST('kr_id_card');
 
 // 업로드한 파일이 저장될 디렉토리 정의
 $target_dir = "pds";  // 서버에 up 이라는 디렉토리가 있어야 한다.
