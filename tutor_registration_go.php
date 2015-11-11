@@ -15,6 +15,10 @@ $kr_id_card = addslashes($_POST('kr_id_card');
 // 업로드한 파일이 저장될 디렉토리 정의
 $target_dir = "pds";  // 서버에 up 이라는 디렉토리가 있어야 한다.
 
+echo "$tutoring_subject";
+?>
+
+<?
 if(strcmp($uci_id_card,"none")) {   // 파일이 업로드되었을 경우
 
 // 업로드 금지 파일 식별 부분
