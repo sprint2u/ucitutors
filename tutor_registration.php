@@ -2,7 +2,7 @@
 
 <!-- Main Starts -->
 <main class="main">
-<form name="tutor_application" ENCTYPE="multipart/form-data" action="tutor_application_go.php" method="post">
+<form name="tutor_registration" ENCTYPE="multipart/form-data" action="tutor_registration_go.php" method="post">
 <table width="850">
 <tr height="40">
     <td>
@@ -69,27 +69,27 @@
 </tr>
 <tr>
     <td align="right">출신학교명</td>
-    <td><input type="text" name="kor_univ_name" size="30" maxlength="100"></td>
+    <td><input type="text" name="kr_univ_name" size="30" maxlength="100"></td>
     <td>(e.g. 연세대학교)</td>
 </tr>
 <tr>
     <td align="right">출신학교 전공</td>
-    <td><input type="text" name="kor_major" size="40" maxlength="100"></td>
+    <td><input type="text" name="kr_major" size="40" maxlength="100"></td>
     <td>(e.g. 경영학)</td>
 </tr>
 <tr>
     <td align="right">출신학교 학번</td>
-    <td><input type="text" name="kor_id" size="20" maxlength="10"></td>
+    <td><input type="text" name="kr_id" size="20" maxlength="10"></td>
     <td>(e.g. 21342024)</td>
 </tr>
 <tr>
     <td align="right">학생증 사본</td>
-    <td><input type="file" name="kor_id_card" size="40"></td>
+    <td><input type="file" name="kr_id_card" size="40"></td>
     <td>(학생증 사진을 첨부해주세요)</td>
 </tr>
 <tr>
     <td colspan="3" align="center">
-        <br><input type="button" value="Register" form="tutor_application"><br><br>
+        <br><input type="button" value="Register" form="tutor_registration"><br><br>
     </td>
 </tr>
 </table>

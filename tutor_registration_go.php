@@ -1,4 +1,16 @@
 <?
+mysql_connect("localhost", "ucitutorsdba", "6776") or die (mysql_error()); 
+mysql_select_db("ucitutors");
+
+$tutor_name = addslashes($tutor_name);
+$uci_id = addslashes($uci_id);
+$uci_major = addslashes($uci_major);
+$tutoring_subject = addslashes($tutoring_subject);
+$tutoring_grade = addslashes($tutoring_grade);
+$kr_univ_name = addslashes($kr_univ_name);
+$kr_major = addslashes($kr_major);
+$kr_id = addslashes($kr_id);
+
 // 업로드한 파일이 저장될 디렉토리 정의
 $target_dir = "pds";  // 서버에 up 이라는 디렉토리가 있어야 한다.
 
@@ -39,7 +51,7 @@ if(strcmp($uci_id_card,"none")) {   // 파일이 업로드되었을 경우
 if(strcmp($uci_id_card,"none")) {   // 파일이 업로드되었을 경우
 
 // 업로드 금지 파일 식별 부분
-    $filename = explode(".", $kor_id_card_name);
+    $filename = explode(".", $kr_id_card_name);
     $extension = $filename[sizeof($filename)-1];
         
     if(!strcmp($extension,"html") || 
@@ -52,23 +64,29 @@ if(strcmp($uci_id_card,"none")) {   // 파일이 업로드되었을 경우
     }
 
 // 동일한 파일이 있는지 확인하는 부분
-    $target = $target_dir . "/" . $kor_id_card_name;
+    $target = $target_dir . "/" . $kr_id_card_name;
     if(file_exists($target)) {
        echo("동일 파일명 존재");
        exit;
     }
 
 // 지정된 디렉토리에 파일 저장하는 부분
-    if(!copy($kor_id_card,$target)) {   // false일 경우
+    if(!copy($kr_id_card,$target)) {   // false일 경우
        echo("파일 저장 실패");
        exit;
     }
 
 // 임시 파일을 삭제하는 부분
-    if(!unlink($kor_id_card)) { // false일 경우
+    if(!unlink($kr_id_card)) { // false일 경우
        echo("임시 파일 삭제 실패");
        exit;
     }
+
+$sql = "insert into ucitutors
+        values('$tutor_name','$uci_id','$uci_major','$tutoring_subject','$tutoring_grade',
+        '$uci_id_card','$kr_univ_name',$kr_major,'$kr_id',$kr_id_card)";
+
+mysql_query($sql) or die (mysql_error());
 ?>   
 
 <html>
