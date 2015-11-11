@@ -1,7 +1,4 @@
 <?
-mysql_connect("localhost", "ucitutorsdba", "6776") or die (mysql_error()); 
-mysql_select_db("ucitutors");
-
 $tutor_name = addslashes($tutor_name);
 $uci_id = addslashes($uci_id);
 $uci_major = addslashes($uci_major);
@@ -82,20 +79,20 @@ if(strcmp($uci_id_card,"none")) {   // 파일이 업로드되었을 경우
        exit;
     }
 
-$sql = "insert into ucitutors
+$sql = "insert into tutor_profile
         values('$tutor_name','$uci_id','$uci_major','$tutoring_subject','$tutoring_grade',
         '$uci_id_card','$kr_univ_name',$kr_major,'$kr_id',$kr_id_card)";
 
-mysql_query($sql) or die (mysql_error());
-?>   
+echo "$sql";
 
+mysql_connect("localhost", "ucitutorsdba", "6776") or die (mysql_error()); 
+mysql_select_db("ucitutors");
+mysql_query($sql) or die (mysql_error());
+
+?>   
 <html>
 <body>
     <table width="500" border="0" cellspacing="1" cellpadding="2" align="center">
-    <tr>
-       <td colspan="2" align="center" bgColor="#CCCCCC" width="100%"><font size=2><b>>> 
-            업로드 성공 <<</b></font></td>   
-    </tr>
     <tr>
        <td align="left" bgColor="#EEEEEE" width="120"><font size=2>파일명</font></td>
        <td bgColor="#EEEEEE"><font size=2><?echo("$uci_id_card_name")?></font></td>
