@@ -20,7 +20,7 @@ $target_dir = "pds";  // 서버에 up 이라는 디렉토리가 있어야 한다
 echo $tutoring_subject;
 
 if(strcmp($uci_id_card, "none")) {   // 파일이 업로드되었을 경우
-echo "upload part";
+echo ("upload part"); }
 /*
 // 업로드 금지 파일 식별 부분
     $filename = explode(".", $uci_id_card_name);
