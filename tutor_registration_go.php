@@ -1,7 +1,7 @@
 <?php
 echo $_POST['tutor_name'];
 
-$tutor_name = $_POST('tutor_name');
+$tutor_name = $_POST(tutor_name);
   echo $tutor_name;
 
 $uci_id = addslashes($_POST('uci_id'));
