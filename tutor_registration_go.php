@@ -18,12 +18,7 @@ $kr_id_card = addslashes($_POST['kr_id_card']);
 $target_dir = "pds";  // 서버에 up 이라는 디렉토리가 있어야 한다.
 
 echo $tutoring_subject;
-$sql = "insert into tutor_profile
-        values('$tutor_name','$uci_id','$uci_major','$tutoring_subject','$tutoring_grade',
-        '$uci_id_card','$kr_univ_name',$kr_major,'$kr_id','$kr_id_card')";
 
-echo $sql;
-/*
 if(strcmp($uci_id_card,"none")) {   // 파일이 업로드되었을 경우
 
 // 업로드 금지 파일 식별 부분
@@ -94,7 +89,7 @@ if(strcmp($uci_id_card,"none")) {   // 파일이 업로드되었을 경우
 
 $sql = "insert into tutor_profile
         values('$tutor_name','$uci_id','$uci_major','$tutoring_subject','$tutoring_grade',
-        '$uci_id_card','$kr_univ_name',$kr_major,'$kr_id',$kr_id_card)";
+        '$uci_id_card','$kr_univ_name',$kr_major,'$kr_id','$kr_id_card')";
 
 echo "$sql";
 
@@ -137,5 +132,5 @@ mysql_query($sql) or die (mysql_error());
 
 <?
 }
-*/
+
 ?>
