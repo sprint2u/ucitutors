@@ -3,7 +3,7 @@ echo $_POST['tutor_name'];
 
 $tutor_name = addslashes($_POST('tutor_name');
   echo "$tutor_name";
-
+/*
 $uci_id = addslashes($_POST('uci_id');
 $uci_major = addslashes($_POST('uci_major');
 $tutoring_subject = addslashes($_POST('tutoring_subject');
@@ -101,7 +101,7 @@ echo "$sql";
 mysql_connect("localhost", "ucitutorsdba", "6776") or die (mysql_error()); 
 mysql_select_db("ucitutors");
 mysql_query($sql) or die (mysql_error());
-*/
+
 ?>   
 <html>
 <body>
@@ -137,4 +137,5 @@ mysql_query($sql) or die (mysql_error());
 
 <?
 }
+*/
 ?>
