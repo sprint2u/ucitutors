@@ -20,7 +20,7 @@ $target_dir = "pds";  // 서버에 up 이라는 디렉토리가 있어야 한다
 echo $tutoring_subject;
 $sql = "insert into tutor_profile
         values('$tutor_name','$uci_id','$uci_major','$tutoring_subject','$tutoring_grade',
-        '$uci_id_card','$kr_univ_name',$kr_major,'$kr_id',$kr_id_card)";
+        '$uci_id_card','$kr_univ_name',$kr_major,'$kr_id','$kr_id_card')";
 
 echo $sql;
 /*
