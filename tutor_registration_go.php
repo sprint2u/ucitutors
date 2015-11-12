@@ -19,8 +19,9 @@ $target_dir = "pds";  // 서버에 up 이라는 디렉토리가 있어야 한다
 
 echo $tutoring_subject;
 
-if(strcmp($uci_id_card,"none")) {   // 파일이 업로드되었을 경우
-
+if(strcmp($uci_id_card, "none")) {   // 파일이 업로드되었을 경우
+echo "upload part";
+/*
 // 업로드 금지 파일 식별 부분
     $filename = explode(".", $uci_id_card_name);
     $extension = $filename[sizeof($filename)-1];
@@ -42,7 +43,7 @@ if(strcmp($uci_id_card,"none")) {   // 파일이 업로드되었을 경우
     }
 
 // 지정된 디렉토리에 파일 저장하는 부분
-    if(!copy($uci_id_card,$target)) {   // false일 경우
+    if(!copy($uci_id_card, $target)) {   // false일 경우
        echo("파일 저장 실패");
        exit;
     }
@@ -53,7 +54,7 @@ if(strcmp($uci_id_card,"none")) {   // 파일이 업로드되었을 경우
        exit;
     }
 
-if(strcmp($uci_id_card,"none")) {   // 파일이 업로드되었을 경우
+if(strcmp($kr_id_card, NULL)) {   // 파일이 업로드되었을 경우
 
 // 업로드 금지 파일 식별 부분
     $filename = explode(".", $kr_id_card_name);
@@ -119,7 +120,7 @@ mysql_query($sql) or die (mysql_error());
     </tr>
     </table>
 
-<?
+<?php
 } else {
 ?>
         <table width="500" border="0" cellspacing="1" cellpadding="2" align="center" bgcolor="#FFCCFF">
@@ -130,7 +131,7 @@ mysql_query($sql) or die (mysql_error());
 </body>
 </html>
 
-<?
+<?php
 }
 
 ?>
