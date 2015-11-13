@@ -1,5 +1,6 @@
 <? phpinfo(); ?>
-<?php
+<?
+/*php
 echo $_POST['tutor_name'] + '\n';
 
 $tutor_name = addslashes($_POST['tutor_name']);
