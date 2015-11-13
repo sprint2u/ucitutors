@@ -30,6 +30,8 @@ if(($_FILES['uci_id_card']['size'])>0) {
   echo $ucifilesize."\n";
   $uci_id_card_file = $uploaddir . "u" . $uci_id . "." . $ucifileext;
   echo $uci_id_card_file."\n";
+  $uci_id_card = basename($uci_id_card_file);
+  echo $uci_id_card."\n";
 }
 if(!move_uploaded_file($_FILES['uci_id_card']['tmp_name'], $uci_id_card_file)) {   // false일 경우
   echo("파일 저장 실패");
@@ -44,15 +46,19 @@ if(($_FILES['kr_id_card']['size'])>0) {
   echo $krfilesize."\n";
   $kr_id_card_file = $uploaddir . "k" . $uci_id . "." . $krfileext;
   echo $kr_id_card_file."\n";
+  $kr_id_card = basename($kr_id_card_file);
+  echo $kr_id_card."\n";
 }
 if(!move_uploaded_file($_FILES['kr_id_card']['tmp_name'], $kr_id_card_file)) {   // false일 경우
   echo("파일 저장 실패");
   exit;
 }
 
-echo "KR id card: ".$krfiletype."\n";
-echo $krfilesize."\n";
+$sql = "insert into tutor_profile
+        values('$tutor_name','$uci_id','$uci_major','$tutoring_subject','$tutoring_grade',
+        '$uci_id_card','$kr_univ_name',$kr_major,'$kr_id','$kr_id_card')";
 
+echo "$sql";
 
     /* 동일한 파일이 있는지 확인하는 부분
     if(file_exists($uploadfile)) {
@@ -75,8 +81,8 @@ echo $krfilesize."\n";
     */
 
 
-echo '자세한 디버깅 정보입니다:';
-print_r($_FILES);
+//echo '자세한 디버깅 정보입니다:';
+//print_r($_FILES);
 
 print "</pre>";
 /*
