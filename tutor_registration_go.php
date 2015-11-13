@@ -1,5 +1,5 @@
 <?php
-echo "Name:".$_POST['tutor_name'].'\n';
+echo "Name:" . $_POST['tutor_name'] . '\n';
 
 $tutor_name = addslashes($_POST['tutor_name']);
 $uci_id = addslashes($_POST['uci_id']);
@@ -15,10 +15,22 @@ $kr_id_card = addslashes($_POST['kr_id_card']);
 // 업로드한 파일이 저장될 디렉토리 정의
 $uploaddir = "pds";  // 서버에 up 이라는 디렉토리가 있어야 한다.
 
-echo $tutoring_subject."\n";
+echo $tutoring_subject . "chr(13)";
 
 $uploaddir = '/var/www/html/pds/';
 $uploadfile = $uploaddir . basename($_FILES['uci_id_card']['name']);
+$uploadfile_type = $_FILES['uci_id_card']['type']
+$uploadfile_size = $_FILES['uci_id_card']['size']
+if ($uploadfile_type="jpg" || $uploadfile_type="gif" || $uploadfile_type="jpeg") {
+  if ($uploadfile_size<2048000) {
+    // 동일한 파일이 있는지 확인하는 부분
+    $target = $uploaddir . "/" . $uci_id_card_name;
+    if(file_exists($target)) {
+       echo("동일 파일명 존재");
+       exit;
+    }
+  }
+}
 
 echo '<pre>';
 if (move_uploaded_file($_FILES['uci_id_card']['tmp_name'], $uploadfile)) {
@@ -32,38 +44,6 @@ print_r($_FILES);
 
 print "</pre>";
 /*
-// 업로드 금지 파일 식별 부분
-    $filename = explode(".", $uci_id_card_name);
-    $extension = $filename[sizeof($filename)-1];
-        
-    if(!strcmp($extension,"html") || 
-       !strcmp($extension,"htm") ||
-       !strcmp($extension,"php") ||      
-       !strcmp($extension,"inc"))
-    {
-       echo("업로드 금지 파일입니다.");
-       exit;
-    }
-
-// 동일한 파일이 있는지 확인하는 부분
-    $target = $target_dir . "/" . $uci_id_card_name;
-    if(file_exists($target)) {
-       echo("동일 파일명 존재");
-       exit;
-    }
-
-// 지정된 디렉토리에 파일 저장하는 부분
-    if(!copy($uci_id_card, $target)) {   // false일 경우
-       echo("파일 저장 실패");
-       exit;
-    }
-
-// 임시 파일을 삭제하는 부분
-    if(!unlink($uci_id_card)) { // false일 경우
-       echo("임시 파일 삭제 실패");
-       exit;
-    }
-
 if(strcmp($kr_id_card, NULL)) {   // 파일이 업로드되었을 경우
 
 // 업로드 금지 파일 식별 부분
