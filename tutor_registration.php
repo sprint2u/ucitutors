@@ -20,7 +20,7 @@ function submit() {
 </script>
 <!-- Main Starts -->
 <main class="main">
-<form name="tutor_registration" ENCTYPE="multipart/form-data" action="tutor_registration_go.php" method="post">
+<form name="tutor_registration" enctype="multipart/form-data" action="tutor_registration_go.php" method="post">
 <table width="850">
 <tr height="40">
     <td>
@@ -78,7 +78,10 @@ function submit() {
 </tr>
 <tr>
     <td align="right">Student Verification</td>
-    <td><input type="file" name="uci_id_card" size="40"></td>
+    <td>
+        <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
+        <input type="file" name="uci_id_card" size="40">
+    </td>
     <td>(Upload a photo of your student ID card)</td>
 </tr>
 <tr>
