@@ -22,8 +22,8 @@ $uploadfile = $uploaddir . basename($_FILES['uci_id_card']['name']);
     // 동일한 파일이 있는지 확인하는 부분
     if(file_exists($uploadfile)) {
       echo "동일 파일명 존재\n";
-      $uploadfile = basename($_FILES['uci_id_card']['name'] . "_";
-      $filename = explode(".", $uci_id_card_name);
+      //$uploadfile = basename($_FILES['uci_id_card']['name'] . "_";
+      //$filename = explode(".", $uci_id_card_name);
     }
     /*
     // 지정된 디렉토리에 파일 저장하는 부분
