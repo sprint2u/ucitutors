@@ -19,16 +19,17 @@ echo $tutoring_subject . "\n";
 
 $uploaddir = '/var/www/html/pds/';
 $uploadfile = $uploaddir . basename($_FILES['uci_id_card']['name']);
-//$filetype = $_FILES['uci_id_card']['type']
-//$filesize = $_FILES['uci_id_card']['size']
-/*
-if ($filetype="jpg" || $filetype="gif" || $filetype="jpeg") {
-  if ($filesize<2048000) {
     // 동일한 파일이 있는지 확인하는 부분
     if(file_exists($uploadfile)) {
        echo("동일 파일명 존재");
        exit;
     }
+//$filetype = $_FILES['uci_id_card']['type']
+//$filesize = $_FILES['uci_id_card']['size']
+/*
+if ($filetype="jpg" || $filetype="gif" || $filetype="jpeg") {
+  if ($filesize<2048000) {
+
   }
 }
 */
