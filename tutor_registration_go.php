@@ -58,7 +58,7 @@ $sql = "insert into tutor_profile
         (tutor_name, uci_id, uci_major, tutoring_subject, tutoring_grade, 
         uci_id_card, kr_univ_name, kr_major, kr_id, kr_id_card)
         values ('$tutor_name','$uci_id','$uci_major','$tutoring_subject','$tutoring_grade',
-        '$uci_id_card','$kr_univ_name',$kr_major,'$kr_id','$kr_id_card');";
+        '$uci_id_card','$kr_univ_name','$kr_major','$kr_id','$kr_id_card');";
 
 echo "$sql";
 
