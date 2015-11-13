@@ -21,9 +21,14 @@ $uploaddir = '/var/www/html/pds/';
 $uploadfile = $uploaddir . basename($_FILES['uci_id_card']['name']);
     // 동일한 파일이 있는지 확인하는 부분
     if(file_exists($uploadfile)) {
+      echo '<pre>';
       echo "동일 파일명 존재\n";
       echo $uploadfile . "\n";
       echo $_FILES['uci_id_card']['name'] . "\n";
+      echo explode(".", $_FILES['uci_id_card']['name']) . "\n";
+      $temp_filename = basename($_FILES['uci_id_card']['name']);
+      echo $temp_filename . "\n";
+      echo '</pre>';
       //$uploadfile = basename($_FILES['uci_id_card']['name'] . "_";
       //$filename = explode(".", $uci_id_card_name);
     }
