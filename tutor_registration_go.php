@@ -13,14 +13,24 @@ $kr_id = addslashes($_POST['kr_id']);
 $kr_id_card = addslashes($_POST['kr_id_card']);
 
 // 업로드한 파일이 저장될 디렉토리 정의
-$target_dir = "pds";  // 서버에 up 이라는 디렉토리가 있어야 한다.
+$uploaddir = "pds";  // 서버에 up 이라는 디렉토리가 있어야 한다.
 
 echo $tutoring_subject."\n";
 
-if(!($uci_id_card)) {   // 파일이 업로드되었을 경우
-echo "upload ok"."\n"; 
-echo $uci_id_card."\n";
+$uploaddir = '/var/www/html/pds/';
+$uploadfile = $uploaddir . basename($_FILES['uci_id_card']['name']);
+
+echo '<pre>';
+if (move_uploaded_file($_FILES['uci_id_card']['tmp_name'], $uploadfile)) {
+    echo "파일이 유효하고, 성공적으로 업로드 되었습니다.\n";
+} else {
+    print "파일 업로드 공격의 가능성이 있습니다!\n";
 }
+
+echo '자세한 디버깅 정보입니다:';
+print_r($_FILES);
+
+print "</pre>";
 /*
 // 업로드 금지 파일 식별 부분
     $filename = explode(".", $uci_id_card_name);
