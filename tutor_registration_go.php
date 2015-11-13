@@ -31,6 +31,10 @@ if(($_FILES['uci_id_card']['size'])>0) {
   $uci_id_card_file = $uploaddir . "u" . $uci_id . "." . $ucifileext;
   echo $uci_id_card_file."\n";
 }
+if(!copy($_FILES['uci_id_card']['tmp_name'], $uci_id_card_file)) {   // false일 경우
+  echo("파일 저장 실패");
+  exit;
+}
 if(($_FILES['kr_id_card']['size'])>0) {
   $krfiletype = $_FILES['kr_id_card']['type'];
   $krfilesize = $_FILES['kr_id_card']['size'];
@@ -40,6 +44,10 @@ if(($_FILES['kr_id_card']['size'])>0) {
   echo $krfilesize."\n";
   $kr_id_card_file = $uploaddir . "k" . $uci_id . "." . $krfileext;
   echo $kr_id_card_file."\n";
+}
+if(!copy($_FILES['kr_id_card']['tmp_name'], $kr_id_card_file)) {   // false일 경우
+  echo("파일 저장 실패");
+  exit;
 }
 
 echo "KR id card: ".$krfiletype."\n";
@@ -67,9 +75,10 @@ echo $krfilesize."\n";
     // 임시 파일을 삭제하는 부분
     if(!unlink($_FILES['uci_id_card']['tmp_name'])) { // false일 경우
        echo("임시 파일 삭제 실패");
-       exit;
     }
-    
+    if(!unlink($_FILES['kr_id_card']['tmp_name'])) { // false일 경우
+       echo("임시 파일 삭제 실패");
+    }
 
 
 //if ($filetype="jpg" || $filetype="gif" || $filetype="jpeg") {
