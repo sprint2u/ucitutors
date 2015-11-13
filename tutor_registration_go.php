@@ -88,9 +88,9 @@ echo "$sql";
 
 print "</pre>";
 
-mysql_connect("localhost", "ucitutorsdba", "6776") or die (mysql_error()); 
-mysql_select_db("ucitutors");
-mysql_query($sql) or die (mysql_error());
+$conn = mysql_connect('localhost', 'ucitutorsdba', '6776') or die (mysql_error()); 
+$db = mysql_select_db('ucitutors', $conn);
+mysql_query($sql, $conn) or die (mysql_error());
 /*
 if(strcmp($kr_id_card, NULL)) {   // 파일이 업로드되었을 경우
 
