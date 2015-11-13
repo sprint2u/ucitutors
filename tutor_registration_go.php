@@ -17,11 +17,15 @@ $uploaddir = "pds";  // 서버에 up 이라는 디렉토리가 있어야 한다.
 
 echo $tutoring_subject . "\n";
 
-$filetype = $_FILES['uci_id_card']['type']
-$filesize = $_FILES['uci_id_card']['size']
+$ucifiletype = $_FILES['uci_id_card']['type'];
+$ucifilesize = $_FILES['uci_id_card']['size'];
+$krfiletype = $_FILES['kr_id_card']['type'];
+$krfilesize = $_FILES['kr_id_card']['size'];
 echo '<pre>';
-echo $filetype."\n";
-echo $filesize."\n";
+echo $ucifiletype."\n";
+echo $ucifilesize."\n";
+echo $krfiletype."\n";
+echo $krfilesize."\n";
 
 $uploaddir = '/var/www/html/pds/';
 $uploadfile = $uploaddir . basename($_FILES['uci_id_card']['name']);
