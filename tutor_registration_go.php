@@ -29,7 +29,8 @@ $uploadfile = $uploaddir . basename($_FILES['uci_id_card']['name']);
       echo "파일명: ".$temp_filename[0] . "\n";
       echo "확장자 ".$temp_filename[sizeof($temp_filename)-1] . "\n";
       echo "새이름: ".$temp_filename[0]."1.".$temp_filename[sizeof($temp_filename)-1] . "\n";
-
+      $uploadfile = $uploaddir . $temp_filename[0]."1.".$temp_filename[sizeof($temp_filename)-1];
+      echo "새경로 ".$uploadfile;
       echo '</pre>';
       //$uploadfile = basename($_FILES['uci_id_card']['name'] . "_";
       //$filename = explode(".", $uci_id_card_name);
