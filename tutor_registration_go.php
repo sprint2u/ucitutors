@@ -29,13 +29,13 @@ $uploadfile = $uploaddir . basename($_FILES['uci_id_card']['name']);
       echo "파일명: ".$temp_filename[0] . "\n";
       echo "확장자 ".$temp_filename[sizeof($temp_filename)-1] . "\n";
       echo "새이름: ".$temp_filename[0]."1.".$temp_filename[sizeof($temp_filename)-1] . "\n";
-      $uploadfile = $uploaddir . $temp_filename[0]."1.".$temp_filename[sizeof($temp_filename)-1];
+      $uploadfile = $uploaddir . $temp_filename[0]."a.".$temp_filename[sizeof($temp_filename)-1];
       echo "새경로 ".$uploadfile;
       echo '</pre>';
       //$uploadfile = basename($_FILES['uci_id_card']['name'] . "_";
       //$filename = explode(".", $uci_id_card_name);
     }
-    /*
+    
     // 지정된 디렉토리에 파일 저장하는 부분
     if(!copy($_FILES['uci_id_card']['tmp_name'], $uploadfile)) {   // false일 경우
        echo("파일 저장 실패");
@@ -47,7 +47,7 @@ $uploadfile = $uploaddir . basename($_FILES['uci_id_card']['name']);
        echo("임시 파일 삭제 실패");
        exit;
     }
-    */
+    
 //$filetype = $_FILES['uci_id_card']['type']
 //$filesize = $_FILES['uci_id_card']['size']
 
