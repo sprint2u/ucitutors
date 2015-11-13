@@ -17,7 +17,7 @@ $target_dir = "pds";  // 서버에 up 이라는 디렉토리가 있어야 한다
 
 echo $tutoring_subject."\n";
 
-if(!strcmp($uci_id_card, NULL)) {   // 파일이 업로드되었을 경우
+if(!($uci_id_card)) {   // 파일이 업로드되었을 경우
 echo "upload ok"."\n"; 
 echo $uci_id_card."\n";
 }
