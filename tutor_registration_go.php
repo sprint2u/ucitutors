@@ -21,7 +21,18 @@ $uploaddir = '/var/www/html/pds/';
 $uploadfile = $uploaddir . basename($_FILES['uci_id_card']['name']);
     // 동일한 파일이 있는지 확인하는 부분
     if(file_exists($uploadfile)) {
-       echo("동일 파일명 존재");
+       echo "동일 파일명 존재\n";
+       $uploadfile = $uploadfile . "_";
+    }
+    // 지정된 디렉토리에 파일 저장하는 부분
+    if(!copy($uci_id_card, $uploadfile)) {   // false일 경우
+       echo("파일 저장 실패");
+       exit;
+    }
+
+// 임시 파일을 삭제하는 부분
+    if(!unlink($uci_id_card)) { // false일 경우
+       echo("임시 파일 삭제 실패");
        exit;
     }
 //$filetype = $_FILES['uci_id_card']['type']
@@ -32,7 +43,7 @@ if ($filetype="jpg" || $filetype="gif" || $filetype="jpeg") {
 
   }
 }
-*/
+
 echo '<pre>';
 if (move_uploaded_file($_FILES['uci_id_card']['tmp_name'], $uploadfile)) {
     echo "파일이 유효하고, 성공적으로 업로드 되었습니다.\n";
