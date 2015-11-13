@@ -1,5 +1,5 @@
 <?php
-echo "Name:" . $_POST['tutor_name'] . '\n';
+echo "Name:" . $_POST['tutor_name'] . "\n";
 
 $tutor_name = addslashes($_POST['tutor_name']);
 $uci_id = addslashes($_POST['uci_id']);
@@ -15,12 +15,12 @@ $kr_id_card = addslashes($_POST['kr_id_card']);
 // 업로드한 파일이 저장될 디렉토리 정의
 $uploaddir = "pds";  // 서버에 up 이라는 디렉토리가 있어야 한다.
 
-echo $tutoring_subject . "chr(13)";
+echo $tutoring_subject . "\n";
 
 $uploaddir = '/var/www/html/pds/';
 $uploadfile = $uploaddir . basename($_FILES['uci_id_card']['name']);
-$filetype = $_FILES['uci_id_card']['type']
-$filesize = $_FILES['uci_id_card']['size']
+//$filetype = $_FILES['uci_id_card']['type']
+//$filesize = $_FILES['uci_id_card']['size']
 /*
 if ($filetype="jpg" || $filetype="gif" || $filetype="jpeg") {
   if ($filesize<2048000) {
