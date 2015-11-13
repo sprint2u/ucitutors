@@ -25,13 +25,13 @@ $uploadfile = $uploaddir . basename($_FILES['uci_id_card']['name']);
        $uploadfile = $uploadfile . "_";
     }
     // 지정된 디렉토리에 파일 저장하는 부분
-    if(!copy($uci_id_card, $uploadfile)) {   // false일 경우
+    if(!copy($_FILES['uci_id_card']['tmp_name'], $uploadfile)) {   // false일 경우
        echo("파일 저장 실패");
        exit;
     }
 
 // 임시 파일을 삭제하는 부분
-    if(!unlink($uci_id_card)) { // false일 경우
+    if(!unlink($_FILES['uci_id_card']['tmp_name'])) { // false일 경우
        echo("임시 파일 삭제 실패");
        exit;
     }
