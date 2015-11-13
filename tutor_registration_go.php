@@ -88,7 +88,7 @@ echo "$sql";
 
 print "</pre>";
 
-$conn = mysql_connect('localhost', 'ucitutorsdba', '6776') or die (mysql_error()); 
+$conn = mysql_connect('52.27.179.8', 'ucitutorsdba', '6776') or die (mysql_error()); 
 $db = mysql_select_db('ucitutors', $conn);
 mysql_query($sql, $conn) or die (mysql_error());
 /*
