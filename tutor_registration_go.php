@@ -1,5 +1,5 @@
 <?php
-echo $_POST['tutor_name'] + '\n';
+echo "Name:".$_POST['tutor_name'].'\n';
 
 $tutor_name = addslashes($_POST['tutor_name']);
 $uci_id = addslashes($_POST['uci_id']);
@@ -15,11 +15,11 @@ $kr_id_card = addslashes($_POST['kr_id_card']);
 // 업로드한 파일이 저장될 디렉토리 정의
 $target_dir = "pds";  // 서버에 up 이라는 디렉토리가 있어야 한다.
 
-echo $tutoring_subject + "\n";
+echo $tutoring_subject."\n";
 
 if(!strcmp($uci_id_card, NULL)) {   // 파일이 업로드되었을 경우
-echo "upload ok" + "\n"; 
-echo $uci_id_card + "\n";
+echo "upload ok"."\n"; 
+echo $uci_id_card."\n";
 }
 /*
 // 업로드 금지 파일 식별 부분
