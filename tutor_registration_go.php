@@ -23,7 +23,7 @@ $uploadfile = $uploaddir . basename($_FILES['uci_id_card']['name']);
     if(file_exists($uploadfile)) {
       echo "동일 파일명 존재\n";
       echo $uploadfile . "\n";
-      echo ($_FILES['uci_id_card']['name'] . "\n";
+      echo $_FILES['uci_id_card']['name'] . "\n";
       //$uploadfile = basename($_FILES['uci_id_card']['name'] . "_";
       //$filename = explode(".", $uci_id_card_name);
     }
