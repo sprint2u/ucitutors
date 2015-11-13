@@ -19,13 +19,12 @@ echo $tutoring_subject . "chr(13)";
 
 $uploaddir = '/var/www/html/pds/';
 $uploadfile = $uploaddir . basename($_FILES['uci_id_card']['name']);
-$uploadfile_type = $_FILES['uci_id_card']['type']
-$uploadfile_size = $_FILES['uci_id_card']['size']
-if ($uploadfile_type="jpg" || $uploadfile_type="gif" || $uploadfile_type="jpeg") {
-  if ($uploadfile_size<2048000) {
+$filetype = $_FILES['uci_id_card']['type']
+$filesize = $_FILES['uci_id_card']['size']
+if ($filetype="jpg" || $filetype="gif" || $filetype="jpeg") {
+  if ($filesize<2048000) {
     // 동일한 파일이 있는지 확인하는 부분
-    $target = $uploaddir . "/" . $uci_id_card_name;
-    if(file_exists($target)) {
+    if(file_exists($uploadfile)) {
        echo("동일 파일명 존재");
        exit;
     }
