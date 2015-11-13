@@ -21,6 +21,7 @@ $uploaddir = '/var/www/html/pds/';
 $uploadfile = $uploaddir . basename($_FILES['uci_id_card']['name']);
 $filetype = $_FILES['uci_id_card']['type']
 $filesize = $_FILES['uci_id_card']['size']
+/*
 if ($filetype="jpg" || $filetype="gif" || $filetype="jpeg") {
   if ($filesize<2048000) {
     // 동일한 파일이 있는지 확인하는 부분
@@ -30,7 +31,7 @@ if ($filetype="jpg" || $filetype="gif" || $filetype="jpeg") {
     }
   }
 }
-
+*/
 echo '<pre>';
 if (move_uploaded_file($_FILES['uci_id_card']['tmp_name'], $uploadfile)) {
     echo "파일이 유효하고, 성공적으로 업로드 되었습니다.\n";
