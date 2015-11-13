@@ -1,4 +1,5 @@
 <?php
+echo '<pre>';
 echo "Name:" . $_POST['tutor_name'] . "\n";
 
 $tutor_name = addslashes($_POST['tutor_name']);
@@ -17,18 +18,30 @@ $uploaddir = "pds";  // 서버에 up 이라는 디렉토리가 있어야 한다.
 
 echo $tutoring_subject . "\n";
 
-$ucifiletype = $_FILES['uci_id_card']['type'];
-$ucifilesize = $_FILES['uci_id_card']['size'];
-$krfiletype = $_FILES['kr_id_card']['type'];
-$krfilesize = $_FILES['kr_id_card']['size'];
-echo '<pre>';
-echo "uci id card: ".$ucifiletype."\n";
-echo $ucifilesize."\n";
+$uploaddir = '/var/www/html/pds/';
+$uploadfile = $uploaddir . basename($_FILES['uci_id_card']['name']);
+
+if(($_FILES['uci_id_card']['size'])>0) {
+  $ucifiletype = $_FILES['uci_id_card']['type'];
+  $ucifilesize = $_FILES['uci_id_card']['size'];
+  echo "uci id card: ".$ucifiletype."\n";
+  echo $ucifilesize."\n";
+  $uci_id_card_file = $uploaddir . "uci" . $uci_id . "." . $ucifiletype;
+  echo $uci_id_card_file."\n";
+}
+if(($_FILES['kr_id_card']['size'])>0) {
+  $krfiletype = $_FILES['kr_id_card']['type'];
+  $krfilesize = $_FILES['kr_id_card']['size'];
+  echo "kr id card: ".$krfiletype."\n";
+  echo $krfilesize."\n";
+  $kr_id_card_file = $uploaddir . "uci" . $uci_id . "." . $krfiletype;
+  echo $kr_id_card_file."\n";
+}
+
 echo "KR id card: ".$krfiletype."\n";
 echo $krfilesize."\n";
 
-$uploaddir = '/var/www/html/pds/';
-$uploadfile = $uploaddir . basename($_FILES['uci_id_card']['name']);
+
     // 동일한 파일이 있는지 확인하는 부분
     if(file_exists($uploadfile)) {
       echo "동일 파일명 존재\n";
