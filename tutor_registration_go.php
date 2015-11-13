@@ -56,7 +56,7 @@ if(!move_uploaded_file($_FILES['kr_id_card']['tmp_name'], $kr_id_card_file)) {  
 
 $sql = "insert into tutor_profile
         values('$tutor_name','$uci_id','$uci_major','$tutoring_subject','$tutoring_grade',
-        '$uci_id_card','$kr_univ_name',$kr_major,'$kr_id','$kr_id_card')";
+        '$uci_id_card','$kr_univ_name',$kr_major,'$kr_id','$kr_id_card');";
 
 echo "$sql";
 
