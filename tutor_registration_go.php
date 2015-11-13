@@ -24,7 +24,8 @@ $uploadfile = $uploaddir . basename($_FILES['uci_id_card']['name']);
 if(($_FILES['uci_id_card']['size'])>0) {
   $ucifiletype = $_FILES['uci_id_card']['type'];
   $ucifilesize = $_FILES['uci_id_card']['size'];
-  $ucifileext = ($_FILES['uci_id_card']['name'])[sizeof(($_FILES['uci_id_card']['name']))-1];
+  $ucitemp = explode(".", basename($_FILES['uci_id_card']['name']));
+  $ucifileext = $ucitemp[sizeof($ucitemp)-1];
   echo "uci id card: ".$ucifiletype."\n";
   echo $ucifilesize."\n";
   $uci_id_card_file = $uploaddir . "u" . $uci_id . "." . $ucifileext;
@@ -33,7 +34,8 @@ if(($_FILES['uci_id_card']['size'])>0) {
 if(($_FILES['kr_id_card']['size'])>0) {
   $krfiletype = $_FILES['kr_id_card']['type'];
   $krfilesize = $_FILES['kr_id_card']['size'];
-  $krfileext = ($_FILES['kr_id_card']['name'])[sizeof(($_FILES['kr_id_card']['name']))-1];
+  $krtemp = explode(".", basename($_FILES['kr_id_card']['name']));
+  $krfileext = $krtemp[sizeof($krtemp)-1];
   echo "kr id card: ".$krfiletype."\n";
   echo $krfilesize."\n";
   $kr_id_card_file = $uploaddir . "k" . $uci_id . "." . $krfileext;
