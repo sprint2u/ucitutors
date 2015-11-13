@@ -22,9 +22,9 @@ $ucifilesize = $_FILES['uci_id_card']['size'];
 $krfiletype = $_FILES['kr_id_card']['type'];
 $krfilesize = $_FILES['kr_id_card']['size'];
 echo '<pre>';
-echo $ucifiletype."\n";
+echo "uci id card: ".$ucifiletype."\n";
 echo $ucifilesize."\n";
-echo $krfiletype."\n";
+echo "KR id card: ".$krfiletype."\n";
 echo $krfilesize."\n";
 
 $uploaddir = '/var/www/html/pds/';
