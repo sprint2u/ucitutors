@@ -15,9 +15,7 @@
         </h3><br>
         <p>전공: Pharmaceutical Sciences</p>
         <p>어학: English(Native), 한국어(상)</p>
-        <p>과외경력:</p>
-		<p>In summer of 2014, I worked at Manchester Academy and taught private lessons in English and Math to Kindergarten, Elementary, and Middle School students. I also volunteered at Good Samaritan Hospital for 4 years and was president of the Youth Drug Abuse Prevention Program.
-        </p>
+        <p>과목: K-12, 생활영어, 입학준비</p>
     </td>
     <td width="50"></td>
 	<td width="250" valign="top">
@@ -26,9 +24,7 @@
         </h3><br>
         <p>전공: Business</p>
         <p>어학: English(Native)</p>
-        <p>과외경력:</p> 
-        <p>Last two summers I tutored high schoolers in math through the non-profit company of NCRF. I have also tutored peers while in high school, and have helped my younger brother with his schoolwork as well.
-        </p>   
+        <p>과목: K-12, 생활영어</p>
     </td>
     <td width="50"></td>
     <td width="250" valign="top">
@@ -37,9 +33,7 @@
         </h3><br>
         <p>전공: Business</p>
         <p>어학: English(Native)</p>
-        <p>과외경력:</p> 
-        <p>I volunteered at my middle school’s daycare throughout high school. At the daycare, we helped elementary school students with their studies and also played with them outside until their parents came to pick them up. When I am home, I help my younger sister with her homework when she needs assistance. In the summer of 2013, I volunteered at Cedar Sinai Hospital in the Rehabilitation Unit.
-        </p>        
+        <p>과목: K-12, 생활영어</p>               
     </td>  
 </tr>
 <tr height="30">
@@ -52,9 +46,7 @@
         </h3><br>
         <p>전공: Computer Science</p>
         <p>어학: English(Native), 한국어(중)</p>
-        <p>과외경력:</p> 
-        <p>I have experience in tutoring, baby sitting, and as a summer fun junior leader. My responsibilities as a junior leader included assisting the summer fun leader in watching over the group of children(aprox. 20-30). I have dealt with children in small groups, big groups as well as one on one and in any age group.
-        </p>        
+        <p>과목: K-12, 생활영어, 입학준비</p>
     </td>
     <td width="50"></td>
     <td width="250" valign="top">
@@ -62,9 +54,7 @@
         <h3 style="color:black;">Erick Contreras<br>
         </h3><br>
         <p>전공: Mathematics</p>
-        <p>과외경력:</p> 
-        <p>Last two summers I tutored high schoolers in math through the non-profit company of NCRF. I have also tutored peers while in high school, and have helped my younger brother with his schoolwork as well.
-        </p>   
+        <p>과목: K-12, 생활영어, 입학준비</p>
     </td>
     <td width="50"></td>
     <td width="250" valign="top">
@@ -73,9 +63,7 @@
         </h3><br>
         <p>전공: Psychology and Social Behavior</p>
         <p>어학: English(Native), 한국어(중)</p>
-        <p>과외경력:</p> 
-        <p>I volunteered at my middle school’s daycare throughout high school. At the daycare, we helped elementary school students with their studies and also played with them outside until their parents came to pick them up. When I am home, I help my younger sister with her homework when she needs assistance. In the summer of 2013, I volunteered at Cedar Sinai Hospital in the Rehabilitation Unit.
-        </p>        
+        <p>과목: K-12, 생활영어, 입학준비</p>
     </td>  
 </tr>
 <tr height="30">
