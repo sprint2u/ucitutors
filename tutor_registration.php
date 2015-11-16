@@ -41,7 +41,7 @@ function submit() {
 <tr>
     <td width="250" align="right">Major</td>
     <td><input type="text" name="uci_major" size="40" maxlength="100"></td>
-    <td>(e.g. Computer Engineering)</td>
+    <td>(e.g. Computer Science)</td>
 </tr>
 <tr>
     <td width="250" align="right">English</td>
@@ -128,7 +128,7 @@ function submit() {
         <input type="hidden" name="MAX_FILE_SIZE" value="2048000" />
         <input type="file" name="kr_id_card" size="40">
     </td>
-    <td>(학생증 사진을 첨부해주세요)</td>
+    <td>(학생증 사본을 첨부해주세요)</td>
 </tr>
 <tr>
     <td colspan="3" align="center">

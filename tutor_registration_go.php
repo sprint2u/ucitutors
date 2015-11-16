@@ -5,6 +5,8 @@ echo "Name:" . $_POST['tutor_name'] . "\n";
 $tutor_name = addslashes($_POST['tutor_name']);
 $uci_id = addslashes($_POST['uci_id']);
 $uci_major = addslashes($_POST['uci_major']);
+$english = addslashes($_POST['englisih']);
+$korean = addslashes($_POST['korean']);
 $tutoring_subject = addslashes($_POST['tutoring_subject']);
 $tutoring_grade = addslashes($_POST['tutoring_grade']);
 $uci_id_card = addslashes($_POST['uci_id_card']);
@@ -55,9 +57,9 @@ if(!move_uploaded_file($_FILES['kr_id_card']['tmp_name'], $kr_id_card_file)) {  
 }
 
 $sql = "insert into tutor_profile
-        (tutor_name, uci_id, uci_major, tutoring_subject, tutoring_grade, 
+        (tutor_name, uci_id, uci_major, english, korean, tutoring_subject, tutoring_grade, 
         uci_id_card, kr_univ_name, kr_major, kr_id, kr_id_card)
-        values ('$tutor_name','$uci_id','$uci_major','$tutoring_subject','$tutoring_grade',
+        values ('$tutor_name','$uci_id','$uci_major','$english','$korean','$tutoring_subject','$tutoring_grade',
         '$uci_id_card','$kr_univ_name','$kr_major','$kr_id','$kr_id_card');";
 
 echo "$sql";
