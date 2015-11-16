@@ -46,20 +46,18 @@ function submit() {
 <tr>
     <td width="250" align="right">Languages</td>
     <td>English:
-        <select name="english" size="3">
-            <option value="native">Native</option>
-            <option value="fluent">Fluent</option>
-            <option value="intermediate">Intermediate</option>
-            <option value="begineer">Beginner</option>
-        </select>
+        <input type="radio" name="english" value="native">Native &nbsp;
+        <input type="radio" name="english" value="fluent">Fluent &nbsp;
+        <input type="radio" name="english" value="intermediate">Intermediate &nbsp;
+        <input type="radio" name="english" value="begineer">Beginner &nbsp;
+        <input type="radio" name="english" value="na">N/A &nbsp;
     </td>
     <td>Korean:
-        <select name="korean" size="3">
-            <option value="native">Native</option>
-            <option value="fluent">Fluent</option>
-            <option value="intermediate">Intermediate</option>
-            <option value="begineer">Beginner</option>
-        </select>
+        <input type="radio" name="korean" value="native">Native &nbsp;
+        <input type="radio" name="korean" value="fluent">Fluent &nbsp;
+        <input type="radio" name="korean" value="intermediate">Intermediate &nbsp;
+        <input type="radio" name="korean" value="begineer">Beginner &nbsp;
+        <input type="radio" name="korean" value="na">N/A &nbsp;
     </td>
 </tr>
 <tr>
