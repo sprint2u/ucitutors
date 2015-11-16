@@ -12,7 +12,7 @@
     <td width="250" class="profile" valign="top">
         <img src="/Image/songi.jpg" width="200">
         <h3 style="color:black;">Song Choi<br>
-        </h3><br>
+        </h3>
         <p>전공: Pharmaceutical Sciences</p>
         <p>어학: English(Native), 한국어(상)</p>
         <p>과목: K-12, 생활영어, 입학준비</p>
@@ -21,7 +21,7 @@
 	<td width="250" valign="top">
         <img src="/Image/ben.jpg" width="200">
         <h3 style="color:black;">Ben Kempenich<br>
-        </h3><br>
+        </h3>
         <p>전공: Business</p>
         <p>어학: English(Native)</p>
         <p>과목: K-12, 생활영어</p>
@@ -30,7 +30,7 @@
     <td width="250" valign="top">
         <img src="/Image/paul.jpg" width="200">
         <h3 style="color:black;">Paul Crowley<br>
-        </h3><br>
+        </h3>
         <p>전공: Business</p>
         <p>어학: English(Native)</p>
         <p>과목: K-12, 생활영어</p>               
@@ -43,7 +43,7 @@
     <td width="250" valign="top">
         <img src="/Image/daniel.jpg" width="200">
         <h3 style="color:black;">Daniel Chung<br>
-        </h3><br>
+        </h3>
         <p>전공: Computer Science</p>
         <p>어학: English(Native), 한국어(중)</p>
         <p>과목: K-12, 생활영어, 입학준비</p>
@@ -52,7 +52,7 @@
     <td width="250" valign="top">
         <img src="/Image/erick.jpg" width="200">
         <h3 style="color:black;">Erick Contreras<br>
-        </h3><br>
+        </h3>
         <p>전공: Mathematics</p>
         <p>과목: K-12, 생활영어, 입학준비</p>
     </td>
@@ -60,7 +60,7 @@
     <td width="250" valign="top">
         <img src="/Image/mark.jpg" width="200">
         <h3 style="color:black;">Mark Kim<br>
-        </h3><br>
+        </h3>
         <p>전공: Psychology and Social Behavior</p>
         <p>어학: English(Native), 한국어(중)</p>
         <p>과목: K-12, 생활영어, 입학준비</p>
