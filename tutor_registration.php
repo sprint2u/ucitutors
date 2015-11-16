@@ -43,11 +43,29 @@ function submit() {
     <td><input type="text" name="uci_major" size="40" maxlength="100"></td>
     <td>(e.g. Computer Engineering)</td>
 </tr>
-
+<tr>
+    <td width="250" align="right">Languages</td>
+    <td>English:
+        <select name="english" size="3">
+            <option value="native">Native</option>
+            <option value="fluent">Fluent</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="begineer">Beginner</option>
+        </select>
+    </td>
+    <td>Korean:
+        <select name="korean" size="3">
+            <option value="native">Native</option>
+            <option value="fluent">Fluent</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="begineer">Beginner</option>
+        </select>
+    </td>
+</tr>
 <tr>
     <td align="right">Subject of Tutoring</td>
     <td>
-    	<select name="tutoring_subject" size="5" multiple>
+    	<select name="tutoring_subject" size="7" multiple>
     		<optgroup label="US Courses">
     			<option value="math">Math</option>
     			<option value="reading">Reading</option>
@@ -68,7 +86,7 @@ function submit() {
 <tr>
     <td align="right">Tutoring Grade</td>
     <td>
-    	<select name="tutoring_grade" size="3" multiple>
+    	<select name="tutoring_grade" size="2" multiple>
     		<option value="elementary">Elementary School</option>
     		<option value="middle">Middle School</option>
     		<option value="high">High School</option>
