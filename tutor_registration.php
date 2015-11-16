@@ -44,6 +44,16 @@ function submit() {
     <td>(e.g. Computer Science)</td>
 </tr>
 <tr>
+    <td width="250" align="right">Mobile</td>
+    <td><input type="text" name="mobile" size="40" maxlength="12"></td>
+    <td>(e.g. 949-123-4567)</td>
+</tr>
+<tr>
+    <td width="250" align="right">Email</td>
+    <td><input type="text" name="email" size="40" maxlength="100"></td>
+    <td>(e.g. anteater@uci.edu)</td>
+</tr>
+<tr>
     <td width="250" align="right">English</td>
     <td colspan="2">&nbsp;&nbsp;
         <input type="radio" name="english" value="native">Native &nbsp;
