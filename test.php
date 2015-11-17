@@ -6,8 +6,8 @@ if ($_POST) {
 }
 ?>
 <form action="" method="post">
-    이름: <input type="text" name="personal[name]" /><br />
-    메일: <input type="text" name="personal[email]" /><br />
+    이름: <input type="text" name="personal[name]" />aa<br />
+    메일: <input type="text" name="personal[email]" />mai@il.com<br />
     맥주: <br />
     <select multiple name="beer[]">
         <option value="warthog">Warthog</option>
