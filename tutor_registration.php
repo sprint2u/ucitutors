@@ -76,7 +76,7 @@ function submit() {
 <tr>
     <td align="right">Subject of Tutoring</td>
     <td>
-    	<select name="tutoring_subject" size="7" multiple>
+    	<select name="tutoring_subject[]" size="7" multiple>
     		<optgroup label="US Courses">
     			<option value="math">Math</option>
     			<option value="reading">Reading</option>
