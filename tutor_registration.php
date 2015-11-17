@@ -59,7 +59,7 @@ function submit() {
         <input type="radio" name="english" value="native">Native &nbsp;
         <input type="radio" name="english" value="fluent">Fluent &nbsp;
         <input type="radio" name="english" value="intermediate">Intermediate &nbsp;
-        <input type="radio" name="english" value="begineer">Beginner &nbsp;
+        <input type="radio" name="english" value="beginner">Beginner &nbsp;
         <input type="radio" name="english" value="na">N/A &nbsp;
     </td>
 </tr>
@@ -69,14 +69,14 @@ function submit() {
         <input type="radio" name="korean" value="native">Native &nbsp;
         <input type="radio" name="korean" value="fluent">Fluent &nbsp;
         <input type="radio" name="korean" value="intermediate">Intermediate &nbsp;
-        <input type="radio" name="korean" value="begineer">Beginner &nbsp;
+        <input type="radio" name="korean" value="beginner">Beginner &nbsp;
         <input type="radio" name="korean" value="na">N/A &nbsp;
     </td>
 </tr>
 <tr>
     <td align="right">Subject of Tutoring</td>
     <td>
-    	<select name="tutoring_subject" size="7" multiple>
+    	<select name="tutoring_subject[]" size="7" multiple>
     		<optgroup label="US Courses">
     			<option value="math">Math</option>
     			<option value="reading">Reading</option>
