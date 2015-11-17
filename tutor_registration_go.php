@@ -13,11 +13,11 @@ $english = addslashes($_POST['english']);
 $korean = addslashes($_POST['korean']);
 //$tutoring_subject = addslashes($_POST['tutoring_subject[]']);
 for($i=0; $i<count($_POST['tutoring_subject']); $i++){
-  $tutoring_subject = $tutoring_subject.$_POST['tutoring_subject'];
+  $tutoring_subject .= "|".$_POST['tutoring_subject'];
   echo $tutoring_subject[i];
 }
 for($j=0; $j<count($_POST['tutoring_grade']); $j++){
-  $tutoring_grade = $tutoring_grade.$_POST['tutoring_grade'];
+  $tutoring_grade .= "|".$_POST['tutoring_grade'];
   echo $tutoring_grade[j];
 }
 
