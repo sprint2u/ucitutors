@@ -20,14 +20,15 @@ $kr_id_card = addslashes($_POST['kr_id_card']);
 
 $conn = mysql_connect('localhost', 'ucitutorsdba', '6776') or die (mysql_error()); 
 $db = mysql_select_db('ucitutors', $conn);
+
 // 중복 확인
 $query_dup_chk = "select * from tutor_profile where uci_id='$uci_id';";
 $cup_chk = mysql_query($query_dup_chk, $conn) or die (mysql_error()); 
-$row = mysql_fetch_row($cup_chk);
-$total_no = $row[0];
-while ($array=mysql_fetch_array($result)) {
-  echo $array[uci_id]."=====".$array[kr_univ_name]."\n";
+if (mysql_fetch_row($cup_chk)) {
+  echo "=====dup=====".$array[kr_univ_name]."\n";
 }
+mysql_free_result($cup_chk);
+
 // 업로드한 파일이 저장될 디렉토리 정의
 $uploaddir = "pds";  // 서버에 up 이라는 디렉토리가 있어야 한다.
 
@@ -83,11 +84,11 @@ $query = "select * from tutor_profile;";
 $result = mysql_query($query, $conn) or die (mysql_error()); 
 $row = mysql_fetch_row($result);
 $total_no = $row[0];
-echo $row[0];
+echo "\n".$row[0];
 while ($array=mysql_fetch_array($result)) {
   echo $array[uci_id]."=====".$array[kr_univ_name]."\n";
 }
 
-
+mysql_free_result($result);
 
 print "</pre>";
