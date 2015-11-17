@@ -76,28 +76,28 @@ function submit() {
 <tr>
     <td align="right">Subject of Tutoring</td>
     <td colspan="2">
-    	<input type="checkbox" name="tutoring_subject[]" value="math">Math&nbsp;&nbsp;
-        <input type="checkbox" name="tutoring_subject[]" value="english">English&nbsp;&nbsp;
-        <input type="checkbox" name="tutoring_subject[]" value="esl">Everyday English
+    	<input type="checkbox" name="tutoring_subject[]" value="math" />Math&nbsp;&nbsp;
+        <input type="checkbox" name="tutoring_subject[]" value="english" />English&nbsp;&nbsp;
+        <input type="checkbox" name="tutoring_subject[]" value="esl" />Everyday English
         <br>
-        <input type="checkbox" name="tutoring_subject[]" value="k_math">수학&nbsp;&nbsp;
-        <input type="checkbox" name="tutoring_subject[]" value="k_writing">논술&nbsp;&nbsp;
-        <input type="checkbox" name="tutoring_subject[]" value="k_lang">한글
+        <input type="checkbox" name="tutoring_subject[]" value="k_math" />수학&nbsp;&nbsp;
+        <input type="checkbox" name="tutoring_subject[]" value="k_writing" />논술&nbsp;&nbsp;
+        <input type="checkbox" name="tutoring_subject[]" value="k_lang" />한글
     </td>
 </tr>
 <tr>
     <td align="right">Tutoring Grade</td>
     <td colspan="2">
-    	<input type="checkbox" name="tutoring_grade[]" value="elementary">Elementary School&nbsp;&nbsp;
-        <input type="checkbox" name="tutoring_grade[]" value="middle">Middle School&nbsp;&nbsp;
-        <input type="checkbox" name="tutoring_grade[]" value="high">High School
+    	<input type="checkbox" name="tutoring_grade[]" value="elementary" />Elementary School&nbsp;&nbsp;
+        <input type="checkbox" name="tutoring_grade[]" value="middle" />Middle School&nbsp;&nbsp;
+        <input type="checkbox" name="tutoring_grade[]" value="high" />High School
     </td>
 </tr>
 <tr>
     <td align="right">Student Verification</td>
     <td>
         <input type="hidden" name="MAX_FILE_SIZE" value="2048000" />
-        <input type="file" name="uci_id_card" size="40">
+        <input type="file" name="uci_id_card" size="40" />
     </td>
     <td>(Upload a photo of your student ID card)</td>
 </tr>
