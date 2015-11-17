@@ -17,7 +17,7 @@ $kr_major = addslashes($_POST['kr_major']);
 $kr_id = addslashes($_POST['kr_id']);
 $kr_id_card = addslashes($_POST['kr_id_card']);
 
-echo "\n".$tutoring_subject[]."\n";
+echo "\n".$tutoring_subject."\n";
 
 $conn = mysql_connect('localhost', 'ucitutorsdba', '6776') or die (mysql_error()); 
 $db = mysql_select_db('ucitutors', $conn);
