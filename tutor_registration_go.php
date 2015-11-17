@@ -9,7 +9,7 @@ $mobile = addslashes($_POST['mobile']);
 $email = addslashes($_POST['email']);
 $english = addslashes($_POST['english']);
 $korean = addslashes($_POST['korean']);
-$tutoring_subject[] = addslashes($_POST['tutoring_subject[]']);
+$tutoring_subject = addslashes($_POST['tutoring_subject[]']);
 $tutoring_grade = addslashes($_POST['tutoring_grade']);
 $uci_id_card = addslashes($_POST['uci_id_card']);
 $kr_univ_name = addslashes($_POST['kr_univ_name']);
@@ -32,8 +32,6 @@ mysql_free_result($cup_chk);
 
 // 업로드한 파일이 저장될 디렉토리 정의
 $uploaddir = "pds";  // 서버에 up 이라는 디렉토리가 있어야 한다.
-
-echo $tutoring_subject . "\n";
 
 $uploaddir = '/var/www/html/pds/';
 $uploadfile = $uploaddir . basename($_FILES['uci_id_card']['name']);
@@ -74,7 +72,7 @@ if(!move_uploaded_file($_FILES['kr_id_card']['tmp_name'], $kr_id_card_file)) {  
 $sql = "insert into tutor_profile
         (tutor_name, uci_id, uci_major, mobile, email, english, korean, tutoring_subject, tutoring_grade, 
         uci_id_card, kr_univ_name, kr_major, kr_id, kr_id_card)
-        values ('$tutor_name','$uci_id','$uci_major','$mobile','$email','$english','$korean','$tutoring_subject[]','$tutoring_grade',
+        values ('$tutor_name','$uci_id','$uci_major','$mobile','$email','$english','$korean','$tutoring_subject','$tutoring_grade',
         '$uci_id_card','$kr_univ_name','$kr_major','$kr_id','$kr_id_card');";
 
 echo "$sql";
