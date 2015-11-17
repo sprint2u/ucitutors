@@ -13,14 +13,15 @@ $english = addslashes($_POST['english']);
 $korean = addslashes($_POST['korean']);
 //$tutoring_subject = addslashes($_POST['tutoring_subject[]']);
 for($i=0; $i<count($_POST['tutoring_subject']); $i++){
-  $subject .= "|".$_POST['tutoring_subject'];
+  $subject = $_POST['tutoring_subject'];
   $tutoring_subject .= "|".$subject[i];
 }
 echo $tutoring_subject;
 for($j=0; $j<count($_POST['tutoring_grade']); $j++){
-  $tutoring_grade .= "|".$_POST['tutoring_grade'];
-  echo $tutoring_grade[j];
+  $grade = $_POST['tutoring_grade'];
+  $tutoring_grade .= "|".$grade[j];
 }
+echo $tutoring_grade;
 
 $uci_id_card = addslashes($_POST['uci_id_card']);
 $kr_univ_name = addslashes($_POST['kr_univ_name']);
