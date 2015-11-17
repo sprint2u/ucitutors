@@ -19,7 +19,7 @@ while ($_POST['tutoring_subject[]']) {
 echo "\n".$tutoring_subject."\n";
 
 for($i=0; $i<count($_POST['tutoring_grade']); $i++){
-  $tutoring_grade = $_POST['tutoring_grade'];
+  $tutoring_grade[] = $_POST['tutoring_grade'];
   echo $tutoring_grade[i];
 }
 

@@ -76,36 +76,20 @@ function submit() {
 <tr>
     <td align="right">Subject of Tutoring</td>
     <td colspan="2">
-    	<input type="checkbox" name="tutoring_subject[]" value="math">Math
-        <input type="checkbox" name="tutoring_subject[]" value="english">English
+    	<input type="checkbox" name="tutoring_subject[]" value="math">Math&nbsp;&nbsp;
+        <input type="checkbox" name="tutoring_subject[]" value="english">English&nbsp;&nbsp;
         <input type="checkbox" name="tutoring_subject[]" value="esl">Everyday English
         <br>
-        <input type="checkbox" name="tutoring_subject[]" value="k_math">수학
-        <input type="checkbox" name="tutoring_subject[]" value="k_writing">논술
+        <input type="checkbox" name="tutoring_subject[]" value="k_math">수학&nbsp;&nbsp;
+        <input type="checkbox" name="tutoring_subject[]" value="k_writing">논술&nbsp;&nbsp;
         <input type="checkbox" name="tutoring_subject[]" value="k_lang">한글
-
-        <select name="tutoring_subject[]" size="7" multiple>
-    		<optgroup label="US Courses">
-    			<option value="math">Math</option>
-    			<option value="reading">Reading</option>
-    			<option value="writing">Writing</option>
-    			<option value="voca">Vocabulary</option>
-    			<option value="grammar">Grammar</option>
-    			<option value="esl">Everyday English</option>
-    		</optgroup>
-    		<optgroup label="Korean Courses">
-    			<option value="k_math">수학</option>
-    			<option value="k_writing">논술</option>
-    			<option value="k_lang">한글</option>
-			</optgroup>
-    	</select>
     </td>
 </tr>
 <tr>
     <td align="right">Tutoring Grade</td>
     <td colspan="2">
-    	<input type="checkbox" name="tutoring_grade[]" value="elementary">Elementary School
-        <input type="checkbox" name="tutoring_grade[]" value="middle">Middle School
+    	<input type="checkbox" name="tutoring_grade[]" value="elementary">Elementary School&nbsp;&nbsp;
+        <input type="checkbox" name="tutoring_grade[]" value="middle">Middle School&nbsp;&nbsp;
         <input type="checkbox" name="tutoring_grade[]" value="high">High School
     </td>
 </tr>
