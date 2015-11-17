@@ -12,6 +12,7 @@ $korean = addslashes($_POST['korean']);
 //$tutoring_subject = addslashes($_POST['tutoring_subject[]']);
 while ($_POST['tutoring_subject[]']) {
   $tutoring_subject = $tutoring_subject." ".$_POST['tutoring_subject[]'];
+  echo $_POST['tutoring_subject[]']."|";
 }
 echo "\n".$tutoring_subject."\n";
 $tutoring_grade = addslashes($_POST['tutoring_grade']);
@@ -27,7 +28,7 @@ $db = mysql_select_db('ucitutors', $conn);
 // 중복 확인
 $query_dup_chk = "select * from tutor_profile where uci_id='$uci_id';";
 $cup_chk = mysql_query($query_dup_chk, $conn) or die (mysql_error()); 
-if (!mysql_fetch_row($cup_chk)) {
+if (mysql_fetch_row($cup_chk)) {
   echo "=====dup=====".$array[kr_univ_name]."\n";
 }
 mysql_free_result($cup_chk);
