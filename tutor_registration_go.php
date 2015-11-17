@@ -102,7 +102,7 @@ $result = mysql_query($query, $conn) or die (mysql_error());
 $row = mysql_fetch_row($result);
 $total_no = $row[0];
 while ($array=mysql_fetch_array($result)) {
-  echo $array[uci_id]."\n";
+  echo $array[uci_id]."=====".$array[kr_univ_name]."\n";
 }
 
 
