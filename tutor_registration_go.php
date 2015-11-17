@@ -14,6 +14,7 @@ $korean = addslashes($_POST['korean']);
 //$tutoring_subject = addslashes($_POST['tutoring_subject[]']);
 for($i=0; $i<count($_POST['tutoring_subject']); $i++){
   $subject = $_POST['tutoring_subject'];
+  echo $subject;
   $tutoring_subject .= "|".$subject[i];
 }
 echo $tutoring_subject;
