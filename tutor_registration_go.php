@@ -17,10 +17,12 @@ while ($_POST['tutoring_subject[]']) {
   echo $_POST['tutoring_subject[]']."|";
 }
 echo "\n".$tutoring_subject."\n";
-$tutoring_grade = $_POST['tutoring_grade'];
-for($i=0,$i <= count($tutoring_grade),$i++) { 
-  echo $tutoring_grade[$i] . "<br>"; 
-} 
+
+for($i=0; $i<count($_POST['tutoring_grade']); $i++){
+  $tutoring_grade = $_POST['tutoring_grade'];
+  echo $tutoring_grade[i];
+}
+
 $uci_id_card = addslashes($_POST['uci_id_card']);
 $kr_univ_name = addslashes($_POST['kr_univ_name']);
 $kr_major = addslashes($_POST['kr_major']);
