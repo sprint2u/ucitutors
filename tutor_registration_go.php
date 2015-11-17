@@ -9,13 +9,15 @@ $mobile = addslashes($_POST['mobile']);
 $email = addslashes($_POST['email']);
 $english = addslashes($_POST['english']);
 $korean = addslashes($_POST['korean']);
-$tutoring_subject = addslashes($_POST['tutoring_subject[]']);
+$tutoring_subject[] = addslashes($_POST['tutoring_subject[]']);
 $tutoring_grade = addslashes($_POST['tutoring_grade']);
 $uci_id_card = addslashes($_POST['uci_id_card']);
 $kr_univ_name = addslashes($_POST['kr_univ_name']);
 $kr_major = addslashes($_POST['kr_major']);
 $kr_id = addslashes($_POST['kr_id']);
 $kr_id_card = addslashes($_POST['kr_id_card']);
+
+echo "\n".$tutoring_subject[]."\n";
 
 $conn = mysql_connect('localhost', 'ucitutorsdba', '6776') or die (mysql_error()); 
 $db = mysql_select_db('ucitutors', $conn);
@@ -41,12 +43,12 @@ if(($_FILES['uci_id_card']['size'])>0) {
   $ucifilesize = $_FILES['uci_id_card']['size'];
   $ucitemp = explode(".", basename($_FILES['uci_id_card']['name']));
   $ucifileext = $ucitemp[sizeof($ucitemp)-1];
-  echo "uci id card: ".$ucifiletype."\n";
-  echo $ucifilesize."\n";
+  //echo "uci id card: ".$ucifiletype."\n";
+  //echo $ucifilesize."\n";
   $uci_id_card_file = $uploaddir . "u" . $uci_id . "." . $ucifileext;
-  echo $uci_id_card_file."\n";
+  //echo $uci_id_card_file."\n";
   $uci_id_card = basename($uci_id_card_file);
-  echo $uci_id_card."\n";
+  //echo $uci_id_card."\n";
 }
 if(!move_uploaded_file($_FILES['uci_id_card']['tmp_name'], $uci_id_card_file)) {   // false일 경우
   echo("파일 저장 실패");
@@ -57,12 +59,12 @@ if(($_FILES['kr_id_card']['size'])>0) {
   $krfilesize = $_FILES['kr_id_card']['size'];
   $krtemp = explode(".", basename($_FILES['kr_id_card']['name']));
   $krfileext = $krtemp[sizeof($krtemp)-1];
-  echo "kr id card: ".$krfiletype."\n";
-  echo $krfilesize."\n";
+  //echo "kr id card: ".$krfiletype."\n";
+  //echo $krfilesize."\n";
   $kr_id_card_file = $uploaddir . "k" . $uci_id . "." . $krfileext;
-  echo $kr_id_card_file."\n";
+  //echo $kr_id_card_file."\n";
   $kr_id_card = basename($kr_id_card_file);
-  echo $kr_id_card."\n";
+  //echo $kr_id_card."\n";
 }
 if(!move_uploaded_file($_FILES['kr_id_card']['tmp_name'], $kr_id_card_file)) {   // false일 경우
   echo("파일 저장 실패");
@@ -72,7 +74,7 @@ if(!move_uploaded_file($_FILES['kr_id_card']['tmp_name'], $kr_id_card_file)) {  
 $sql = "insert into tutor_profile
         (tutor_name, uci_id, uci_major, mobile, email, english, korean, tutoring_subject, tutoring_grade, 
         uci_id_card, kr_univ_name, kr_major, kr_id, kr_id_card)
-        values ('$tutor_name','$uci_id','$uci_major','$mobile','$email','$english','$korean','$tutoring_subject','$tutoring_grade',
+        values ('$tutor_name','$uci_id','$uci_major','$mobile','$email','$english','$korean','$tutoring_subject[]','$tutoring_grade',
         '$uci_id_card','$kr_univ_name','$kr_major','$kr_id','$kr_id_card');";
 
 echo "$sql";
