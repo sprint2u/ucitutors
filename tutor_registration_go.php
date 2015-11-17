@@ -18,6 +18,9 @@ while ($_POST['tutoring_subject[]']) {
 }
 echo "\n".$tutoring_subject."\n";
 $tutoring_grade = addslashes($_POST['tutoring_grade']);
+for($i=0,$i <= sizeof($tutoring_grade),$i++) { 
+  echo $tutoring_grade[$i] . "<br>"; 
+} 
 $uci_id_card = addslashes($_POST['uci_id_card']);
 $kr_univ_name = addslashes($_POST['kr_univ_name']);
 $kr_major = addslashes($_POST['kr_major']);
