@@ -18,16 +18,6 @@ $kr_major = addslashes($_POST['kr_major']);
 $kr_id = addslashes($_POST['kr_id']);
 $kr_id_card = addslashes($_POST['kr_id_card']);
 
-$conn = mysql_connect('localhost', 'ucitutorsdba', '6776') or die (mysql_error()); 
-$db = mysql_select_db('ucitutors', $conn);
-// 중복 확인
-$query_dup_chk = "select * from tutor_profile where uci_id='$uci_id';";
-$cup_chk = mysql_query($query_dup_chk, $conn) or die (mysql_error()); 
-$row = mysql_fetch_row($cup_chk);
-$total_no = $row[0];
-while ($array=mysql_fetch_array($result)) {
-  echo $array[uci_id]."=====".$array[kr_univ_name]."\n";
-}
 // 업로드한 파일이 저장될 디렉토리 정의
 $uploaddir = "pds";  // 서버에 up 이라는 디렉토리가 있어야 한다.
 
@@ -77,13 +67,40 @@ $sql = "insert into tutor_profile
 
 echo "$sql";
 
+    /* 동일한 파일이 있는지 확인하는 부분
+    if(file_exists($uploadfile)) {
+      echo "동일 파일명 존재\n";
+      echo $uploadfile . "\n";
+      echo $_FILES['uci_id_card']['name'] . "\n";
+      $temp_filename = explode(".", basename($_FILES['uci_id_card']['name']));
+      echo "파일명: ".$temp_filename[0] . "\n";
+      echo "확장자: ".$temp_filename[sizeof($temp_filename)-1] . "\n";
+      echo "새이름: ".$temp_filename[0]."1.".$temp_filename[sizeof($temp_filename)-1] . "\n";
+      $uploadfile = $uploaddir . $temp_filename[0]."a.".$temp_filename[sizeof($temp_filename)-1];
+      echo "새경로: ".$uploadfile;
+      echo '</pre>';
+    }
+    // 지정된 디렉토리에 파일 저장하는 부분
+    if(!move_uploaded_file($_FILES['uci_id_card']['tmp_name'], $uploadfile)) {   // false일 경우
+       echo("파일 저장 실패");
+       exit;
+    }
+    */
+
+
+//echo '자세한 디버깅 정보입니다:';
+//print_r($_FILES);
+
+
+
+$conn = mysql_connect('localhost', 'ucitutorsdba', '6776') or die (mysql_error()); 
+$db = mysql_select_db('ucitutors', $conn);
 mysql_query($sql, $conn) or die (mysql_error());
 
 $query = "select * from tutor_profile;";
 $result = mysql_query($query, $conn) or die (mysql_error()); 
 $row = mysql_fetch_row($result);
 $total_no = $row[0];
-echo $row;
 while ($array=mysql_fetch_array($result)) {
   echo $array[uci_id]."=====".$array[kr_univ_name]."\n";
 }
