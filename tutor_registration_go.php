@@ -13,6 +13,7 @@ $korean = addslashes($_POST['korean']);
 while ($_POST['tutoring_subject[]']) {
   $tutoring_subject = $tutoring_subject." ".$_POST['tutoring_subject[]'];
 }
+echo "\n".$tutoring_subject."\n";
 $tutoring_grade = addslashes($_POST['tutoring_grade']);
 $uci_id_card = addslashes($_POST['uci_id_card']);
 $kr_univ_name = addslashes($_POST['kr_univ_name']);
@@ -20,15 +21,13 @@ $kr_major = addslashes($_POST['kr_major']);
 $kr_id = addslashes($_POST['kr_id']);
 $kr_id_card = addslashes($_POST['kr_id_card']);
 
-echo "\n".$tutoring_subject."\n";
-
 $conn = mysql_connect('localhost', 'ucitutorsdba', '6776') or die (mysql_error()); 
 $db = mysql_select_db('ucitutors', $conn);
 
 // 중복 확인
 $query_dup_chk = "select * from tutor_profile where uci_id='$uci_id';";
 $cup_chk = mysql_query($query_dup_chk, $conn) or die (mysql_error()); 
-if (mysql_fetch_row($cup_chk)) {
+if (!mysql_fetch_row($cup_chk)) {
   echo "=====dup=====".$array[kr_univ_name]."\n";
 }
 mysql_free_result($cup_chk);
