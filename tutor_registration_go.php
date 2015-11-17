@@ -10,8 +10,8 @@ $email = addslashes($_POST['email']);
 $english = addslashes($_POST['english']);
 $korean = addslashes($_POST['korean']);
 //$tutoring_subject = addslashes($_POST['tutoring_subject[]']);
-while ($_POST['tutoring_subject[]']) {
-  $tutoring_subject = $tutoring_subject." ".$_POST['tutoring_subject[]';
+while ($array=$_POST('tutoring_subject[]') {
+  $tutoring_subject = $tutoring_subject." ".$array[0];
 }
 $tutoring_grade = addslashes($_POST['tutoring_grade']);
 $uci_id_card = addslashes($_POST['uci_id_card']);
