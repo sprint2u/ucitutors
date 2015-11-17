@@ -98,7 +98,7 @@ $db = mysql_select_db('ucitutors', $conn);
 mysql_query($sql, $conn) or die (mysql_error());
 
 $query = "select * from tutor_profile;"
-$result = mysql_query($query) or die (mysql_error()); 
+$result = mysql_query($query, $conn) or die (mysql_error()); 
 $row = mysql_fetch_row($result);
 $total_no = $row[0];
 while ($array=mysql_fetch_array($result)) {
