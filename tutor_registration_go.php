@@ -1,7 +1,9 @@
 <?php include('header.php'); ?>
 <?php
 echo '<pre>';
-
+if ($_POST) {
+    echo htmlspecialchars(print_r($_POST, true));
+}
 $tutor_name = addslashes($_POST['tutor_name']);
 $uci_id = addslashes($_POST['uci_id']);
 $uci_major = addslashes($_POST['uci_major']);
