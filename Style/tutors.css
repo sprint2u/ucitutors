@@ -126,7 +126,7 @@ img .tutor {
 .small_menu, .small_menu a {
     font-family: 'ralewayregular';
     font-size:12px;
-    font-weight: bold;
+    font-weight: normal;
     white-space:nowrap;
     color: #ffffff;
     text-decoration:none;
