@@ -25,8 +25,12 @@
             <td width="100" class="menu"><a href="sky.php">SKY 과외</a></td>
             <td width="100" class="menu"><a href="eld.php">입학준비</a></td>
             <td width="100" class="menu"><a href="profile.php">Tutor Profile</a></td>
-            <td width="100" class="menu"><a href="tutor_registration.php">Tutor Registration</a></td>
             <td width="100" class="menu"><a href="contact.php">Contact</a></td>
+        </tr>
+        <tr height="20">
+            <td>
+                <a href="tutor_registration.php">Tutor Registration</a>
+            </td>
         </tr>
         </table>
         </header>
