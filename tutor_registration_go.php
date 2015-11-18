@@ -88,7 +88,7 @@ if (mysql_fetch_row($cup_chk)) {
   $row = mysql_fetch_row($result);
   $total_no = $row[0];
   echo "\n".$row[0].$row[1].$row[2];
-  reset($result)
+  reset($result);
 ?>
 <?php
   while ($array=mysql_fetch_array($result)) {
