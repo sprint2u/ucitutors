@@ -1,5 +1,5 @@
 		<table class="footer">
-	        <tr height="10">
+	        <tr height="6">
 	            <td colspan="8" class="small_menu" align="right">
 	                <a href="tutor_registration.php">Tutor Registration</a>
 	                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
