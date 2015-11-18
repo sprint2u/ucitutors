@@ -119,23 +119,23 @@ if (mysql_fetch_row($cup_chk)) {
 <?php
   while ($array=mysql_fetch_array($result)) {
 ?>
-<form name="tutor_profile" method="post">
+<form name="tutor_profile" method="post" action="tutor_individual_view.php">
   <input type="hidden" name="tutor_name" value="<?php $tutor_name ?>">
   <input type="hidden" name="uci_id" value="<?php $uci_id ?>">
 </form>
 <?php
+  $msg = "Successfully registered";
+  echo "<script name=javascript>
+        if('$msg' != '') {
+          self.window.alert('$msg');
+        }
+        location.href='tutor_individual_view.php?$uci_id';
+      </script>";
   }
   mysql_free_result($result);
 }
 mysql_free_result($cup_chk);
 
 print "</pre>";
-$msg = "성공적으로 등록되었습니다";
-echo "<script name=javascript>
-        if('$msg' != '') {
-          self.window.alert('$msg');
-        }
-        location.href='tutor_individual_view.php?';
-      </script>";
 ?>
 <?php include('footer.php'); ?>

@@ -82,8 +82,7 @@ $result = mysql_query($query, $conn) or die (mysql_error());
 <?php
   }
   mysql_free_result($result);
-}
-mysql_free_result($cup_chk);
+
 ?>
 </table>
 
