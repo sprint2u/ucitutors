@@ -85,6 +85,20 @@ $result = mysql_query($query, $conn) or die (mysql_error());
     <td class="tbl_subject">출신학교 확인</td>
     <td class="tbl_content"><?php echo "<img src=\"/pds/$array[kr_id_card]\" width=\"200\" />"; ?></td>
   </tr>
+  <tr>
+    <td class="tbl_subject">
+      Tutor Photo<br><?php echo "<img src=\"/pds/$array[tutor_photo]\" width=\"200\" />"; ?>
+    </td>
+    <td class="tbl_subject">
+      Tutor Video<br><?php echo "<img src=\"/pds/$array[tutor_video]\" width=\"200\" />"; ?>
+    </td>
+    <td class="tbl_subject">
+      Student Verification<br><?php echo "<img src=\"/pds/$array[uci_id_card]\" width=\"200\" />"; ?>
+    </td>
+    <td class="tbl_subject">
+      출신학교 확인<br><?php echo "<img src=\"/pds/$array[kr_id_card]\" width=\"200\" />"; ?>
+    </td>
+  </tr>
 <?php
   }
   mysql_free_result($result);
