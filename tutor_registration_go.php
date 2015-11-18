@@ -129,7 +129,7 @@ if (mysql_fetch_row($cup_chk)) {
         if('$msg' != '') {
           self.window.alert('$msg');
         }
-        location.href='tutor_individual_view.php?$uci_id';
+        document.tutor_profile.submit();
       </script>";
   }
   mysql_free_result($result);
