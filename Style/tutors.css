@@ -119,6 +119,7 @@ img .tutor {
 .small_menu, .small_menu a {
     font-family: 'ralewayregular';
     font-size:12px;
+    font-weight: bold;
     white-space:nowrap;
     color: #000000;
     text-decoration:none;
@@ -126,6 +127,7 @@ img .tutor {
 .small_menu a:hover  {
     font-family: 'ralewayregular';
     font-size:12px;
+    font-weight: bold;
     white-space:nowrap;
     color: #000000;
     text-decoration:underline;
