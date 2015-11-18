@@ -146,6 +146,11 @@ function submit() {
 </tr>
 <tr>
     <td colspan="3" align="center">
+        Green items are administrative purpose only, not visible to public.
+    </td>
+</tr>
+<tr>
+    <td colspan="3" align="center">
         <br><input type="button" value="Register" onClick="javascript:submit();"><br><br>
     </td>
 </tr>
