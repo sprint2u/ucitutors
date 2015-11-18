@@ -136,6 +136,14 @@ table .tbl_subject {
     color: #85c04b;
     font-weight: bold;
 }
+table .tbl_subject_blk {
+    width: 200px;
+    text-align: center;
+    font-family: 'ralewayregular';
+    font-size:15px;
+    color: #000000;
+    font-weight: bold;
+}
 table .tbl_content {
     width: 500px;
     font-family: 'ralewayregular';

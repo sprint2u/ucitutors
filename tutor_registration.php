@@ -29,7 +29,7 @@ function submit() {
     </td>
 </tr>
 <tr>
-    <td width="250" align="right">Name</td>
+    <td width="250" align="right" class="tbl_subject_blk">Name</td>
     <td width="250"><input type="text" name="tutor_name" size="40" maxlength="100"></td>
     <td></td>
 </tr>
@@ -39,7 +39,7 @@ function submit() {
     <td>(e.g. 98765432)</td>
 </tr>
 <tr>
-    <td width="250" align="right">Major</td>
+    <td width="250" align="right" class="tbl_subject_blk">Major</td>
     <td><input type="text" name="uci_major" size="40" maxlength="100"></td>
     <td>(e.g. Computer Science)</td>
 </tr>
@@ -54,7 +54,7 @@ function submit() {
     <td>(e.g. anteater@uci.edu)</td>
 </tr>
 <tr>
-    <td width="250" align="right">English</td>
+    <td width="250" align="right" class="tbl_subject_blk">English</td>
     <td colspan="2">&nbsp;&nbsp;
         <input type="radio" name="english" value="Native">Native &nbsp;
         <input type="radio" name="english" value="Fluent">Fluent &nbsp;
@@ -64,7 +64,7 @@ function submit() {
     </td>
 </tr>
 <tr>
-    <td width="250" align="right">Korean</td>
+    <td width="250" align="right" class="tbl_subject_blk">Korean</td>
     <td colspan="2">&nbsp;&nbsp;
         <input type="radio" name="korean" value="Native">Native &nbsp;
         <input type="radio" name="korean" value="Fluent">Fluent &nbsp;
@@ -74,7 +74,7 @@ function submit() {
     </td>
 </tr>
 <tr>
-    <td align="right">Subject of Tutoring</td>
+    <td align="right" class="tbl_subject_blk">Subject of Tutoring</td>
     <td colspan="2">
     	<input type="checkbox" name="tutoring_subject[]" value="Math" />Math&nbsp;&nbsp;
         <input type="checkbox" name="tutoring_subject[]" value="English" />English&nbsp;&nbsp;
@@ -86,7 +86,7 @@ function submit() {
     </td>
 </tr>
 <tr>
-    <td align="right">Tutoring Grade</td>
+    <td align="right" class="tbl_subject_blk">Tutoring Grade</td>
     <td colspan="2">
     	<input type="checkbox" name="tutoring_grade[]" value="Elementary" />Elementary School&nbsp;&nbsp;
         <input type="checkbox" name="tutoring_grade[]" value="Middle" />Middle School&nbsp;&nbsp;
@@ -94,7 +94,7 @@ function submit() {
     </td>
 </tr>
 <tr>
-    <td align="right">Photo</td>
+    <td align="right" class="tbl_subject_blk">Photo</td>
     <td>
         <input type="hidden" name="MAX_FILE_SIZE" value="2048000" />
         <input type="file" name="tutor_photo" size="40" />
@@ -102,7 +102,7 @@ function submit() {
     <td>(Upload your profile picture, 200x200, 2M Max)</td>
 </tr>
 <tr>
-    <td align="right">Video</td>
+    <td align="right" class="tbl_subject_blk">Video</td>
     <td>
         <input type="hidden" name="MAX_FILE_SIZE" value="2048000" />
         <input type="file" name="tutor_video" size="40" />
@@ -122,12 +122,12 @@ function submit() {
     </td>
 </tr>
 <tr>
-    <td align="right">출신학교명</td>
+    <td align="right" class="tbl_subject_blk">출신학교명</td>
     <td><input type="text" name="kr_univ_name" size="30" maxlength="100"></td>
     <td>(e.g. 연세대학교)</td>
 </tr>
 <tr>
-    <td align="right">출신학교 전공</td>
+    <td align="right" class="tbl_subject_blk">출신학교 전공</td>
     <td><input type="text" name="kr_major" size="40" maxlength="100"></td>
     <td>(e.g. 경영학)</td>
 </tr>
