@@ -30,7 +30,7 @@ function submit() {
 </tr>
 <tr>
     <td colspan="3" align="left">
-        <h3>Green items are administrative purpose only, not visible to public.
+        <h3 style="font-color:red;">Green items are administrative purpose only, not visible to public.
     </td>
 </tr>
 <tr>
