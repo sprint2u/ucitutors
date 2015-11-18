@@ -120,14 +120,14 @@ img .tutor {
     font-family: 'ralewayregular';
     font-size:12px;
     white-space:nowrap;
-    color: #ffffff;
+    color: #000000;
     text-decoration:none;
 }
 .small_menu a:hover  {
     font-family: 'ralewayregular';
     font-size:12px;
     white-space:nowrap;
-    color: #ffffff;
+    color: #000000;
     text-decoration:underline;
 }
 ul {
