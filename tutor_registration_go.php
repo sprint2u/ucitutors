@@ -188,8 +188,8 @@ if (mysql_fetch_row($cup_chk)) {
 
 
 <form name="tutor_profile" method="post" action="tutor_individual_view.php">
-  <input type="text" name="tutor_name" value=<?php echo "\"".$tutor_name;."\"" ?>>
-  <input type="text" name="uci_id" value=<?php echo "\"".$uci_id;."\"" ?>>
+  <input type="text" name="tutor_name" value=<?php echo $tutor_name; ?>>
+  <input type="text" name="uci_id" value=<?php echo $uci_id; ?>>
 </form>
 <?php
   $msg = "Successfully registered";
