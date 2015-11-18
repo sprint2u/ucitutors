@@ -83,7 +83,7 @@ if (mysql_fetch_row($cup_chk)) {
   mysql_query($sql, $conn) or die (mysql_error());
 
   // confirm
-  $query = "select * from tutor_profile;";
+  $query = "select * from tutor_profile where uci_id='$uci_id';";
   $result = mysql_query($query, $conn) or die (mysql_error()); 
   $row = mysql_fetch_row($result);
   $total_no = $row[0];
