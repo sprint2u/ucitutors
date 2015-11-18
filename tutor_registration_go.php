@@ -85,10 +85,10 @@ if (mysql_fetch_row($cup_chk)) {
   // confirm
   $query = "select * from tutor_profile where uci_id='$uci_id';";
   $result = mysql_query($query, $conn) or die (mysql_error()); 
-  $row = mysql_fetch_row($result);
-  $total_no = $row[0];
-  echo "\n".$row[0].$row[1].$row[2];
-  reset($result);
+//  $row = mysql_fetch_row($result);
+//  $total_no = $row[0];
+//  echo "\n".$row[0].$row[1].$row[2];
+//  reset($result);
 ?>
 <?php
   while ($array=mysql_fetch_array($result)) {
