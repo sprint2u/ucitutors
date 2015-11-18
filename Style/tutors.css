@@ -130,6 +130,7 @@ ul div {
 }
 table .tbl_subject {
     width: 300px;
+    text-align: right;
     font-family: 'ralewayregular';
     font-size:15px;
     color: #85c04b;
