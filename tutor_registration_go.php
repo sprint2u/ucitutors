@@ -11,19 +11,14 @@ $mobile = addslashes($_POST['mobile']);
 $email = addslashes($_POST['email']);
 $english = addslashes($_POST['english']);
 $korean = addslashes($_POST['korean']);
-//$tutoring_subject = addslashes($_POST['tutoring_subject[]']);
 $subject = $_POST['tutoring_subject'];
 for($i=0; $i<count($subject); $i++){
-  echo $subject.$i."==>".$subject[$i];
   $tutoring_subject .= "|".$subject[$i];
 }
-echo $tutoring_subject;
 $grade = $_POST['tutoring_grade'];
-for($j=0; $j<count($tutoring_subject); $j++){
+for($j=0; $j<count($grade); $j++){
   $tutoring_grade .= "|".$grade[$j];
 }
-echo $tutoring_grade;
-
 $uci_id_card = addslashes($_POST['uci_id_card']);
 $kr_univ_name = addslashes($_POST['kr_univ_name']);
 $kr_major = addslashes($_POST['kr_major']);
