@@ -128,7 +128,7 @@ ul div {
 	width: 200px;
 	vertical-align: top;
 }
-#main tbl_subject {
+.tbl_subject {
     width: 300;
     font-family: 'ralewayregular';
     font-size:15px;
@@ -136,7 +136,7 @@ ul div {
     color: #85c04b;
     text-decoration:none;
 }
-#main tbl_content {
+.tbl_content {
     font-family: 'ralewayregular';
     font-size:15px;
     white-space:nowrap;
