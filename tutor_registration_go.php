@@ -90,7 +90,8 @@ if (mysql_fetch_row($cup_chk)) {
 <?php
   while ($array=mysql_fetch_array($result)) {
 ?>
-<table>
+<main class="main">
+<table width="850">
   <tr>
     <td>Name</td>
     <td><?php echo $array[tutor_name]; ?></td>
@@ -129,7 +130,7 @@ if (mysql_fetch_row($cup_chk)) {
   </tr>
   <tr>
     <td>UCI Student Verification</td>
-    <td><?php echo $array[uci_id_card]; ?></td>
+    <td><?php echo "<img src='/Image/$array[uci_id_card]'"; ?></td>
   </tr>
   <tr>
     <td>출신학교</td>
