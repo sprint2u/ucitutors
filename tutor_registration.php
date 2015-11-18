@@ -59,7 +59,7 @@ function submit() {
 </tr>
 <tr>
     <td width="250" align="right" class="tbl_subject_blk">English</td>
-    <td colspan="2">&nbsp;&nbsp;
+    <td colspan="2">
         <input type="radio" name="english" value="Native">Native &nbsp;
         <input type="radio" name="english" value="Fluent">Fluent &nbsp;
         <input type="radio" name="english" value="Intermediate">Intermediate &nbsp;
@@ -69,7 +69,7 @@ function submit() {
 </tr>
 <tr>
     <td width="250" align="right" class="tbl_subject_blk">Korean</td>
-    <td colspan="2">&nbsp;&nbsp;
+    <td colspan="2">
         <input type="radio" name="korean" value="Native">Native &nbsp;
         <input type="radio" name="korean" value="Fluent">Fluent &nbsp;
         <input type="radio" name="korean" value="Intermediate">Intermediate &nbsp;
