@@ -122,8 +122,8 @@ if (mysql_fetch_row($cup_chk)) {
 <main class="main">
 <table width="850">
   <tr>
-    <td>Name</td>
-    <td><?php echo $array[tutor_name]; ?></td>
+    <td class="tbl_subject">Name</td>
+    <td class="tbl_content"><?php echo $array[tutor_name]; ?></td>
   </tr>
   <tr>
     <td>UCI ID</td>

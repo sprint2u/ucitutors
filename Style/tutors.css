@@ -128,6 +128,21 @@ ul div {
 	width: 200px;
 	vertical-align: top;
 }
+#main .tbl_subject {
+    width: 300;
+    font-family: 'ralewayregular';
+    font-size:15px;
+    white-space:nowrap;
+    color: #85c04b;
+    text-decoration:none;
+}
+#main .tbl_content {
+    font-family: 'ralewayregular';
+    font-size:15px;
+    white-space:nowrap;
+    color: #ffffff;
+    text-decoration:none;
+}
 
 /**  fonts  **/
 @font-face {
