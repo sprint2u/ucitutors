@@ -28,7 +28,7 @@
             <td width="100" class="menu"><a href="contact.php">Contact</a></td>
         </tr>
         <tr height="15">
-            <td colspan="8" class="small_menu">
+            <td colspan="8" class="small_menu" align="right">
                 <a href="tutor_registration.php">Tutor Registration</a>
             </td>
         </tr>
