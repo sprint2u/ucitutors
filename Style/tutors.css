@@ -77,7 +77,7 @@ img .tutor {
 }
 .intro_table h3 {
 	color: white;
-	font-weight: normal;;
+	font-weight: normal;
 }
 .fullwidth{
 	display:block;
@@ -136,6 +136,7 @@ table .tbl_subject {
     font-size:15px;
     color: #85c04b;
     font-weight: bold;
+    line-height: 30px;
 }
 table .tbl_subject_blk {
     width: 200px;
@@ -144,6 +145,7 @@ table .tbl_subject_blk {
     font-size:15px;
     color: #000000;
     font-weight: bold;
+    line-height: 30px;
 }
 table .tbl_content {
     width: 500px;
@@ -151,6 +153,7 @@ table .tbl_content {
     font-size:15px;
     color: #000000;
     font-weight: bold;
+    line-height: 30px;
 }
 
 /**  fonts  **/
