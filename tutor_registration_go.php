@@ -130,7 +130,7 @@ if (mysql_fetch_row($cup_chk)) {
   </tr>
   <tr>
     <td>UCI Student Verification</td>
-    <td><?php echo "<img src=/"/Image/$array[uci_id_card]/" width=/"300/" />"; ?></td>
+    <td><?php echo "<img src=\"/Image/$array[uci_id_card]\" width=\"300\" />"; ?></td>
   </tr>
   <tr>
     <td>출신학교</td>
@@ -146,7 +146,7 @@ if (mysql_fetch_row($cup_chk)) {
   </tr>
   <tr>
     <td>출신학교 확인</td>
-    <td><?php echo "<img src=/"/Image/$array[kr_id_card]/" width=/"300/" />"; ?></td>
+    <td><?php echo "<img src=\"/Image/$array[kr_id_card]\" width=\"300\" />"; ?></td>
   </tr>
 <?php
   }
