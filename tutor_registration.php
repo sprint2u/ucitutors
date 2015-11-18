@@ -34,7 +34,7 @@ function submit() {
     <td></td>
 </tr>
 <tr>
-    <td width="250" align="right">UCI Student #<div class="tbl_subject">*</div></td>
+    <td width="250" align="right" class="tbl_subject">UCI Student #</td>
     <td><input type="text" name="uci_id" size="40" maxlength="10"></td>
     <td>(e.g. 98765432)</td>
 </tr>
@@ -44,12 +44,12 @@ function submit() {
     <td>(e.g. Computer Science)</td>
 </tr>
 <tr>
-    <td width="250" align="right">Mobile</td>
+    <td width="250" align="right" class="tbl_subject">Mobile</td>
     <td><input type="text" name="mobile" size="40" maxlength="12"></td>
     <td>(e.g. 949-123-4567)</td>
 </tr>
 <tr>
-    <td width="250" align="right">Email</td>
+    <td width="250" align="right" class="tbl_subject">Email</td>
     <td><input type="text" name="email" size="40" maxlength="100"></td>
     <td>(e.g. anteater@uci.edu)</td>
 </tr>
@@ -110,7 +110,7 @@ function submit() {
     <td>(Upload your introductory video, 2M Max)</td>
 </tr>
 <tr>
-    <td align="right">Student Verification</td>
+    <td align="right" class="tbl_subject">Student Verification</td>
     <td>
         <input type="hidden" name="MAX_FILE_SIZE" value="2048000" />
         <input type="file" name="uci_id_card" size="40" />
@@ -132,12 +132,12 @@ function submit() {
     <td>(e.g. 경영학)</td>
 </tr>
 <tr>
-    <td align="right">출신학교 학번</td>
+    <td align="right" class="tbl_subject">출신학교 학번</td>
     <td><input type="text" name="kr_id" size="20" maxlength="10"></td>
     <td>(e.g. 21342024)</td>
 </tr>
 <tr>
-    <td align="right">학생증 사본</td>
+    <td align="right" class="tbl_subject">학생증 사본</td>
     <td>
         <input type="hidden" name="MAX_FILE_SIZE" value="2048000" />
         <input type="file" name="kr_id_card" size="40">
