@@ -18,13 +18,9 @@ for($i=0; $i<count($subject); $i++){
   $tutoring_subject .= "|".$subject[i];
 }
 echo $tutoring_subject;
-$gradeArr = array(); 
-foreach((array)$_POST['tutoring_grade'] as $k => $v) {
-  $gradeArr[] = $v; 
-  echo $gradeArr[];
-}
+
 for($j=0; $j<count($_POST['tutoring_grade']); $j++){
-  $grade = $_POST['tutoring_grade'];
+  $grade = $_POST['tutoring_grade'][j];
   $tutoring_grade .= "|".$grade[j];
 }
 echo $tutoring_grade;
