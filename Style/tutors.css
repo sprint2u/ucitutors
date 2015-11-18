@@ -133,14 +133,14 @@ table .tbl_subject {
     font-family: 'ralewayregular';
     font-size:15px;
     color: #85c04b;
-    text-decoration:bold;
+    font-weight: bold;
 }
 table .tbl_content {
     width: 500px;
     font-family: 'ralewayregular';
     font-size:15px;
     color: #000000;
-    text-decoration:none;
+    font-weight: normal;
 }
 
 /**  fonts  **/

@@ -4,11 +4,11 @@
 function submit() {
         
     if (document.tutor_registration.tutor_name.value == "") {
-        alert('이름을 입력하세요');
+        alert('Input your name');
         document.tutor_registration.tutor_name.focus();
         return;           
     } else if (document.tutor_registration.uci_id.value == "") {
-        alert('ID을 입력하세요');
+        alert('Input your student ID');
         document.tutor_registration.uci_id.focus();
         return;
     } else {
@@ -56,41 +56,41 @@ function submit() {
 <tr>
     <td width="250" align="right">English</td>
     <td colspan="2">&nbsp;&nbsp;
-        <input type="radio" name="english" value="native">Native &nbsp;
-        <input type="radio" name="english" value="fluent">Fluent &nbsp;
-        <input type="radio" name="english" value="intermediate">Intermediate &nbsp;
-        <input type="radio" name="english" value="beginner">Beginner &nbsp;
-        <input type="radio" name="english" value="na">N/A &nbsp;
+        <input type="radio" name="english" value="Native">Native &nbsp;
+        <input type="radio" name="english" value="Fluent">Fluent &nbsp;
+        <input type="radio" name="english" value="Intermediate">Intermediate &nbsp;
+        <input type="radio" name="english" value="Beginner">Beginner &nbsp;
+        <input type="radio" name="english" value="N/A">N/A &nbsp;
     </td>
 </tr>
 <tr>
     <td width="250" align="right">Korean</td>
     <td colspan="2">&nbsp;&nbsp;
-        <input type="radio" name="korean" value="native">Native &nbsp;
-        <input type="radio" name="korean" value="fluent">Fluent &nbsp;
-        <input type="radio" name="korean" value="intermediate">Intermediate &nbsp;
-        <input type="radio" name="korean" value="beginner">Beginner &nbsp;
-        <input type="radio" name="korean" value="na">N/A &nbsp;
+        <input type="radio" name="korean" value="Native">Native &nbsp;
+        <input type="radio" name="korean" value="Fluent">Fluent &nbsp;
+        <input type="radio" name="korean" value="Intermediate">Intermediate &nbsp;
+        <input type="radio" name="korean" value="Intermediate">Beginner &nbsp;
+        <input type="radio" name="korean" value="N/A">N/A &nbsp;
     </td>
 </tr>
 <tr>
     <td align="right">Subject of Tutoring</td>
     <td colspan="2">
-    	<input type="checkbox" name="tutoring_subject[]" value="math" />Math&nbsp;&nbsp;
-        <input type="checkbox" name="tutoring_subject[]" value="english" />English&nbsp;&nbsp;
-        <input type="checkbox" name="tutoring_subject[]" value="esl" />Everyday English
+    	<input type="checkbox" name="tutoring_subject[]" value="Math" />Math&nbsp;&nbsp;
+        <input type="checkbox" name="tutoring_subject[]" value="English" />English&nbsp;&nbsp;
+        <input type="checkbox" name="tutoring_subject[]" value="ESL" />Everyday English
         <br>
-        <input type="checkbox" name="tutoring_subject[]" value="k_math" />수학&nbsp;&nbsp;
-        <input type="checkbox" name="tutoring_subject[]" value="k_writing" />논술&nbsp;&nbsp;
-        <input type="checkbox" name="tutoring_subject[]" value="k_lang" />한글
+        <input type="checkbox" name="tutoring_subject[]" value="수학" />수학&nbsp;&nbsp;
+        <input type="checkbox" name="tutoring_subject[]" value="논술" />논술&nbsp;&nbsp;
+        <input type="checkbox" name="tutoring_subject[]" value="한글" />한글
     </td>
 </tr>
 <tr>
     <td align="right">Tutoring Grade</td>
     <td colspan="2">
-    	<input type="checkbox" name="tutoring_grade[]" value="elementary" />Elementary School&nbsp;&nbsp;
-        <input type="checkbox" name="tutoring_grade[]" value="middle" />Middle School&nbsp;&nbsp;
-        <input type="checkbox" name="tutoring_grade[]" value="high" />High School
+    	<input type="checkbox" name="tutoring_grade[]" value="Elementary" />Elementary School&nbsp;&nbsp;
+        <input type="checkbox" name="tutoring_grade[]" value="Middle" />Middle School&nbsp;&nbsp;
+        <input type="checkbox" name="tutoring_grade[]" value="High" />High School
     </td>
 </tr>
 <tr>
