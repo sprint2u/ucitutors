@@ -18,17 +18,17 @@
         <header class="header">
         <table width="100%">
         <tr height="70">
-            <td width="200" align="center"><a class="logo" href="http://ucitutors.com/">UCI <span>Tutors</span></a></td>
+            <td width="300" align="center"><a class="logo" href="http://ucitutors.com/">UCI <span>Tutors</span></a></td>
             <td width="100"></td>
             <td width="100" class="menu"><a href="k-12.php">K-12 과외</a></td>
             <td width="100" class="menu"><a href="esl.php">생활영어</a></td>
             <td width="100" class="menu"><a href="sky.php">SKY 과외</a></td>
             <td width="100" class="menu"><a href="eld.php">입학준비</a></td>
-            <td width="100" class="menu"><a href="profile.php">Tutor Profile</a></td>
+            <td width="100" class="menu"><a href="profile.php">교사소개</a></td>
             <td width="100" class="menu"><a href="contact.php">Contact</a></td>
         </tr>
         <tr height="20">
-            <td>
+            <td colspan="8">
                 <a href="tutor_registration.php">Tutor Registration</a>
             </td>
         </tr>

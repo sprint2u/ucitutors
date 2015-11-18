@@ -116,6 +116,20 @@ img .tutor {
 	color: #85c04b;
 	text-decoration:none;
 }
+.small_menu, .small_menu a {
+    font-family: 'ralewayregular';
+    font-size:10px;
+    white-space:nowrap;
+    color: #ffffff;
+    text-decoration:none;
+}
+.small_menu a:hover  {
+    font-family: 'ralewayregular';
+    font-size:10px;
+    white-space:nowrap;
+    color: #ffffff;
+    text-decoration:none;
+}
 ul {
     list-style-position: inside;
     font-weight: bold;
