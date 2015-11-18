@@ -85,16 +85,26 @@ if (mysql_fetch_row($cup_chk)) {
   // confirm
   $query = "select * from tutor_profile where uci_id='$uci_id';";
   $result = mysql_query($query, $conn) or die (mysql_error()); 
-//  $row = mysql_fetch_row($result);
-//  $total_no = $row[0];
-//  echo "\n".$row[0].$row[1].$row[2];
-//  reset($result);
+  // reset($result);
 ?>
 <?php
   while ($array=mysql_fetch_array($result)) {
 ?>
 <?php
-    echo $array[uci_id]."=====".$array[kr_univ_name]."\n";
+    echo "Name: ".$array[tutor_name]."\n";
+    echo "UCI ID: ".$array[uci_id]."\n";
+    echo "Major: ".$array[uci_major]."\n";
+    echo "Mobile: ".$array[mobile]."\n";
+    echo "Email: ".$array[email]."\n";
+    echo "English: ".$array[english]."\n";
+    echo "Korean: ".$array[korean]."\n";
+    echo "Tutoring Subjects: ".$array[tutoring_subject]."\n";
+    echo "Tutoring Grade: ".$array[tutoring_grade]."\n";
+    echo "Student Verification: ".$array[uci_id_card]."\n";
+    echo "출신학교명: ".$array[kr_univ_name]."\n";
+    echo "전공: ".$array[kr_major]."\n";
+    echo "학번: ".$array[kr_id]."\n";
+    echo "출신학교 확인: ".$array[kr_id_card]."\n";
 ?>
 <?php
   }
