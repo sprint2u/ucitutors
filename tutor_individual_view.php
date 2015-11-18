@@ -2,6 +2,7 @@
 <?php
 $tutor_name = addslashes($_POST['tutor_name']);
 $uci_id = addslashes($_POST['uci_id']);
+echo $uci_id;
 
 $conn = mysql_connect('localhost', 'ucitutorsdba', '6776') or die (mysql_error()); 
 $db = mysql_select_db('ucitutors', $conn);
