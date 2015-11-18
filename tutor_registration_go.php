@@ -12,15 +12,14 @@ $email = addslashes($_POST['email']);
 $english = addslashes($_POST['english']);
 $korean = addslashes($_POST['korean']);
 //$tutoring_subject = addslashes($_POST['tutoring_subject[]']);
-  $subject = $_POST['tutoring_subject'];
+$subject = $_POST['tutoring_subject'];
 for($i=0; $i<count($subject); $i++){
   echo $subject.$i."==>".$subject[$i];
   $tutoring_subject .= "|".$subject[$i];
 }
 echo $tutoring_subject;
-
-for($j=0; $j<count($_POST['tutoring_grade']); $j++){
-  $grade = $_POST['tutoring_grade'][$j];
+$grade = $_POST['tutoring_grade'];
+for($j=0; $j<count($tutoring_subject); $j++){
   $tutoring_grade .= "|".$grade[$j];
 }
 echo $tutoring_grade;
