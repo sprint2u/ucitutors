@@ -99,7 +99,7 @@ function submit() {
         <input type="hidden" name="MAX_FILE_SIZE" value="2048000" />
         <input type="file" name="tutor_photo" size="40" />
     </td>
-    <td>(Upload your profile picture)</td>
+    <td>(Upload your profile picture, 200x200, 2M Max)</td>
 </tr>
 <tr>
     <td align="right">Video</td>
@@ -107,7 +107,7 @@ function submit() {
         <input type="hidden" name="MAX_FILE_SIZE" value="2048000" />
         <input type="file" name="tutor_video" size="40" />
     </td>
-    <td>(Upload your introductory video)</td>
+    <td>(Upload your introductory video, 2M Max)</td>
 </tr>
 <tr>
     <td align="right">Student Verification</td>
@@ -115,7 +115,7 @@ function submit() {
         <input type="hidden" name="MAX_FILE_SIZE" value="2048000" />
         <input type="file" name="uci_id_card" size="40" />
     </td>
-    <td>(Upload a photo of your student ID card)</td>
+    <td>(Upload a photo of your student ID card, 2M Max)</td>
 </tr>
 <tr>
     <td colspan="3" align="center"><br>(Fill out for Korean school information hereunder, if applicable)
@@ -142,7 +142,7 @@ function submit() {
         <input type="hidden" name="MAX_FILE_SIZE" value="2048000" />
         <input type="file" name="kr_id_card" size="40">
     </td>
-    <td>(학생증 사본을 첨부해주세요)</td>
+    <td>(학생증 사본을 첨부해주세요, 2M Max)</td>
 </tr>
 <tr>
     <td colspan="3" align="center">
