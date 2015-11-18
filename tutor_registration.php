@@ -25,7 +25,6 @@ function submit() {
 <tr height="40">
     <td>
          <br><div style="color: #85c04b; font-size: 25px;">Tutor Application<div>
-         <br>
     </td>
 </tr>
 <tr>
