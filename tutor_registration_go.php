@@ -87,9 +87,15 @@ if (mysql_fetch_row($cup_chk)) {
   $result = mysql_query($query, $conn) or die (mysql_error()); 
   $row = mysql_fetch_row($result);
   $total_no = $row[0];
-  echo "\n".$row[0];
+  echo "\n".$row[0].$row[1].$row[2];
+?>
+<?php
   while ($array=mysql_fetch_array($result)) {
+?>
+<?php
     echo $array[uci_id]."=====".$array[kr_univ_name]."\n";
+?>
+<?php
   }
   mysql_free_result($result);
 }
