@@ -137,7 +137,7 @@ img .tutor {
     font-weight: bold;
     white-space:nowrap;
     color: #ffffff;
-    text-decoration:underline;
+    text-decoration:none;
 }
 ul {
     list-style-position: inside;
