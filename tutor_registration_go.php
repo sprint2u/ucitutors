@@ -15,11 +15,11 @@ $english = addslashes($_POST['english']);
 $korean = addslashes($_POST['korean']);
 $subject = $_POST['tutoring_subject'];
 for($i=0; $i<count($subject); $i++){
-  $tutoring_subject .= "|".$subject[$i];
+  $tutoring_subject .= $subject[$i]." ";
 }
 $grade = $_POST['tutoring_grade'];
 for($j=0; $j<count($grade); $j++){
-  $tutoring_grade .= "|".$grade[$j];
+  $tutoring_grade .= $grade[$j]." ";
 }
 $uci_id_card = addslashes($_POST['uci_id_card']);
 $kr_univ_name = addslashes($_POST['kr_univ_name']);
@@ -78,7 +78,7 @@ if (mysql_fetch_row($cup_chk)) {
           values ('$tutor_name','$uci_id','$uci_major','$mobile','$email','$english','$korean','$tutoring_subject','$tutoring_grade',
           '$uci_id_card','$kr_univ_name','$kr_major','$kr_id','$kr_id_card');";
 
-  echo "$sql";
+//  echo "$sql";
 
   mysql_query($sql, $conn) or die (mysql_error());
 
@@ -90,28 +90,72 @@ if (mysql_fetch_row($cup_chk)) {
 <?php
   while ($array=mysql_fetch_array($result)) {
 ?>
-<?php
-    echo "Name: ".$array[tutor_name]."\n";
-    echo "UCI ID: ".$array[uci_id]."\n";
-    echo "Major: ".$array[uci_major]."\n";
-    echo "Mobile: ".$array[mobile]."\n";
-    echo "Email: ".$array[email]."\n";
-    echo "English: ".$array[english]."\n";
-    echo "Korean: ".$array[korean]."\n";
-    echo "Tutoring Subjects: ".$array[tutoring_subject]."\n";
-    echo "Tutoring Grade: ".$array[tutoring_grade]."\n";
-    echo "Student Verification: ".$array[uci_id_card]."\n";
-    echo "출신학교명: ".$array[kr_univ_name]."\n";
-    echo "전공: ".$array[kr_major]."\n";
-    echo "학번: ".$array[kr_id]."\n";
-    echo "출신학교 확인: ".$array[kr_id_card]."\n";
-?>
+<table>
+  <tr>
+    <td>Name</td>
+    <td><?php echo $array[tutor_name]; ?></td>
+  </tr>
+  <tr>
+    <td>UCI ID</td>
+    <td><?php echo $array[uci_id]; ?></td>
+  </tr>
+  <tr>
+    <td>Major</td>
+    <td><?php echo $array[uci_major]; ?></td>
+  </tr>
+  <tr>
+    <td>Mobile</td>
+    <td><?php echo $array[mobile]; ?></td>
+  </tr>
+  <tr>
+    <td>Email</td>
+    <td><?php echo $array[email]; ?></td>
+  </tr>
+  <tr>
+    <td>English</td>
+    <td><?php echo $array[english]; ?></td>
+  </tr>
+  <tr>
+    <td>Korean</td>
+    <td><?php echo $array[korean]; ?></td>
+  </tr>
+  <tr>
+    <td>Tutoring Subjects</td>
+    <td><?php echo $array[tutoring_subject]; ?></td>
+  </tr>
+  <tr>
+    <td>Tutoring Grades</td>
+    <td><?php echo $array[tutoring_grade]; ?></td>
+  </tr>
+  <tr>
+    <td>UCI Student Verification</td>
+    <td><?php echo $array[uci_id_card]; ?></td>
+  </tr>
+  <tr>
+    <td>출신학교</td>
+    <td><?php echo $array[kr_univ_name]; ?></td>
+  </tr>
+  <tr>
+    <td>전공</td>
+    <td><?php echo $array[kr_major]; ?></td>
+  </tr>
+  <tr>
+    <td>학번</td>
+    <td><?php echo $array[kr_id]; ?></td>
+  </tr>
+  <tr>
+    <td>출신학교 확인</td>
+    <td><?php echo $array[kr_id_card]; ?></td>
+  </tr>
 <?php
   }
   mysql_free_result($result);
 }
 mysql_free_result($cup_chk);
+?>
+</table>
 
-
-
+<?php
 print "</pre>";
+?>
+<?php include('footer.php'); ?>
