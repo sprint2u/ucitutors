@@ -1,8 +1,15 @@
 <?php include('header.php'); ?>
+<main class="main">
+<table width="850">
+<tr height="40">
+    <td colspan="2">
+         <br><div style="color: #85c04b; font-size: 25px;">Your's Profile<div>
+         <br>
+    </td>
+</tr>
 <?php
 $tutor_name = addslashes($_POST['tutor_name']);
 $uci_id = addslashes($_POST['uci_id']);
-echo $uci_id;
 
 $conn = mysql_connect('localhost', 'ucitutorsdba', '6776') or die (mysql_error()); 
 $db = mysql_select_db('ucitutors', $conn);
@@ -14,14 +21,12 @@ $result = mysql_query($query, $conn) or die (mysql_error());
 <?php
   while ($array=mysql_fetch_array($result)) {
 ?>
-<main class="main">
-<table width="850">
   <tr>
     <td class="tbl_subject">Name</td>
     <td class="tbl_content"><?php echo $array[tutor_name]; ?></td>
   </tr>
   <tr>
-    <td>UCI ID</td>
+    <td>UCI Student #</td>
     <td><?php echo $array[uci_id]; ?></td>
   </tr>
   <tr>

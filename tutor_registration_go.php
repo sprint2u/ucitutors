@@ -126,7 +126,7 @@ if (mysql_fetch_row($cup_chk)) {
     <td class="tbl_content"><?php echo $array[tutor_name]; ?></td>
   </tr>
   <tr>
-    <td>UCI ID</td>
+    <td>UCI Student #</td>
     <td><?php echo $array[uci_id]; ?></td>
   </tr>
   <tr>
