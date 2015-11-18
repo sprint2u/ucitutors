@@ -47,12 +47,12 @@ if (mysql_fetch_row($cup_chk)) {
     $ucifilesize = $_FILES['uci_id_card']['size'];
     $ucitemp = explode(".", basename($_FILES['uci_id_card']['name']));
     $ucifileext = $ucitemp[sizeof($ucitemp)-1];
-    echo "uci id card: ".$ucifiletype."\n";
-    echo $ucifilesize."\n";
+    //echo "uci id card: ".$ucifiletype."\n";
+    //echo $ucifilesize."\n";
     $uci_id_card_file = $uploaddir . "u" . $uci_id . "." . $ucifileext;
-    echo $uci_id_card_file."\n";
+    //echo $uci_id_card_file."\n";
     $uci_id_card = basename($uci_id_card_file);
-    echo $uci_id_card."\n";
+    //echo $uci_id_card."\n";
   }
   if(!move_uploaded_file($_FILES['uci_id_card']['tmp_name'], $uci_id_card_file)) {   // false일 경우
     echo("파일 저장 실패");
@@ -130,7 +130,7 @@ if (mysql_fetch_row($cup_chk)) {
   </tr>
   <tr>
     <td>UCI Student Verification</td>
-    <td><?php echo "<img src=\"/Image/$array[uci_id_card]\" width=\"300\" />"; ?></td>
+    <td><?php echo "<img src=\"/pds/$array[uci_id_card]\" width=\"300\" />"; ?></td>
   </tr>
   <tr>
     <td>출신학교</td>
@@ -146,7 +146,7 @@ if (mysql_fetch_row($cup_chk)) {
   </tr>
   <tr>
     <td>출신학교 확인</td>
-    <td><?php echo "<img src=\"/Image/$array[kr_id_card]\" width=\"300\" />"; ?></td>
+    <td><?php echo "<img src=\"/pds/$array[kr_id_card]\" width=\"300\" />"; ?></td>
   </tr>
 <?php
   }
