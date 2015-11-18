@@ -30,6 +30,7 @@
         <tr height="15">
             <td colspan="8" class="small_menu" align="right">
                 <a href="tutor_registration.php">Tutor Registration</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
         </tr>
         </table>
