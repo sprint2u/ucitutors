@@ -8,6 +8,7 @@ $uci_id = addslashes($_POST['uci_id']);
 <tr height="40">
     <td colspan="4">
          <br><div style="color: #85c04b; font-size: 25px;"><?php echo $tutor_name; ?>'s Profile<div>
+         <br>
     </td>
 </tr>
 <?php

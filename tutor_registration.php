@@ -34,7 +34,7 @@ function submit() {
     <td></td>
 </tr>
 <tr>
-    <td width="250" align="right">UCI Student #</td>
+    <td width="250" align="right">UCI Student #<div class="tbl_subject">*</div></td>
     <td><input type="text" name="uci_id" size="40" maxlength="10"></td>
     <td>(e.g. 98765432)</td>
 </tr>
