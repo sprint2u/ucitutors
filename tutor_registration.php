@@ -29,6 +29,11 @@ function submit() {
     </td>
 </tr>
 <tr>
+    <td colspan="3" align="left">
+        <h2>Green items are administrative purpose only, not visible to public.
+    </td>
+</tr>
+<tr>
     <td width="250" align="right" class="tbl_subject_blk">Name</td>
     <td width="250"><input type="text" name="tutor_name" size="40" maxlength="100"></td>
     <td></td>
@@ -143,11 +148,6 @@ function submit() {
         <input type="file" name="kr_id_card" size="40">
     </td>
     <td>(학생증 사본을 첨부해주세요, 2M Max)</td>
-</tr>
-<tr>
-    <td colspan="3" align="center">
-        Green items are administrative purpose only, not visible to public.
-    </td>
 </tr>
 <tr>
     <td colspan="3" align="center">
