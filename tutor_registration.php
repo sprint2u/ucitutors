@@ -94,6 +94,22 @@ function submit() {
     </td>
 </tr>
 <tr>
+    <td align="right">Photo</td>
+    <td>
+        <input type="hidden" name="MAX_FILE_SIZE" value="2048000" />
+        <input type="file" name="tutor_photo" size="40" />
+    </td>
+    <td>(Upload your profile picture)</td>
+</tr>
+<tr>
+    <td align="right">Video</td>
+    <td>
+        <input type="hidden" name="MAX_FILE_SIZE" value="2048000" />
+        <input type="file" name="tutor_video" size="40" />
+    </td>
+    <td>(Upload your introductory video)</td>
+</tr>
+<tr>
     <td align="right">Student Verification</td>
     <td>
         <input type="hidden" name="MAX_FILE_SIZE" value="2048000" />

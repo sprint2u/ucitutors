@@ -21,6 +21,8 @@ $grade = $_POST['tutoring_grade'];
 for($j=0; $j<count($grade); $j++){
   $tutoring_grade .= $grade[$j]." ";
 }
+$tutor_photo = addslashes($_POST['tutor_photo']);
+$tutor_video = addslashes($_POST['tutor_video']);
 $uci_id_card = addslashes($_POST['uci_id_card']);
 $kr_univ_name = addslashes($_POST['kr_univ_name']);
 $kr_major = addslashes($_POST['kr_major']);
@@ -41,7 +43,7 @@ if (mysql_fetch_row($cup_chk)) {
   // file upload
   $uploaddir = '/var/www/html/pds/';
   $uploadfile = $uploaddir . basename($_FILES['uci_id_card']['name']);
-
+  // UCI id card
   if(($_FILES['uci_id_card']['size'])>0) {
     $ucifiletype = $_FILES['uci_id_card']['type'];
     $ucifilesize = $_FILES['uci_id_card']['size'];
@@ -58,6 +60,7 @@ if (mysql_fetch_row($cup_chk)) {
     echo("파일 저장 실패");
     exit;
   }
+  // KR id card
   if(($_FILES['kr_id_card']['size'])>0) {
     $krfiletype = $_FILES['kr_id_card']['type'];
     $krfilesize = $_FILES['kr_id_card']['size'];
@@ -70,13 +73,39 @@ if (mysql_fetch_row($cup_chk)) {
     echo("파일 저장 실패");
     exit;
   }
+  // Photo
+  if(($_FILES['tutor_photo']['size'])>0) {
+    $photofiletype = $_FILES['tutor_photo']['type'];
+    $photofilesize = $_FILES['tutor_photo']['size'];
+    $phototemp = explode(".", basename($_FILES['tutor_photo']['name']));
+    $photofileext = $phototemp[sizeof($phototemp)-1];
+    $tutor_photo_file = $uploaddir . "p" . $uci_id . "." . $photofileext;
+    $tutor_photo = basename($tutor_photo_file);
+  }
+  if(!move_uploaded_file($_FILES['tutor_photo']['tmp_name'], $tutor_photo_file)) {   // false일 경우
+    echo("파일 저장 실패");
+    exit;
+  }
+  // Video
+  if(($_FILES['tutor_video']['size'])>0) {
+    $videofiletype = $_FILES['tutor_video']['type'];
+    $videofilesize = $_FILES['tutor_video']['size'];
+    $videotemp = explode(".", basename($_FILES['tutor_video']['name']));
+    $videofileext = $videotemp[sizeof($videotemp)-1];
+    $video_id_card_file = $uploaddir . "v" . $uci_id . "." . $videofileext;
+    $tutor_video = basename($video_id_card_file);
+  }
+  if(!move_uploaded_file($_FILES['tutor_video']['tmp_name'], $video_id_card_file)) {   // false일 경우
+    echo("파일 저장 실패");
+    exit;
+  }
 
   // DB upload
   $sql = "insert into tutor_profile
           (tutor_name, uci_id, uci_major, mobile, email, english, korean, tutoring_subject, tutoring_grade, 
-          uci_id_card, kr_univ_name, kr_major, kr_id, kr_id_card)
+          tutor_photo, tutor_video, uci_id_card, kr_univ_name, kr_major, kr_id, kr_id_card)
           values ('$tutor_name','$uci_id','$uci_major','$mobile','$email','$english','$korean','$tutoring_subject','$tutoring_grade',
-          '$uci_id_card','$kr_univ_name','$kr_major','$kr_id','$kr_id_card');";
+          '$tutor_photo','$tutor_video','$uci_id_card','$kr_univ_name','$kr_major','$kr_id','$kr_id_card');";
 
 //  echo "$sql";
 
@@ -130,7 +159,15 @@ if (mysql_fetch_row($cup_chk)) {
   </tr>
   <tr>
     <td>UCI Student Verification</td>
-    <td><?php echo "<img src=\"/pds/$array[uci_id_card]\" width=\"300\" />"; ?></td>
+    <td><?php echo "<img src=\"/pds/$array[uci_id_card]\" width=\"200\" />"; ?></td>
+  </tr>
+  <tr>
+    <td>Tutor Photo</td>
+    <td><?php echo "<img src=\"/pds/$array[tutor_photo]\" width=\"200\" />"; ?></td>
+  </tr>
+  <tr>
+    <td>Tutor Video</td>
+    <td><?php echo "<img src=\"/pds/$array[tutor_video]\" width=\"200\" />"; ?></td>
   </tr>
   <tr>
     <td>출신학교</td>
@@ -146,7 +183,7 @@ if (mysql_fetch_row($cup_chk)) {
   </tr>
   <tr>
     <td>출신학교 확인</td>
-    <td><?php echo "<img src=\"/pds/$array[kr_id_card]\" width=\"300\" />"; ?></td>
+    <td><?php echo "<img src=\"/pds/$array[kr_id_card]\" width=\"200\" />"; ?></td>
   </tr>
 <?php
   }
