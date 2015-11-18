@@ -27,8 +27,8 @@
             <td width="100" class="menu"><a href="profile.php">교사소개</a></td>
             <td width="100" class="menu"><a href="contact.php">Contact</a></td>
         </tr>
-        <tr height="20">
-            <td colspan="8">
+        <tr height="15">
+            <td colspan="8" class="small_menu">
                 <a href="tutor_registration.php">Tutor Registration</a>
             </td>
         </tr>
