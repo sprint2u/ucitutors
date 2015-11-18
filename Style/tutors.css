@@ -90,6 +90,13 @@ img .tutor {
 	color: #85c04b;
     vertical-align:middle;
 }
+.footer {
+    width:1000px;
+    background-color: #111111;
+    height: 50px;
+    color: #85c04b;
+    vertical-align:middle;
+}
 .logo {
 	font-family: 'ralewayextrabold';
 	font-size:33px;
