@@ -128,19 +128,17 @@ ul div {
 	width: 200px;
 	vertical-align: top;
 }
-.tbl_subject {
+table .tbl_subject {
     width: 300px;
     font-family: 'ralewayregular';
     font-size:15px;
-    white-space:nowrap;
     color: #85c04b;
     text-decoration:bold;
 }
-.tbl_content {
+table .tbl_content {
     width: 500px;
     font-family: 'ralewayregular';
     font-size:15px;
-    white-space:nowrap;
     color: #000000;
     text-decoration:none;
 }
