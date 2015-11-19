@@ -24,7 +24,7 @@
             <td width="100" class="menu"><a href="esl.php">생활영어</a></td>
             <td width="100" class="menu"><a href="sky.php">SKY 과외</a></td>
             <td width="100" class="menu"><a href="eld.php">입학준비</a></td>
-            <td width="100" class="menu"><a href="profile.php">교사소개</a></td>
+            <td width="100" class="menu"><a href="profile.php">튜터소개</a></td>
             <td width="100" class="menu"><a href="contact.php">Contact</a></td>
         </tr>
         </table>
