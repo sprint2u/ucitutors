@@ -20,9 +20,7 @@ $query = "select * from tutor_profile
 $result = mysql_query($query, $conn) or die (mysql_error()); 
   // reset($result);
 ?>
-<tr>
-  <td colspan="8" style="height:1px; background-color:#85c04b;"></td>
-</tr>
+<tr><td colspan="8" style="height:1px; background-color:#85c04b;"></td></tr>
 <tr>
   <td class="mgr_subject">Name</td>
   <td class="mgr_subject">Student #</td>
@@ -43,6 +41,7 @@ $result = mysql_query($query, $conn) or die (mysql_error());
   <td class="mgr_subject">ID Card</td>
   <td class="mgr_subject">학생증</td>
 </tr>
+<tr><td colspan="8" style="height:1px; background-color:#85c04b;"></td></tr>
 <?php
   while ($array=mysql_fetch_array($result)) {
 ?>
@@ -66,6 +65,7 @@ $result = mysql_query($query, $conn) or die (mysql_error());
   <td><?php echo "<img src=\"/pds/$array[uci_id_card]\" width=\"100\" height=\"100\" />"; ?></td>
   <td><?php echo "<img src=\"/pds/$array[kr_id_card]\" width=\"100\" height=\"100\" />"; ?></td>
 </tr>
+<tr><td colspan="8" style="height:1px; background-color:#85c04b;"></td></tr>
 <?php
   }
   mysql_free_result($result);
