@@ -9,6 +9,7 @@
 </head>
 <body>
     <center>
+        <header class="header">
         <table width="100%">
         <tr height="70">
             <td width="300" align="center"><a class="logo" href="http://ucitutors.com/">UCI <span>Tutors</span></a></td>
@@ -21,3 +22,4 @@
             <td width="100" class="menu"><a href="../contact.php">Contact</a></td>
         </tr>
         </table>
+        </header>

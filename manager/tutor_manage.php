@@ -4,7 +4,7 @@ $tutor_name = addslashes($_POST['tutor_name']);
 $uci_id = addslashes($_POST['uci_id']);
 ?>
 <main class="main">
-<table width="850">
+<table width="100%">
 <tr height="40">
     <td colspan="4">
          <br><div style="color: #85c04b; font-size: 25px;">Tutor Manager<div>
