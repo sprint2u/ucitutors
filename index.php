@@ -7,8 +7,8 @@
             <div class="logo">
             <p><h1><span>Irvine 명문 </span>UCI<span> 학생들의<br>
             고품격 </span>과외<span> 네트워크</span></p>
-            </div>
-            <h2 style="color: #85c04b;">튜터링 코디네이션 및 튜터와의 커뮤니케이션 등 모든 관리는 한국어로 합니다</h2>
+            </div><br>
+            <h2 style="color: #dddddd;">튜터링 코디네이션 및 튜터와의 커뮤니케이션 등 모든 관리는 한국어로 합니다</h2>
         </td>
     </tr>
     <tr height="150">
