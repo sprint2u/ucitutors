@@ -180,7 +180,23 @@ table .tbl_content {
     font-weight: bold;
     line-height: 30px;
 }
-
+table .mgr_subject {
+    width: 100px;
+    text-align: center;
+    font-family: 'ralewayregular';
+    font-size:15px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 30px;
+}
+table .mgr_content {
+    width: 100px;
+    font-family: 'ralewayregular';
+    font-size:15px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 30px;
+}
 /**  fonts  **/
 @font-face {
     font-family: 'ralewayregular';

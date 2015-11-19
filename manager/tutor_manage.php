@@ -22,39 +22,39 @@ $result = mysql_query($query, $conn) or die (mysql_error());
   // reset($result);
 ?>
 <tr>
-  <td class="tbl_subject">Name</td>
-  <td class="tbl_subject">Student #</td>
-  <td class="tbl_subject">Major</td>
-  <td class="tbl_subject">Mobile</td>
-  <td class="tbl_subject">Email</td>
-  <td class="tbl_subject">English</td>
-  <td class="tbl_subject">Korean</td>
-  <td class="tbl_subject">Subjects</td>
-  <td class="tbl_subject">Grades</td>
-  <td class="tbl_subject">출신학교</td>
-  <td class="tbl_subject">전공</td>
-  <td class="tbl_subject">학번</td>
-  <td class="tbl_subject">사진</td>
-  <td class="tbl_subject">동영상</td>
-  <td class="tbl_subject">ID Card</td>
-  <td class="tbl_subject">학생증</td>
+  <td class="mgr_subject">Name</td>
+  <td class="mgr_subject">Student #</td>
+  <td class="mgr_subject">Major</td>
+  <td class="mgr_subject">Mobile</td>
+  <td class="mgr_subject">Email</td>
+  <td class="mgr_subject">English</td>
+  <td class="mgr_subject">Korean</td>
+  <td class="mgr_subject">Subjects</td>
+  <td class="mgr_subject">Grades</td>
+  <td class="mgr_subject">출신학교</td>
+  <td class="mgr_subject">전공</td>
+  <td class="mgr_subject">학번</td>
+  <td class="mgr_subject">사진</td>
+  <td class="mgr_subject">동영상</td>
+  <td class="mgr_subject">ID Card</td>
+  <td class="mgr_subject">학생증</td>
 </tr>
 <?php
   while ($array=mysql_fetch_array($result)) {
 ?>
 <tr>
-  <td class="tbl_content"><?php echo $array[tutor_name]; ?></td>
-  <td class="tbl_content"><?php echo $array[uci_id]; ?></td>
-  <td class="tbl_content"><?php echo $array[uci_major]; ?></td>
-  <td class="tbl_content"><?php echo $array[mobile]; ?></td>
-  <td class="tbl_content"><?php echo $array[email]; ?></td>
-  <td class="tbl_content"><?php echo $array[english]; ?></td>
-  <td class="tbl_content"><?php echo $array[korean]; ?></td>
-  <td class="tbl_content"><?php echo $array[tutoring_subject]; ?></td>
-  <td class="tbl_content"><?php echo $array[tutoring_grade]; ?></td>
-  <td class="tbl_content"><?php echo $array[kr_univ_name]; ?></td>
-  <td class="tbl_content"><?php echo $array[kr_major]; ?></td>
-  <td class="tbl_content"><?php echo $array[kr_id]; ?></td>
+  <td class="mgr_content"><?php echo $array[tutor_name]; ?></td>
+  <td class="mgr_content"><?php echo $array[uci_id]; ?></td>
+  <td class="mgr_content"><?php echo $array[uci_major]; ?></td>
+  <td class="mgr_content"><?php echo $array[mobile]; ?></td>
+  <td class="mgr_content"><?php echo $array[email]; ?></td>
+  <td class="mgr_content"><?php echo $array[english]; ?></td>
+  <td class="mgr_content"><?php echo $array[korean]; ?></td>
+  <td class="mgr_content"><?php echo $array[tutoring_subject]; ?></td>
+  <td class="mgr_content"><?php echo $array[tutoring_grade]; ?></td>
+  <td class="mgr_content"><?php echo $array[kr_univ_name]; ?></td>
+  <td class="mgr_content"><?php echo $array[kr_major]; ?></td>
+  <td class="mgr_content"><?php echo $array[kr_id]; ?></td>
   <td><?php echo "<img src=\"/pds/$array[tutor_photo]\" width=\"100\" height=\"100\" />"; ?></td>
   <td><?php echo "<img src=\"/pds/$array[tutor_video]\" width=\"100\" height=\"100\" />"; ?></td>
   <td><?php echo "<img src=\"/pds/$array[uci_id_card]\" width=\"100\" height=\"100\" />"; ?></td>
