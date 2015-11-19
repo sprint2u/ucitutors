@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php //include('header.php'); ?>
 <?php
 $tutor_name = addslashes($_POST['tutor_name']);
 $uci_id = addslashes($_POST['uci_id']);
