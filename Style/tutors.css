@@ -91,7 +91,7 @@ img .tutor {
     opacity: 0.9;
     vertical-align:middle;
 }
-.footer {
+.footer, .footer p {
     width:1000px;
     background-color: #111111;
     height: 30px;
