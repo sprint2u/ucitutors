@@ -88,6 +88,7 @@ img .tutor {
 	background-color: #111111;
 	height: 50px;
 	color: #85c04b;
+    opacity: 0.9;
     vertical-align:middle;
 }
 .footer {
@@ -95,6 +96,7 @@ img .tutor {
     background-color: #111111;
     height: 50px;
     color: #85c04b;
+    opacity: 0.9;
     vertical-align:middle;
 }
 .logo {
