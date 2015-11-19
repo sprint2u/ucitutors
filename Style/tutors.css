@@ -130,13 +130,13 @@ img .tutor {
     font-size:12px;
     font-weight: normal;
     white-space:nowrap;
-    color: #ffffff;
+    color: #dddddd;
     text-decoration:none;
 }
 .small_menu a:hover  {
     font-family: 'ralewayregular';
     font-size:12px;
-    font-weight: bold;
+    font-weight: normal;
     white-space:nowrap;
     color: #ffffff;
     text-decoration:none;
