@@ -6,8 +6,9 @@
         <td colspan="3" align="center">
             <div class="logo">
             <p><h1><span>Irvine 명문 </span>UCI<span> 학생들의</p> 
-            <p>고품격 </span>과외<span> 네트워크</span></p>
+            <p>고품격 </span><h1>과외<span> 네트워크</span></p>
             </div>
+            <h2>튜터링 코디네이션 및 튜터와의 커뮤니케이션 등 모든 관리는 한국어로 합니다</h2>
         </td>
     </tr>
     <tr height="150">
@@ -30,12 +31,12 @@
             <p><a class="btn btn-default" href="esl.php" style="color: #85c04b;">Learn more &raquo;</a></p>
         </td>
         <td width="33%" class="intro_table">
-            <h2 style="color: #85c04b; font-weight: bold;">입학준비</h2>
+            <h2 style="color: #85c04b; font-weight: bold;">SKY 과외</h2>
             <h3>
-                시작이 반!
-                <br>ELD Test로부터 시작될 아이의 첫 미국학교 생활,
-                <br>UCI Tutors와 함께 하세요.<br></h3>
-            <p><a class="btn btn-default" href="eld.php" style="color: #85c04b;">Learn more &raquo;</a></p>
+                귀국 예정이라면 한국 교과과정이 더 중요합니다!
+                <br>영어는 미국인에게 배우고,
+                <br>수학, 국어는 수준높은 유학생에게 배우세요.<br></h3>
+            <p><a class="btn btn-default" href="sky.php" style="color: #85c04b;">Learn more &raquo;</a></p>
         </td>
     </tr>
 </table>
