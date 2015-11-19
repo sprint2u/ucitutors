@@ -55,10 +55,10 @@ $result = mysql_query($query, $conn) or die (mysql_error());
   <td class="tbl_content"><?php echo $array[kr_univ_name]; ?></td>
   <td class="tbl_content"><?php echo $array[kr_major]; ?></td>
   <td class="tbl_content"><?php echo $array[kr_id]; ?></td>
-  <td><?php echo "<img src=\"/pds/$array[tutor_photo]\" width=\"200\" />"; ?></td>
-  <td><?php echo "<img src=\"/pds/$array[tutor_video]\" width=\"200\" />"; ?></td>
-  <td><?php echo "<img src=\"/pds/$array[uci_id_card]\" width=\"200\" />"; ?></td>
-  <td><?php echo "<img src=\"/pds/$array[kr_id_card]\" width=\"200\" />"; ?></td>
+  <td><?php echo "<img src=\"/pds/$array[tutor_photo]\" width=\"100\" height=\"100\" />"; ?></td>
+  <td><?php echo "<img src=\"/pds/$array[tutor_video]\" width=\"100\" height=\"100\" />"; ?></td>
+  <td><?php echo "<img src=\"/pds/$array[uci_id_card]\" width=\"100\" height=\"100\" />"; ?></td>
+  <td><?php echo "<img src=\"/pds/$array[kr_id_card]\" width=\"100\" height=\"100\" />"; ?></td>
 </tr>
 <?php
   }
