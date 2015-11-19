@@ -18,7 +18,8 @@
     <td><input type="text" name="uci_id" size="30"></td>
 </tr>
 <tr height="30">
-    <td colspan="2" align="center"><input type="button" value="Log In"></td>
+    <td></td>
+    <td><input type="button" value="Log In"></td>
 </tr>
 <tr height="30">
 	<td colspan="2"></td>
