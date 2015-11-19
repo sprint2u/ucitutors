@@ -3,7 +3,7 @@ $tutor_name = addslashes($_POST['tutor_name']);
 $uci_id = addslashes($_POST['uci_id']);
 ?>
 <main class="main">
-<table width="1600">
+<table width="100%">
 <tr height="40">
     <td colspan="4">
          <br><div style="color: #85c04b; font-size: 25px;">Tutor Manager<div>
@@ -29,6 +29,8 @@ $result = mysql_query($query, $conn) or die (mysql_error());
   <td class="mgr_subject">English</td>
   <td class="mgr_subject">Korean</td>
   <td class="mgr_subject">Subjects</td>
+</tr>
+<tr>
   <td class="mgr_subject">Grades</td>
   <td class="mgr_subject">출신학교</td>
   <td class="mgr_subject">전공</td>
@@ -50,6 +52,8 @@ $result = mysql_query($query, $conn) or die (mysql_error());
   <td class="mgr_content"><?php echo $array[english]; ?></td>
   <td class="mgr_content"><?php echo $array[korean]; ?></td>
   <td class="mgr_content"><?php echo $array[tutoring_subject]; ?></td>
+</tr>
+<tr>
   <td class="mgr_content"><?php echo $array[tutoring_grade]; ?></td>
   <td class="mgr_content"><?php echo $array[kr_univ_name]; ?></td>
   <td class="mgr_content"><?php echo $array[kr_major]; ?></td>
