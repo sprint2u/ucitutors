@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('../header.php'); ?>
 <?php
 $tutor_name = addslashes($_POST['tutor_name']);
 $uci_id = addslashes($_POST['uci_id']);
@@ -70,4 +70,4 @@ $result = mysql_query($query, $conn) or die (mysql_error());
 <?php
 print "</pre>";
 ?>
-<?php include('footer.php'); ?>
+<?php include('../footer.php'); ?>
