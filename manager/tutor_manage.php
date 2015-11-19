@@ -21,6 +21,9 @@ $result = mysql_query($query, $conn) or die (mysql_error());
   // reset($result);
 ?>
 <tr>
+  <td colspan="8" style="height:1px; background-color:#85c04b;"></td>
+</tr>
+<tr>
   <td class="mgr_subject">Name</td>
   <td class="mgr_subject">Student #</td>
   <td class="mgr_subject">Major</td>
