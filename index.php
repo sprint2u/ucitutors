@@ -5,10 +5,10 @@
     <tr height="300" valign="top">
         <td colspan="3" align="center">
             <div class="logo">
-            <p><h1><span>Irvine 명문 </span>UCI<span> 학생들의</p> 
-            <p>고품격 </span><h1>과외<span> 네트워크</span></p>
+            <p><h1><span>Irvine 명문 </span>UCI<span> 학생들의<br>
+            고품격 </span>과외<span> 네트워크</span></p>
             </div>
-            <h2>튜터링 코디네이션 및 튜터와의 커뮤니케이션 등 모든 관리는 한국어로 합니다</h2>
+            <h2 style="color: #85c04b;">튜터링 코디네이션 및 튜터와의 커뮤니케이션 등 모든 관리는 한국어로 합니다</h2>
         </td>
     </tr>
     <tr height="150">
@@ -33,7 +33,7 @@
         <td width="33%" class="intro_table">
             <h2 style="color: #85c04b; font-weight: bold;">SKY 과외</h2>
             <h3>
-                귀국 예정이라면 한국 교과과정이 더 중요합니다!
+                한국 입시에는 한국 교과과정이 더 중요합니다!
                 <br>영어는 미국인에게 배우고,
                 <br>수학, 국어는 수준높은 유학생에게 배우세요.<br></h3>
             <p><a class="btn btn-default" href="sky.php" style="color: #85c04b;">Learn more &raquo;</a></p>
