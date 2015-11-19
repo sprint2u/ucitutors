@@ -10,15 +10,15 @@
 </tr>
 <form name="tutor_login" method="post">
 <tr height="30">
-	<td>Email</td>
+	<td class="tbl_subject">Email</td>
     <td><input type="text" name="email" size="30"></td>
 </tr>
 <tr height="30">
-    <td>UCI Student #</td>
+    <td class="tbl_subject">UCI Student #</td>
     <td><input type="text" name="uci_id" size="30"></td>
 </tr>
 <tr height="30">
-    <td colspan="2"><input type="button" value="Log In"></td>
+    <td colspan="2" align="center"><input type="button" value="Log In"></td>
 </tr>
 <tr height="30">
 	<td colspan="5"></td>
