@@ -1,5 +1,5 @@
 		<table class="footer">
-	        <tr height="30px">
+	        <tr height="50px">
 	        	<td align="left" class="footer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			        Copyright © 2015 UCI Tutors
 	        	</td>
