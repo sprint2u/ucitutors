@@ -9,7 +9,6 @@
 </head>
 <body>
     <center>
-    <div id="wrapper">
         <header class="header">
         <table width="100%">
         <tr height="70">
