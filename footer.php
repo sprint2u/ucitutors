@@ -5,7 +5,7 @@
 	        	</td>
 	            <td colspan="8" class="small_menu" align="right">
 	            	<a href="tutor_login.php">Tutor Log In</a>
-	            	&nbsp;&nbsp;
+	            	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	                <a href="tutor_registration.php">Tutor Application</a>
 	                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	            </td>
