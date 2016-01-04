@@ -20,7 +20,7 @@
                 <div>&nbsp;&nbsp;&nbsp;* 필요한 과목별로 수강하실 수 있습니다.</div>
                 <div>&nbsp;&nbsp;&nbsp;* 학과지도 이외에 전과목 숙제 돌봐주기도 인기입니다.</div><br>
             </li>
-            <li>수업료: (자택) $30/시간, (UCI) $25/시간
+            <li>수업료: (자택) $35/시간, (UCI) $25/시간
                 <div>&nbsp;&nbsp;&nbsp;* 자택: 튜터가 자택에 방문하여 가르칩니다.</div>
                 <div>&nbsp;&nbsp;&nbsp;* UCI: 학생이 UCI로 오셔서 배웁니다.</div>
             </li>
