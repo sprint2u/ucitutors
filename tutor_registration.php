@@ -93,7 +93,8 @@ function submit() {
     <td colspan="2">
     	<input type="checkbox" name="tutoring_grade[]" value="Elementary" />Elementary School&nbsp;&nbsp;
         <input type="checkbox" name="tutoring_grade[]" value="Middle" />Middle School&nbsp;&nbsp;
-        <input type="checkbox" name="tutoring_grade[]" value="High" />High School
+        <input type="checkbox" name="tutoring_grade[]" value="High" />High School&nbsp;&nbsp;
+        <input type="checkbox" name="tutoring_grade[]" value="Adult" />Adult
     </td>
 </tr>
 <tr>
