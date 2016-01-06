@@ -11,6 +11,14 @@ function submit() {
         alert('Input your student ID');
         document.tutor_registration.uci_id.focus();
         return;
+    } else if (document.tutor_registration.mobile.value == "") {
+        alert('Input your mobile phone #');
+        document.tutor_registration.mobile.focus();
+        return;  
+    } else if (document.tutor_registration.email.value == "") {
+        alert('Input your email');
+        document.tutor_registration.email.focus();
+        return;    
     } else {
         document.tutor_registration.action = "tutor_registration_go.php";
         document.tutor_registration.submit();
@@ -33,7 +41,7 @@ function submit() {
     </td>
 </tr>
 <tr>
-    <td width="250" align="right" class="tbl_subject_blk">Name</td>
+    <td width="250" align="right" class="tbl_subject">Name</td>
     <td width="250"><input type="text" name="tutor_name" size="40" maxlength="100"></td>
     <td></td>
 </tr>
