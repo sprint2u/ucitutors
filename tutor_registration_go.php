@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 <?php
-echo '<pre>';
+echo '<pre style="color: white">';
 /*
 if ($_POST) {
     echo htmlspecialchars(print_r($_POST, true));
@@ -37,7 +37,7 @@ $query_dup_chk = "select * from tutor_profile where uci_id='$uci_id';";
 $cup_chk = mysql_query($query_dup_chk, $conn) or die (mysql_error()); 
 if (mysql_fetch_row($cup_chk)) {
   // in case of dup
-  echo "<br><br>Failed to register!<br>Student ID is already exists!<br><br>Email to ucitutors@yahoo.com to register<br>".$array[uci_id]."\n";
+  echo "<br><br>Failed to register!<br>Student ID is already exists!<br><br>Email to ucitutors@yahoo.com to register<br><br>".$array[uci_id]."\n";
 } else {
   // no dup
   // file upload
