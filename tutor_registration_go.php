@@ -57,7 +57,7 @@ if (mysql_fetch_row($cup_chk)) {
     //echo $uci_id_card."\n";
   }
   if(!move_uploaded_file($_FILES['uci_id_card']['tmp_name'], $uci_id_card_file)) {   // false일 경우
-    echo("파일 저장 실패");
+    echo("UCI Card 저장 실패");
     exit;
   }
   // KR id card
@@ -70,7 +70,7 @@ if (mysql_fetch_row($cup_chk)) {
     $kr_id_card = basename($kr_id_card_file);
   }
   if(!move_uploaded_file($_FILES['kr_id_card']['tmp_name'], $kr_id_card_file)) {   // false일 경우
-    echo("파일 저장 실패");
+    echo("KR Card 저장 실패");
     exit;
   }
   // Photo
@@ -83,7 +83,7 @@ if (mysql_fetch_row($cup_chk)) {
     $tutor_photo = basename($tutor_photo_file);
   }
   if(!move_uploaded_file($_FILES['tutor_photo']['tmp_name'], $tutor_photo_file)) {   // false일 경우
-    echo("파일 저장 실패");
+    echo("Tutor Photo 저장 실패");
     exit;
   }
   // Video
@@ -96,7 +96,7 @@ if (mysql_fetch_row($cup_chk)) {
     $tutor_video = basename($video_id_card_file);
   }
   if(!move_uploaded_file($_FILES['tutor_video']['tmp_name'], $video_id_card_file)) {   // false일 경우
-    echo("파일 저장 실패");
+    echo("Tutor Video 저장 실패");
     exit;
   }
 
