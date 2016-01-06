@@ -37,7 +37,7 @@ $query_dup_chk = "select * from tutor_profile where uci_id='$uci_id';";
 $cup_chk = mysql_query($query_dup_chk, $conn) or die (mysql_error()); 
 if (mysql_fetch_row($cup_chk)) {
   // in case of dup
-  echo "=====dup=====".$array[uci_id]."\n";
+  echo "Failed to register!<br>Student ID is already exists!".$array[uci_id]."\n";
 } else {
   // no dup
   // file upload
@@ -55,11 +55,12 @@ if (mysql_fetch_row($cup_chk)) {
     //echo $uci_id_card_file."\n";
     $uci_id_card = basename($uci_id_card_file);
     //echo $uci_id_card."\n";
+    if(!move_uploaded_file($_FILES['uci_id_card']['tmp_name'], $uci_id_card_file)) {   // false일 경우
+      echo("UCI Card 저장 실패");
+      exit;
+    }
   }
-  if(!move_uploaded_file($_FILES['uci_id_card']['tmp_name'], $uci_id_card_file)) {   // false일 경우
-    echo("UCI Card 저장 실패");
-    exit;
-  }
+  
   // KR id card
   if(($_FILES['kr_id_card']['size'])>0) {
     $krfiletype = $_FILES['kr_id_card']['type'];
@@ -68,11 +69,12 @@ if (mysql_fetch_row($cup_chk)) {
     $krfileext = $krtemp[sizeof($krtemp)-1];
     $kr_id_card_file = $uploaddir . "k" . $uci_id . "." . $krfileext;
     $kr_id_card = basename($kr_id_card_file);
+    if(!move_uploaded_file($_FILES['kr_id_card']['tmp_name'], $kr_id_card_file)) {   // false일 경우
+      echo("KR Card 저장 실패");
+      exit;
+    }
   }
-  if(!move_uploaded_file($_FILES['kr_id_card']['tmp_name'], $kr_id_card_file)) {   // false일 경우
-    echo("KR Card 저장 실패");
-    exit;
-  }
+  
   // Photo
   if(($_FILES['tutor_photo']['size'])>0) {
     $photofiletype = $_FILES['tutor_photo']['type'];
@@ -81,11 +83,12 @@ if (mysql_fetch_row($cup_chk)) {
     $photofileext = $phototemp[sizeof($phototemp)-1];
     $tutor_photo_file = $uploaddir . "p" . $uci_id . "." . $photofileext;
     $tutor_photo = basename($tutor_photo_file);
+    if(!move_uploaded_file($_FILES['tutor_photo']['tmp_name'], $tutor_photo_file)) {   // false일 경우
+      echo("Tutor Photo 저장 실패");
+      exit;
+    }  
   }
-  if(!move_uploaded_file($_FILES['tutor_photo']['tmp_name'], $tutor_photo_file)) {   // false일 경우
-    echo("Tutor Photo 저장 실패");
-    exit;
-  }
+  
   // Video
   if(($_FILES['tutor_video']['size'])>0) {
     $videofiletype = $_FILES['tutor_video']['type'];
@@ -94,12 +97,12 @@ if (mysql_fetch_row($cup_chk)) {
     $videofileext = $videotemp[sizeof($videotemp)-1];
     $video_id_card_file = $uploaddir . "v" . $uci_id . "." . $videofileext;
     $tutor_video = basename($video_id_card_file);
+    if(!move_uploaded_file($_FILES['tutor_video']['tmp_name'], $video_id_card_file)) {   // false일 경우
+      echo("Tutor Video 저장 실패");
+      exit;
+    }
   }
-  if(!move_uploaded_file($_FILES['tutor_video']['tmp_name'], $video_id_card_file)) {   // false일 경우
-    echo("Tutor Video 저장 실패");
-    exit;
-  }
-
+  
   // DB upload
   $sql = "insert into tutor_profile
           (tutor_name, uci_id, uci_major, mobile, email, english, korean, tutoring_subject, tutoring_grade, 
