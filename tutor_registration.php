@@ -85,6 +85,7 @@ function submit() {
         <input type="checkbox" name="tutoring_subject[]" value="Physics" />Physics&nbsp;&nbsp;
         <input type="checkbox" name="tutoring_subject[]" value="Chemistry" />Chemistry&nbsp;&nbsp;
         <input type="checkbox" name="tutoring_subject[]" value="Biology" />Biology&nbsp;&nbsp;
+        <br>
         <input type="checkbox" name="tutoring_subject[]" value="ESL" />Everyday English&nbsp;&nbsp;
         <input type="checkbox" name="tutoring_subject[]" value="수학" />수학&nbsp;&nbsp;
         <input type="checkbox" name="tutoring_subject[]" value="논술" />논술&nbsp;&nbsp;
