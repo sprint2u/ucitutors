@@ -57,7 +57,7 @@
                 </span>
                 <div>&nbsp;&nbsp;&nbsp;* 위 가격표는 학생이 UCI로 오셔서 배우는 경우에 적용됩니다.</div>
                 <div>&nbsp;&nbsp;&nbsp;* 자택 방문 과외 시 위 요금에서 $5 추가됩니다.</div>
-            </li>
+            </li><br>
         </ul>
     </td>
 </tr>
