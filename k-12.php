@@ -21,7 +21,7 @@
                 <div>&nbsp;&nbsp;&nbsp;* 학과지도 이외에 전과목 숙제 돌봐주기도 인기입니다.</div><br>
             </li>
             <li>수업료 (last update on 1/10/2016)
-                <span>&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;<span>
                     <table class="price">
                         <tr>
                             <td width="100" class="price_head">분류</td>
