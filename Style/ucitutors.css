@@ -66,21 +66,7 @@ td {
     border: 0px solid #85c04b;
     padding: 10px;
 }
-table.price {
-    border-collapse: collapse;
-    border-spacing: 1px;
-    margin: 15px 15px;  
-}
-.price_head {
-    background-color: #85c04b;
-    font-weight: bold;
-    text-align: center;
-}
-.price_body {
-    background-color: #FFFFFF;
-    font-weight: bold;
-    text-align: center;
-}
+
 th {
     background: none repeat scroll 0 0#85c04b;
     border: 0px solid #85c04b;

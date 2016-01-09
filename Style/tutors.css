@@ -197,6 +197,21 @@ table .mgr_content {
     font-weight: bold;
     line-height: 30px;
 }
+table.price {
+    border-collapse: collapse;
+    border-spacing: 1px;
+    margin: 15px 15px;  
+}
+.price_head {
+    background-color: #85c04b;
+    font-weight: bold;
+    text-align: center;
+}
+.price_body {
+    background-color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
 /**  fonts  **/
 @font-face {
     font-family: 'ralewayregular';
