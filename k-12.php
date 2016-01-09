@@ -37,14 +37,14 @@
                             <td class="price_body">$30</td>
                             <td class="price_body">$30</td>
                         </tr>
-                        <tr class="price_body">
+                        <tr>
                             <td class="price_body">학과과외</td>
                             <td class="price_body">$30</td>
                             <td class="price_body">$35</td>
                             <td class="price_body">$35</td>
                             <td class="price_body">N/A</td>
                         </tr>
-                        <tr class="price_body">
+                        <tr>
                             <td class="price_body">SKY</td>
                             <td class="price_body">$40</td>
                             <td class="price_body">$45</td>
@@ -53,7 +53,7 @@
                         </tr>
                     </table>
                 </span>
-                <div>&nbsp;&nbsp;&nbsp;* 학생이 UCI로 오셔서 배우는 경우의 요금 입니다.</div>
+                <div>&nbsp;&nbsp;&nbsp;* 위 가격표는 학생이 UCI로 오셔서 배우는 경우에 적용됩니다.</div>
                 <div>&nbsp;&nbsp;&nbsp;* 자택 방문 과외 시 위 요금에서 $5가 추가됩니다.</div>
             </li>
         </ul>

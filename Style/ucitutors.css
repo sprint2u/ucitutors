@@ -66,6 +66,16 @@ td {
     border: 0px solid #85c04b;
     padding: 10px;
 }
+.price_head {
+    background-color: #CCCCCC;
+    font-weight: bold;
+    text-align: center;
+}
+.price_body {
+    background-color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
 th {
     background: none repeat scroll 0 0#85c04b;
     border: 0px solid #85c04b;
@@ -76,16 +86,6 @@ th {
 }
 th a {
     color: #FFFFFF;
-}
-.price_head {
-    color: #CCCCCC;
-    font-weight: bold;
-    text-align: center;
-}
-.price_body {
-    color: #FFFFFF;
-    font-weight: bold;
-    text-align: center;
 }
 
 cite, em, i {
