@@ -21,16 +21,16 @@
                 <div>&nbsp;&nbsp;&nbsp;* 학과지도 이외에 전과목 숙제 돌봐주기도 인기입니다.</div><br>
             </li>
             <li>수업료 (last update on 1/10/2016)
-                <div>&nbsp;&nbsp;&nbsp;
-                    <table border="1">
-                        <tr>
+                <span>&nbsp;&nbsp;&nbsp;
+                    <table>
+                        <tr bgcolor="#85c04b">
                             <td width="100" align="center">분류</td>
                             <td width="50">K-6</td>
                             <td width="50">7-8</td>
                             <td width="50">9-12</td>
                             <td width="50">성인</td>
                         </tr>
-                        <tr>
+                        <tr bgcolor="#ffffff">
                             <td>영어회화</td>
                             <td>$30</td>
                             <td>$30</td>
@@ -52,7 +52,7 @@
                             <td>N/A</td>
                         </tr>
                     </table>
-                </div>
+                </span>
                 <div>&nbsp;&nbsp;&nbsp;* 학생이 UCI로 오셔서 배우는 경우의 요금 입니다.</div>
                 <div>&nbsp;&nbsp;&nbsp;* 자택 방문 과외 시 위 요금에서 $5가 추가됩니다.</div>
             </li>
