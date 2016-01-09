@@ -2,7 +2,7 @@
     <span>&nbsp;&nbsp;&nbsp;
         <table>
             <tr>
-                <td width="100" class="price_head">분류</td>
+                <td width="100" class="price_head">학년</td>
                 <td width="50" class="price_head">K-6</td>
                 <td width="50" class="price_head">7-8</td>
                 <td width="50" class="price_head">9-12</td>
