@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>UCI Tutors :: 고품격 과외 네트워크</title>
-
+    <link rel="stylesheet" type="text/css" media="all" href="./Style/ucitutors.css" />
     <link rel="stylesheet" type="text/css" media="all" href="./Style/tutors.css" />
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css' />
 	<meta name="robots" content="ALL">
