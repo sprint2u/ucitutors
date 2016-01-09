@@ -22,7 +22,7 @@
             </li>
             <li>수업료 (last update on 1/10/2016)
                 <span>&nbsp;&nbsp;&nbsp;
-                    <table>
+                    <table class="price">
                         <tr>
                             <td width="100" class="price_head">분류</td>
                             <td width="50" class="price_head">K-6</td>
