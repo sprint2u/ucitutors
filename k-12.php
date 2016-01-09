@@ -22,9 +22,9 @@
             </li>
             <li>수업료 (last update on 1/10/2016)
                 <div>&nbsp;&nbsp;&nbsp;
-                    <table>
+                    <table border="1">
                         <tr>
-                            <td width="100">($/시간)</td>
+                            <td width="100" align="center">분류</td>
                             <td width="50">K-6</td>
                             <td width="50">7-8</td>
                             <td width="50">9-12</td>
