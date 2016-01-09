@@ -77,6 +77,16 @@ th {
 th a {
     color: #FFFFFF;
 }
+td.price_head {
+    color: #CCCCCC;
+    font-weight: bold;
+    text-align: center;
+}
+td.price_body {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
 
 cite, em, i {
     font-style: italic;
