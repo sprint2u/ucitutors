@@ -77,12 +77,12 @@ th {
 th a {
     color: #FFFFFF;
 }
-td.price_head {
+.price_head {
     color: #CCCCCC;
     font-weight: bold;
     text-align: center;
 }
-td.price_body {
+.price_body {
     color: #FFFFFF;
     font-weight: bold;
     text-align: center;
