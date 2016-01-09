@@ -22,29 +22,29 @@
             </li>
             <li>수업료 (last update on 1/10/2016)
                 <span>&nbsp;&nbsp;&nbsp;
-                    <table>
-                        <tr bgcolor="#85c04b">
-                            <td width="100" align="center">분류</td>
+                    <table align="center">
+                        <tr background="#85c04b">
+                            <td width="100">분류</td>
                             <td width="50">K-6</td>
                             <td width="50">7-8</td>
                             <td width="50">9-12</td>
                             <td width="50">성인</td>
                         </tr>
-                        <tr bgcolor="#ffffff">
+                        <tr background="#ffffff">
                             <td>영어회화</td>
                             <td>$30</td>
                             <td>$30</td>
                             <td>$30</td>
                             <td>$30</td>
                         </tr>
-                        <tr>
+                        <tr background="#ffffff">
                             <td>학과과외</td>
                             <td>$30</td>
                             <td>$35</td>
                             <td>$35</td>
                             <td>N/A</td>
                         </tr>
-                        <tr>
+                        <tr background="#ffffff">
                             <td>SKY</td>
                             <td>$40</td>
                             <td>$45</td>
