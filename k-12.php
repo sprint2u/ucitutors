@@ -21,13 +21,13 @@
                 <div>&nbsp;&nbsp;&nbsp;* 학과지도 이외에 전과목 숙제 돌봐주기도 인기입니다.</div><br>
             </li>
             <li>수업료 (last update on 1/10/2016)
-                <div>
+                <div>&nbsp;&nbsp;&nbsp;
                     <table>
                         <tr>
-                            <td width="150"></td>
+                            <td width="100">($/시간)</td>
                             <td width="50">K-6</td>
                             <td width="50">7-8</td>
-                            <td width="50">9-12></td>
+                            <td width="50">9-12</td>
                             <td width="50">성인</td>
                         </tr>
                         <tr>
@@ -39,22 +39,22 @@
                         </tr>
                         <tr>
                             <td>학과과외</td>
-                            <td>30</td>
-                            <td>35</td>
-                            <td>35</td>
+                            <td>$30</td>
+                            <td>$35</td>
+                            <td>$35</td>
                             <td>N/A</td>
                         </tr>
                         <tr>
                             <td>SKY</td>
-                            <td>40</td>
-                            <td>45</td>
-                            <td>50</td>
+                            <td>$40</td>
+                            <td>$45</td>
+                            <td>$50</td>
                             <td>N/A</td>
                         </tr>
                     </table>
                 </div>
-                <div>&nbsp;&nbsp;&nbsp;* 자택: 튜터가 자택에 방문하여 가르칩니다.</div>
-                <div>&nbsp;&nbsp;&nbsp;* UCI: 학생이 UCI로 오셔서 배웁니다.</div>
+                <div>&nbsp;&nbsp;&nbsp;* 학생이 UCI로 오셔서 배우는 경우의 요금 입니다.</div>
+                <div>&nbsp;&nbsp;&nbsp;* 자택 방문 과외 시 위 요금에서 $5가 추가됩니다.</div>
             </li>
         </ul>
     </td>
