@@ -23,33 +23,33 @@
             <li>수업료 (last update on 1/10/2016)
                 <span>&nbsp;&nbsp;&nbsp;
                     <table>
-                        <tr class="price_head">
-                            <td width="100">분류</td>
-                            <td width="50">K-6</td>
-                            <td width="50">7-8</td>
-                            <td width="50">9-12</td>
-                            <td width="50">성인</td>
+                        <tr>
+                            <td width="100" class="price_head">분류</td>
+                            <td width="50" class="price_head">K-6</td>
+                            <td width="50" class="price_head">7-8</td>
+                            <td width="50" class="price_head">9-12</td>
+                            <td width="50" class="price_head">성인</td>
+                        </tr>
+                        <tr>
+                            <td class="price_body">영어회화</td>
+                            <td class="price_body">$30</td>
+                            <td class="price_body">$30</td>
+                            <td class="price_body">$30</td>
+                            <td class="price_body">$30</td>
                         </tr>
                         <tr class="price_body">
-                            <td>영어회화</td>
-                            <td>$30</td>
-                            <td>$30</td>
-                            <td>$30</td>
-                            <td>$30</td>
+                            <td class="price_body">학과과외</td>
+                            <td class="price_body">$30</td>
+                            <td class="price_body">$35</td>
+                            <td class="price_body">$35</td>
+                            <td class="price_body">N/A</td>
                         </tr>
                         <tr class="price_body">
-                            <td>학과과외</td>
-                            <td>$30</td>
-                            <td>$35</td>
-                            <td>$35</td>
-                            <td>N/A</td>
-                        </tr>
-                        <tr class="price_body">
-                            <td>SKY</td>
-                            <td>$40</td>
-                            <td>$45</td>
-                            <td>$50</td>
-                            <td>N/A</td>
+                            <td class="price_body">SKY</td>
+                            <td class="price_body">$40</td>
+                            <td class="price_body">$45</td>
+                            <td class="price_body">$50</td>
+                            <td class="price_body">N/A</td>
                         </tr>
                     </table>
                 </span>
