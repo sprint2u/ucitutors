@@ -22,7 +22,7 @@
             <li>수업형태: 회당 1시간 (주 1~2회)<br>
                 <br>
             </li>
-            <li>
+            <li>수업료 (last update on 1/10/2016)
                 <span>&nbsp;&nbsp;&nbsp;
                     <table>
                         <tr>
