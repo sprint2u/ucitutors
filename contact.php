@@ -19,8 +19,7 @@
             </li>
             <li>Nomi Lee
                 <div>&nbsp;&nbsp;&nbsp;* <a href="mailto:nomil@uci.edu">nomil@uci.edu</a></div>
-                <div>&nbsp;&nbsp;&nbsp;* (949)526-9788</div>
-                <div>&nbsp;&nbsp;&nbsp;* 해외 출장중 (1/10/2016~1/16/2016)</div><br>
+                <div>&nbsp;&nbsp;&nbsp;* (949)526-9788</div><br>
             </li>
             <li>Yong Kim
                 <div>&nbsp;&nbsp;&nbsp;* <a href="mailto:ucitutors@yahoo.com">ucitutors@yahoo.com</a></div>
